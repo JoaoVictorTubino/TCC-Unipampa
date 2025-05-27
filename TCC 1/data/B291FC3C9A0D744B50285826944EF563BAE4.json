@@ -1,0 +1,43 @@
+{
+    "uid": "B291FC3C9A0D744B50285826944EF563BAE4",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Prof Ada",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "B291FC3C9A0D744B50285826944EF563BAE4",
+        "isFolder": false,
+        "parentId": "2A940CBF1FEDB24FA448A5D4AE9E52B41613",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Prof Ada",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "Ada.png",
+                        "folderPath": "Graphics/Characters",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "B291FC3C9A0D744B50285826944EF563BAE4"
+        },
+        "order": 0
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

@@ -1,0 +1,40 @@
+{
+    "uid": "5FDD830E06D93643585926687B5F0BA85302",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Makoto",
+        "type": "data_record",
+        "category": "characters",
+        "id": "5FDD830E06D93643585926687B5F0BA85302",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "data": {
+            "name": {
+                "lcId": null,
+                "defaultText": "Makoto"
+            },
+            "textColor": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 255
+            },
+            "defaultExpressionId": "1817B5B451276441C48AF7F2EBC7C128EB63",
+            "timeTalkingToVoiceVolume": true,
+            "talkingVolume": 5,
+            "lipSyncSensitivity": 1,
+            "breathIntensity": 1,
+            "idleIntensity": 1,
+            "params": [],
+            "index": "5FDD830E06D93643585926687B5F0BA85302"
+        },
+        "order": 1
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

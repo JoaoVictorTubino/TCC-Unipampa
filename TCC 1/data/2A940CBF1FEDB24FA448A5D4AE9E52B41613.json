@@ -1,0 +1,23 @@
+{
+    "uid": "2A940CBF1FEDB24FA448A5D4AE9E52B41613",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Prof Ada",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "isFolder": true,
+        "parentId": "ROOT",
+        "data": {
+            "name": "Prof Ada",
+            "isFolder": true
+        },
+        "order": 13
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

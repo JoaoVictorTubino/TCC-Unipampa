@@ -1,0 +1,23 @@
+{
+    "uid": "CB81BC8270A0534186299966F948E48028BC",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Yumi",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "isFolder": true,
+        "parentId": "ROOT",
+        "data": {
+            "name": "Yumi",
+            "isFolder": true
+        },
+        "order": 1
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

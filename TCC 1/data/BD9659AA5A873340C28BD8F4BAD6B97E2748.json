@@ -1,0 +1,40 @@
+{
+    "uid": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Yumi",
+        "type": "data_record",
+        "category": "characters",
+        "id": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "data": {
+            "name": {
+                "lcId": null,
+                "defaultText": "Yumi"
+            },
+            "textColor": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 255
+            },
+            "defaultExpressionId": "7CD385DB3C11074C3828A3845FE6BF7C3681",
+            "timeTalkingToVoiceVolume": true,
+            "talkingVolume": 5,
+            "lipSyncSensitivity": 1,
+            "breathIntensity": 1,
+            "idleIntensity": 1,
+            "params": [],
+            "index": "BD9659AA5A873340C28BD8F4BAD6B97E2748"
+        },
+        "order": 1
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

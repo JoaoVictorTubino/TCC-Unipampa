@@ -1,0 +1,43 @@
+{
+    "uid": "1817B5B451276441C48AF7F2EBC7C128EB63",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Makoto",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "1817B5B451276441C48AF7F2EBC7C128EB63",
+        "isFolder": false,
+        "parentId": "498BA1001CB862410618F4059B414FA1FFE0",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Makoto",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "Makoto.png",
+                        "folderPath": "Graphics/Characters/Makoto",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "1817B5B451276441C48AF7F2EBC7C128EB63"
+        },
+        "order": 0
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

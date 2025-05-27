@@ -1,0 +1,40 @@
+{
+    "uid": "872EE5D043CC56476F0B0CC2E8A786F4D68B",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "???",
+        "type": "data_record",
+        "category": "characters",
+        "id": "872EE5D043CC56476F0B0CC2E8A786F4D68B",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "data": {
+            "name": {
+                "lcId": null,
+                "defaultText": "???"
+            },
+            "textColor": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 255
+            },
+            "defaultExpressionId": "F126189F3844844AC93960E05B5D51EDAE3C",
+            "timeTalkingToVoiceVolume": true,
+            "talkingVolume": 5,
+            "lipSyncSensitivity": 1,
+            "breathIntensity": 1,
+            "idleIntensity": 1,
+            "params": [],
+            "index": "872EE5D043CC56476F0B0CC2E8A786F4D68B"
+        },
+        "order": 1
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

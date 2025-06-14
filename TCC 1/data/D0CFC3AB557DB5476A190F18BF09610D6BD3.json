@@ -1,0 +1,114 @@
+{
+    "uid": "D0CFC3AB557DB5476A190F18BF09610D6BD3",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "CristalAzul",
+        "type": "data_record",
+        "order": 0,
+        "category": "commonEvents",
+        "id": "D0CFC3AB557DB5476A190F18BF09610D6BD3",
+        "isFolder": false,
+        "parentId": "9A8CB2201C15424B6E5BC119F7D02CE4CCA8",
+        "data": {
+            "name": "CristalAzul",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [
+                {
+                    "label": "Escolha",
+                    "type": 3,
+                    "stringVariable": {
+                        "name": "CG Gallery Image",
+                        "scope": 1,
+                        "index": 0,
+                        "changed": true
+                    },
+                    "stringValueType": "text",
+                    "stringValueLocalizable": true,
+                    "numberVariable": {
+                        "name": "Confirmation Result",
+                        "scope": 1,
+                        "index": 0,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "numberValueType": "number"
+                }
+            ],
+            "commands": [
+                {
+                    "id": "gs.ChangeStringVariables",
+                    "params": {
+                        "source": 0,
+                        "target": 0,
+                        "sourceVariable": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "targetReferenceDomain": "com.degica.vnm.default",
+                        "targetReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "targetVariable": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "targetRangeScope": 0,
+                        "rangeStart": 0,
+                        "rangeEnd": 0,
+                        "operation": 0,
+                        "valueType": 0,
+                        "textValue": ""
+                    },
+                    "uid": "19EBB87F40B7B140186A4FA28F15F7E37BF6",
+                    "indent": 0,
+                    "expanded": true
+                }
+            ],
+            "index": "D0CFC3AB557DB5476A190F18BF09610D6BD3",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "numberVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "stringVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "listVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ]
+        }
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

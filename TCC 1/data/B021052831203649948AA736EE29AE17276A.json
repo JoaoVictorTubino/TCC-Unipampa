@@ -1,0 +1,60 @@
+{
+    "uid": "B021052831203649948AA736EE29AE17276A",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "CristalVerde",
+        "type": "data_record",
+        "category": "commonEvents",
+        "id": "B021052831203649948AA736EE29AE17276A",
+        "isFolder": false,
+        "parentId": "9A8CB2201C15424B6E5BC119F7D02CE4CCA8",
+        "data": {
+            "name": "CristalVerde",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [],
+            "commands": [],
+            "index": "B021052831203649948AA736EE29AE17276A",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "numberVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "stringVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "listVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ]
+        },
+        "order": 1
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

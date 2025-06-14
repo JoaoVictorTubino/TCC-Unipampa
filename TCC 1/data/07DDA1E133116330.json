@@ -10,7 +10,8 @@
                 "name": "Confirmation Result",
                 "scope": 1,
                 "index": 0,
-                "changed": true
+                "changed": true,
+                "domain": "com.degica.vnm.default"
             },
             {
                 "name": "Input Number Result",
@@ -55,19 +56,25 @@
                 "changed": true
             },
             {
-                "name": "",
+                "name": "CristalAzulAtivado",
                 "index": 7,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
             },
             {
-                "name": "",
+                "name": "Escolha",
                 "index": 8,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
             },
             {
                 "name": "",
                 "index": 9,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
             },
             {
                 "name": "",
@@ -542,10 +549,47 @@
                 "changed": true
             },
             {
-                "name": "",
+                "name": "Sim",
                 "index": 3,
                 "scope": 1,
                 "domain": "com.degica.vnm.default",
+                "changed": true
+            },
+            {
+                "name": "Nao",
+                "index": 4,
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 5,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 6,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 7,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 8,
+                "scope": 1,
+                "changed": true
+            },
+            {
+                "name": "",
+                "index": 9,
+                "scope": 1,
                 "changed": true
             }
         ],
@@ -586,19 +630,23 @@
                 "changed": true
             },
             {
-                "name": "",
+                "name": "AtivouAzul",
                 "index": 5,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
             },
             {
-                "name": "",
+                "name": "AtivouVerde",
                 "index": 6,
-                "scope": 1
+                "scope": 1,
+                "changed": true
             },
             {
-                "name": "",
+                "name": "AtivouVermelho",
                 "index": 7,
-                "scope": 1
+                "scope": 1,
+                "changed": true
             },
             {
                 "name": "",

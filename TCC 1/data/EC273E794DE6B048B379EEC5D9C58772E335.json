@@ -1,0 +1,279 @@
+{
+    "uid": "EC273E794DE6B048B379EEC5D9C58772E335",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "CristalVermelho",
+        "type": "data_record",
+        "category": "commonEvents",
+        "id": "EC273E794DE6B048B379EEC5D9C58772E335",
+        "isFolder": false,
+        "parentId": "9A8CB2201C15424B6E5BC119F7D02CE4CCA8",
+        "data": {
+            "name": "CristalVermelho",
+            "startCondition": 0,
+            "conditionEnabled": true,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [
+                {
+                    "label": "CristalVermelhoAtivado",
+                    "type": 2,
+                    "booleanVariable": {
+                        "name": "AtivouAzul",
+                        "index": 5,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "stringValueLocalizable": true,
+                    "numberVariable": {
+                        "name": "Confirmation Result",
+                        "scope": 1,
+                        "index": 0,
+                        "changed": true
+                    },
+                    "numberValueType": "number"
+                }
+            ],
+            "commands": [
+                {
+                    "id": "gs.AddHotspot",
+                    "params": {
+                        "numberDomain": "com.degica.vnm.default",
+                        "number": 0,
+                        "shape": "rect",
+                        "positionType": 0,
+                        "actions": {
+                            "onClick": {
+                                "type": 0,
+                                "bindValue": 0,
+                                "bindValueVariable": {
+                                    "scope": 0,
+                                    "index": 0
+                                },
+                                "commonEventId": 0,
+                                "label": "",
+                                "switch": {
+                                    "scope": 1,
+                                    "index": 0
+                                },
+                                "scene": null
+                            },
+                            "onEnter": {
+                                "type": 0,
+                                "bindValue": 0,
+                                "bindValueVariable": {
+                                    "scope": 0,
+                                    "index": 0
+                                },
+                                "commonEventId": 0,
+                                "label": "",
+                                "switch": {
+                                    "scope": 1,
+                                    "index": 0
+                                },
+                                "scene": null
+                            },
+                            "onSelect": {
+                                "type": 0,
+                                "bindValue": 0,
+                                "bindValueVariable": {
+                                    "scope": 0,
+                                    "index": 0
+                                },
+                                "commonEventId": 0,
+                                "label": "",
+                                "switch": {
+                                    "scope": 1,
+                                    "index": 0
+                                },
+                                "scene": null
+                            },
+                            "onDeselect": {
+                                "type": 0,
+                                "bindValue": 0,
+                                "bindValueVariable": {
+                                    "scope": 0,
+                                    "index": 0
+                                },
+                                "commonEventId": 0,
+                                "label": "",
+                                "switch": {
+                                    "scope": 1,
+                                    "index": 0
+                                },
+                                "scene": null
+                            },
+                            "onLeave": {
+                                "type": 0,
+                                "bindValue": 0,
+                                "bindValueVariable": {
+                                    "scope": 0,
+                                    "index": 0
+                                },
+                                "commonEventId": 0,
+                                "label": "",
+                                "switch": {
+                                    "scope": 1,
+                                    "index": 0
+                                },
+                                "scene": null
+                            },
+                            "onDrag": {
+                                "type": 0,
+                                "bindValue": 0,
+                                "bindValueVariable": {
+                                    "scope": 0,
+                                    "index": 0
+                                },
+                                "commonEventId": 0,
+                                "label": "",
+                                "switch": {
+                                    "scope": 1,
+                                    "index": 0
+                                },
+                                "scene": null
+                            },
+                            "onDrop": {
+                                "type": 0,
+                                "bindValue": 0,
+                                "bindValueVariable": {
+                                    "scope": 0,
+                                    "index": 0
+                                },
+                                "commonEventId": 0,
+                                "label": "",
+                                "switch": {
+                                    "scope": 1,
+                                    "index": 0
+                                },
+                                "scene": null
+                            },
+                            "onDropReceive": {
+                                "type": 0,
+                                "bindValue": 0,
+                                "bindValueVariable": {
+                                    "scope": 0,
+                                    "index": 0
+                                },
+                                "commonEventId": 0,
+                                "label": "",
+                                "switch": {
+                                    "scope": 1,
+                                    "index": 0
+                                },
+                                "scene": null
+                            }
+                        },
+                        "dragging": {
+                            "enabled": 0,
+                            "variable": {
+                                "scope": 1,
+                                "index": 0,
+                                "domain": "com.degica.vnm.default"
+                            },
+                            "horizontal": 1,
+                            "vertical": 0,
+                            "rect": {
+                                "x": 0,
+                                "y": 0,
+                                "size": {
+                                    "width": 200,
+                                    "height": 50
+                                }
+                            }
+                        },
+                        "position": 1,
+                        "box": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "uid": "7124E94D268598449E99D7F7B51D736BE33A",
+                    "indent": 0
+                },
+                {
+                    "id": "gs.ChangeBooleanVariables",
+                    "params": {
+                        "target": 0,
+                        "targetReferenceDomain": "com.degica.vnm.default",
+                        "targetReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "targetVariable": {
+                            "name": "AtivouAzul",
+                            "index": 5,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "targetRangeScope": 0,
+                        "rangeStart": 0,
+                        "rangeEnd": 0,
+                        "value": 0,
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "uid": "C25F79C61F50674B866B48E5551A3BDE9681",
+                    "indent": 0
+                }
+            ],
+            "index": "EC273E794DE6B048B379EEC5D9C58772E335",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "numberVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "stringVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "listVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "conditionSwitch": {
+                "name": "In Game",
+                "scope": 1,
+                "index": 0,
+                "changed": true,
+                "domain": "com.degica.vnm.default"
+            }
+        },
+        "order": 2
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

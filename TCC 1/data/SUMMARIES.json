@@ -815,7 +815,7 @@
         },
         "3305C56CKBF5BA44BFS8614EE4B277E49F6A": {
             "items": {
-                "name": "Sample Scene",
+                "name": "Bem Vinco a Academia dos Códigos",
                 "type": "vn.scene",
                 "parentId": "49DC3EE6267197419859C9E4D23776294B50",
                 "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
@@ -5789,15 +5789,6 @@
                 "order": 0
             }
         },
-        "1BA9BE1D206CD1449A29FDF5D8CD07CC352D": {
-            "items": {
-                "name": "I am waiting for someone",
-                "type": "vn.scene",
-                "parentId": "3305C56CKBF5BA44BFS8614EE4B277E49F6A",
-                "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
-                "order": 1
-            }
-        },
         "4BC1A1F97C9DF54AF66847850D28A7141D5F": {
             "items": {
                 "name": "Message Batcher",
@@ -5834,7 +5825,7 @@
             "items": {
                 "name": "Beginner's Guide In-Game UI",
                 "type": "data_record",
-                "order": 1
+                "order": 0
             }
         },
         "0680E2763533F740B54A6C139E537CF59C20": {
@@ -6023,6 +6014,34 @@
                 "name": "???",
                 "type": "data_record",
                 "order": 1
+            }
+        },
+        "9A8CB2201C15424B6E5BC119F7D02CE4CCA8": {
+            "items": {
+                "name": "Eventos Cristais",
+                "type": "data_record",
+                "order": 1
+            }
+        },
+        "D0CFC3AB557DB5476A190F18BF09610D6BD3": {
+            "items": {
+                "name": "CristalAzul",
+                "type": "data_record",
+                "order": 0
+            }
+        },
+        "B021052831203649948AA736EE29AE17276A": {
+            "items": {
+                "name": "CristalVerde",
+                "type": "data_record",
+                "order": 2
+            }
+        },
+        "EC273E794DE6B048B379EEC5D9C58772E335": {
+            "items": {
+                "name": "CristalVermelho",
+                "type": "data_record",
+                "order": 3
             }
         }
     }

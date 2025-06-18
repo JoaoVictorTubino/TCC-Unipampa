@@ -225,6 +225,9 @@
             "Graphics/Backgrounds/Academia dos Códigos/Entrada": [
                 ".png"
             ],
+            "Graphics/Backgrounds/Academia dos Códigos/Interior da Academia": [
+                ".png"
+            ],
             "Graphics/Backgrounds/Academia dos Códigos/Sala de Aula ": [
                 ".png"
             ],
@@ -1536,6 +1539,9 @@
             "Graphics/Characters/Makoto/Makoto": [
                 ".png"
             ],
+            "Graphics/Characters/Orbe Lógico/Orbe Lógico": [
+                ".png"
+            ],
             "Graphics/Characters/Portão Lógico/ChatGPT_Image_12_de_mai._de_2025__22_42_05-removebg-preview": [
                 ".png"
             ],
@@ -2281,24 +2287,6 @@
                 ".png"
             ],
             "Graphics/Pictures/Items/01_phone": [
-                ".png"
-            ],
-            "Graphics/Pictures/Mini Games Assets/Cristal Azul": [
-                ".png"
-            ],
-            "Graphics/Pictures/Mini Games Assets/Cristal Verde Brilhante": [
-                ".png"
-            ],
-            "Graphics/Pictures/Mini Games Assets/Cristal Verde": [
-                ".png"
-            ],
-            "Graphics/Pictures/Mini Games Assets/Cristal Vermelho Brilhante": [
-                ".png"
-            ],
-            "Graphics/Pictures/Mini Games Assets/Crsital Azul Brilhante": [
-                ".png"
-            ],
-            "Graphics/Pictures/Mini Games Assets/Crsital Vermelho": [
                 ".png"
             ],
             "Graphics/Pictures/UI/bg-generic": [

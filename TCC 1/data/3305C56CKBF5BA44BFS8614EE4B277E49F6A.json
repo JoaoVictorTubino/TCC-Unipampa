@@ -1785,7 +1785,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Se a sombra apontar ao norte... e o céu estiver claro... posso considerar abrir."
+                        "defaultText": "Se a sombra apontar ao norte... posso considerar abrir."
                     },
                     "position": 0,
                     "characterId": "872EE5D043CC56476F0B0CC2E8A786F4D68B",
@@ -3038,7 +3038,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Ele disse que se a sombra apontar ao norte e o céu estiver claro, o portão irá abrir."
+                        "defaultText": "Ele disse que se a sombra apontar ao norte o portão irá abrir."
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -4085,6 +4085,24 @@
                 "uid": "C7035E6E8DFDB740707B8C387BA256356179",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "82DEE6988FB2F645672950D1B65402BFC86E",
+                        "name": "Enigma do Portão Lógico"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "96886D0487DC084AE3499D52464B2F7649BF",
+                "indent": 0
             }
         ],
         "background": {

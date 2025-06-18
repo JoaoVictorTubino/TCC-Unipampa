@@ -2592,84 +2592,84 @@
             "items": {
                 "name": "Ace",
                 "type": "data_record",
-                "order": 6
+                "order": 7
             }
         },
         "154E7EBC9DACD640AD4816514200D508D566": {
             "items": {
                 "name": "Anna",
                 "type": "data_record",
-                "order": 7
+                "order": 8
             }
         },
         "BD57DD5D6E79124D94396CF100590D3A5FD4": {
             "items": {
                 "name": "Daniel",
                 "type": "data_record",
-                "order": 8
+                "order": 9
             }
         },
         "4A7D5EC17353564C3E39DA52EBDE615E4D0B": {
             "items": {
                 "name": "Emma",
                 "type": "data_record",
-                "order": 9
+                "order": 10
             }
         },
         "D817084774AB154CCE68B7B2587B0058EBFA": {
             "items": {
                 "name": "Jane",
                 "type": "data_record",
-                "order": 10
+                "order": 11
             }
         },
         "74220BB53AC3194FC8792C457869A91E2152": {
             "items": {
                 "name": "Jeremy",
                 "type": "data_record",
-                "order": 11
+                "order": 12
             }
         },
         "9CF81D412511E440BE4B99A07AB048F94C48": {
             "items": {
                 "name": "John",
                 "type": "data_record",
-                "order": 12
+                "order": 13
             }
         },
         "A55CECA64F38884F958805C4F621F8053ECD": {
             "items": {
                 "name": "Lila",
                 "type": "data_record",
-                "order": 13
+                "order": 14
             }
         },
         "E8329ECB1FADC546620B0F11CE1DDE19B33F": {
             "items": {
                 "name": "Lucy",
                 "type": "data_record",
-                "order": 14
+                "order": 15
             }
         },
         "FABBDAA473FA764AFD186312445CFD5F2DFD": {
             "items": {
                 "name": "Sam",
                 "type": "data_record",
-                "order": 15
+                "order": 16
             }
         },
         "5C079A01512B3743D258CDA1897DA16CCF1A": {
             "items": {
                 "name": "Victor",
                 "type": "data_record",
-                "order": 16
+                "order": 17
             }
         },
         "9A8F21B05033014BFD78A3566E843985607A": {
             "items": {
                 "name": "Willow",
                 "type": "data_record",
-                "order": 17
+                "order": 18
             }
         },
         "3A78BF4E122004444629EDF41AD5ABD03B9C": {
@@ -2777,7 +2777,7 @@
         },
         "BF7CB12110894142C299D341A545C910AA86": {
             "items": {
-                "name": "None",
+                "name": "",
                 "type": "data_record",
                 "order": 0
             }
@@ -2786,7 +2786,7 @@
             "items": {
                 "name": "Ace",
                 "type": "data_record",
-                "order": 3
+                "order": 4
             }
         },
         "C3EC5E3F457E90417C7902645ED63672D205": {
@@ -2961,7 +2961,7 @@
             "items": {
                 "name": "Daniel",
                 "type": "data_record",
-                "order": 4
+                "order": 5
             }
         },
         "834BEA330D771243A87BA9C2182F41059931": {
@@ -3157,7 +3157,7 @@
             "items": {
                 "name": "Emma",
                 "type": "data_record",
-                "order": 5
+                "order": 6
             }
         },
         "C8B841B145ABE249F42A4DC34798295DB9F7": {
@@ -3458,7 +3458,7 @@
             "items": {
                 "name": "Jane",
                 "type": "data_record",
-                "order": 6
+                "order": 7
             }
         },
         "A6B5C27139C7074A5F493090AC98EF6558FC": {
@@ -3759,7 +3759,7 @@
             "items": {
                 "name": "Lucy",
                 "type": "data_record",
-                "order": 7
+                "order": 8
             }
         },
         "3BD476129A4DA545D158C5C48E631854F2FB": {
@@ -4060,7 +4060,7 @@
             "items": {
                 "name": "Sam",
                 "type": "data_record",
-                "order": 8
+                "order": 9
             }
         },
         "9B6BD47645C709410C5B1D76A7E855C80E09": {
@@ -4403,7 +4403,7 @@
             "items": {
                 "name": "Victor",
                 "type": "data_record",
-                "order": 9
+                "order": 10
             }
         },
         "2E2FF98E1676764A686BD856D374489EA47D": {
@@ -4599,7 +4599,7 @@
             "items": {
                 "name": "Willow",
                 "type": "data_record",
-                "order": 10
+                "order": 11
             }
         },
         "B0A7DACC5562434CA869D25601D957C60A64": {
@@ -4900,7 +4900,7 @@
             "items": {
                 "name": "Anna",
                 "type": "data_record",
-                "order": 11
+                "order": 12
             }
         },
         "26A44EDB5904C04CFF7B3E621F19D48172E5": {
@@ -4984,7 +4984,7 @@
             "items": {
                 "name": "Jeremy",
                 "type": "data_record",
-                "order": 12
+                "order": 13
             }
         },
         "3C6D00F63164D6405F2908B7FE052E87932C": {
@@ -5061,7 +5061,7 @@
             "items": {
                 "name": "John",
                 "type": "data_record",
-                "order": 13
+                "order": 14
             }
         },
         "166A6C320CD7D04F677B7E406D3D35C88470": {
@@ -5103,7 +5103,7 @@
             "items": {
                 "name": "Lila",
                 "type": "data_record",
-                "order": 14
+                "order": 15
             }
         },
         "4EC0DA226FA0F843413A6604117DC1F55E3B": {
@@ -5782,7 +5782,7 @@
         },
         "82DEE6988FB2F645672950D1B65402BFC86E": {
             "items": {
-                "name": "Just looking around",
+                "name": "Enigma do Portão Lógico",
                 "type": "vn.scene",
                 "parentId": "3305C56CKBF5BA44BFS8614EE4B277E49F6A",
                 "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
@@ -5929,14 +5929,14 @@
             "items": {
                 "name": "Prof Ada",
                 "type": "data_record",
-                "order": 5
+                "order": 6
             }
         },
         "2A940CBF1FEDB24FA448A5D4AE9E52B41613": {
             "items": {
                 "name": "Prof Ada",
                 "type": "data_record",
-                "order": 15
+                "order": 16
             }
         },
         "B291FC3C9A0D744B50285826944EF563BAE4": {
@@ -5950,14 +5950,14 @@
             "items": {
                 "name": "Makoto",
                 "type": "data_record",
-                "order": 4
+                "order": 5
             }
         },
         "498BA1001CB862410618F4059B414FA1FFE0": {
             "items": {
                 "name": "Makoto",
                 "type": "data_record",
-                "order": 16
+                "order": 17
             }
         },
         "1817B5B451276441C48AF7F2EBC7C128EB63": {
@@ -5971,14 +5971,14 @@
             "items": {
                 "name": "Yumi",
                 "type": "data_record",
-                "order": 3
+                "order": 4
             }
         },
         "CB81BC8270A0534186299966F948E48028BC": {
             "items": {
                 "name": "Yumi",
                 "type": "data_record",
-                "order": 2
+                "order": 3
             }
         },
         "7CD385DB3C11074C3828A3845FE6BF7C3681": {
@@ -5992,14 +5992,14 @@
             "items": {
                 "name": "Portão Lógico",
                 "type": "data_record",
-                "order": 2
+                "order": 3
             }
         },
         "17887B6A7DB0844C3B283E409E705A42ED66": {
             "items": {
                 "name": "Portão Lógico",
                 "type": "data_record",
-                "order": 1
+                "order": 2
             }
         },
         "F126189F3844844AC93960E05B5D51EDAE3C": {
@@ -6013,7 +6013,7 @@
             "items": {
                 "name": "???",
                 "type": "data_record",
-                "order": 1
+                "order": 2
             }
         },
         "9A8CB2201C15424B6E5BC119F7D02CE4CCA8": {
@@ -6042,6 +6042,43 @@
                 "name": "CristalVermelho",
                 "type": "data_record",
                 "order": 3
+            }
+        },
+        "02AFFC0C6E40B642150AFF06D26EBCE45325": {
+            "items": {
+                "name": "Chapter 2",
+                "type": "vn.chapter",
+                "order": 4
+            }
+        },
+        "CC2F2C2F55FBA84C5B8A5BA8D066AD1764EB": {
+            "items": {
+                "name": "Entrando na acdemia dos códigos",
+                "type": "vn.scene",
+                "parentId": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+                "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+                "order": 0
+            }
+        },
+        "3208A1CB6580324D3D58D8A1CBF088A80E89": {
+            "items": {
+                "name": "Orbe Lógico",
+                "type": "data_record",
+                "order": 1
+            }
+        },
+        "7506A2EC03D27442725ACAE9CD8841B7555A": {
+            "items": {
+                "name": "Orbe Lógico",
+                "type": "data_record",
+                "order": 1
+            }
+        },
+        "4337E2BD8F18594DB12B57D620D6CE367200": {
+            "items": {
+                "name": "Orbe Lógico",
+                "type": "data_record",
+                "order": 0
             }
         }
     }

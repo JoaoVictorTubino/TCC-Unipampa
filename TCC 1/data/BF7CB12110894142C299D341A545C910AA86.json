@@ -3,7 +3,7 @@
     "isLoaded": true,
     "lastModificationTime": 0,
     "items": {
-        "name": "None",
+        "name": "",
         "type": "data_record",
         "order": 0,
         "category": "characterExpressions",
@@ -11,7 +11,7 @@
         "isFolder": false,
         "parentId": "ROOT",
         "data": {
-            "name": "None",
+            "name": "",
             "index": "BF7CB12110894142C299D341A545C910AA86",
             "idleTime": {},
             "idle": [],

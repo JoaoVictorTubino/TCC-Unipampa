@@ -1,0 +1,40 @@
+{
+    "uid": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Orbe Lógico",
+        "type": "data_record",
+        "category": "characters",
+        "id": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "data": {
+            "name": {
+                "lcId": null,
+                "defaultText": "Orbe Lógico"
+            },
+            "textColor": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 255
+            },
+            "defaultExpressionId": "4337E2BD8F18594DB12B57D620D6CE367200",
+            "timeTalkingToVoiceVolume": true,
+            "talkingVolume": 5,
+            "lipSyncSensitivity": 1,
+            "breathIntensity": 1,
+            "idleIntensity": 1,
+            "params": [],
+            "index": "3208A1CB6580324D3D58D8A1CBF088A80E89"
+        },
+        "order": 1
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

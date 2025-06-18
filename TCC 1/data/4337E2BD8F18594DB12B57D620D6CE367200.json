@@ -1,0 +1,43 @@
+{
+    "uid": "4337E2BD8F18594DB12B57D620D6CE367200",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Orbe Lógico",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "4337E2BD8F18594DB12B57D620D6CE367200",
+        "isFolder": false,
+        "parentId": "7506A2EC03D27442725ACAE9CD8841B7555A",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Orbe Lógico",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "Orbe Lógico.png",
+                        "folderPath": "Graphics/Characters/Orbe Lógico",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "4337E2BD8F18594DB12B57D620D6CE367200"
+        },
+        "order": 0
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

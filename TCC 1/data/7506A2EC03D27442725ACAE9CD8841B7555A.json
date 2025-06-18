@@ -1,0 +1,23 @@
+{
+    "uid": "7506A2EC03D27442725ACAE9CD8841B7555A",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Orbe Lógico",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "isFolder": true,
+        "parentId": "ROOT",
+        "data": {
+            "name": "Orbe Lógico",
+            "isFolder": true
+        },
+        "order": 1
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

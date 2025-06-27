@@ -1,22 +1,14 @@
 {
-    "uid": "82DEE6988FB2F645672950D1B65402BFC86E",
+    "uid": "01E843AF234CE84EED5879283B41D7492747",
     "isLoaded": true,
     "lastModificationTime": 0,
     "items": {
-        "name": "Enigma do Portão Lógico",
+        "name": "O Enigma do Orbe Lógico",
         "type": "vn.scene",
-        "parentId": "3305C56CKBF5BA44BFS8614EE4B277E49F6A",
-        "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+        "parentId": "CC2F2C2F55FBA84C5B8A5BA8D066AD1764EB",
+        "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
         "order": 0,
-        "localizableStrings": {
-            "71F76B06856A1542774A19E4396355148B03": {
-                "t": "The park is so beautiful right?",
-                "d": {
-                    "cid": "D817084774AB154CCE68B7B2587B0058EBFA",
-                    "eid": "FC3DE2EC866E3742155B6751DE1F91B489D8"
-                }
-            }
-        },
+        "localizableStrings": {},
         "commands": [
             {
                 "id": "gs.PlayMusic",
@@ -50,7 +42,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "3629DDA05B87C34E4D5A2597067C805DBCF1",
+                "uid": "90716B8E03728343278BCF0913F711A3D458",
                 "expanded": false
             },
             {
@@ -60,7 +52,7 @@
                         "type": "scene"
                     },
                     "graphic": {
-                        "name": "Entrada.png",
+                        "name": "Interior da Academia.png",
                         "folderPath": "Graphics/Backgrounds/Academia dos Códigos",
                         "hue": 0,
                         "opacity": 255,
@@ -108,7 +100,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "A59F695A575B7440441A9939A78AFFDE0CB1",
+                "uid": "441A8E3D29A6C6496669F0F9DAF4413C9BB2",
                 "expanded": false
             },
             {
@@ -129,7 +121,7 @@
                         "easing.type": 1
                     }
                 },
-                "uid": "C400B9F51779D6404C9AAD72042C888396A4",
+                "uid": "5C632E002E3489420629F908A109339A7816",
                 "indent": 0,
                 "expanded": false
             },
@@ -139,13 +131,13 @@
                     "viewport": {
                         "type": "scene"
                     },
-                    "predefinedPositionId": 6,
+                    "predefinedPositionId": 5,
                     "expressionId": null,
-                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
                     "zOrder": 0,
                     "origin": 0,
                     "blendMode": 0,
-                    "positionType": 0,
+                    "positionType": 1,
                     "motionBlur": {
                         "enabled": 0,
                         "delay": 2,
@@ -153,8 +145,18 @@
                         "dissolveSpeed": 3
                     },
                     "position": {
-                        "x": 0,
-                        "y": 0
+                        "x": 132,
+                        "y": 394,
+                        "angle": 0,
+                        "zoom": 1,
+                        "horizontalFlip": false,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
                     },
                     "animation": {
                         "type": 1,
@@ -172,9 +174,13 @@
                     "waitForCompletion": 1,
                     "fieldFlags": {
                         "duration": 1
+                    },
+                    "previewBackground": {
+                        "name": "",
+                        "folderPath": ""
                     }
                 },
-                "uid": "34B320B611FB6745D23A2CB8619522E537D6",
+                "uid": "472BB75E8F4F98450D696B095318EEEFE3E2",
                 "indent": 0
             },
             {
@@ -185,7 +191,7 @@
                         "values": []
                     }
                 },
-                "uid": "4093657382F9E145FC791856B347A04DE56B",
+                "uid": "4FB5D5A6270BE746839AE58741328F887EF6",
                 "indent": 0
             },
             {
@@ -206,10 +212,10 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Caso a sombra apontar ao norte... posso considerar abrir."
+                        "defaultText": "As portas só irão abrir se essas duas condições forem atendidas:\nPeríodo do dia = Manhã\n\nTemperatura = Fria\n"
                     },
                     "position": 0,
-                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
@@ -220,7 +226,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "6AE7F52B3430D9490D79A426D74BBCD5F898",
+                "uid": "E75590746599494D175BF928321C2CAC021D",
                 "indent": 0,
                 "expanded": true
             },
@@ -235,7 +241,7 @@
                             "index": 0
                         },
                         "commonEventId": 0,
-                        "label": "correta",
+                        "label": "errada1",
                         "switch": {
                             "scope": 1,
                             "index": 0
@@ -244,7 +250,7 @@
                     },
                     "text": {
                         "lcId": null,
-                        "defaultText": "Se a sombra apontar ao norte, então o portão abrirá"
+                        "defaultText": "Se estiver quente **e** for noite "
                     },
                     "label": "",
                     "enabled": 1,
@@ -278,7 +284,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "14D504DF070CE142797BF5B3C419CFAF6187",
+                "uid": "98AF403B68D0B84D5329D8B768861651905E",
                 "indent": 0
             },
             {
@@ -292,7 +298,7 @@
                             "index": 0
                         },
                         "commonEventId": 0,
-                        "label": "errada1",
+                        "label": "errada2",
                         "switch": {
                             "scope": 1,
                             "index": 0
@@ -301,7 +307,7 @@
                     },
                     "text": {
                         "lcId": null,
-                        "defaultText": "Se tiver nuvens no céu, então o portão se abrirá."
+                        "defaultText": "Se for manhã **ou** estiver frio"
                     },
                     "label": "",
                     "enabled": 1,
@@ -328,7 +334,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "903689D867CF4646E289999623B6FC98782A",
+                "uid": "80C285E9572C364F7798F591015900BF4CAE",
                 "indent": 0
             },
             {
@@ -342,7 +348,7 @@
                             "index": 0
                         },
                         "commonEventId": 0,
-                        "label": "errada2",
+                        "label": "correta",
                         "switch": {
                             "scope": 1,
                             "index": 0
@@ -351,7 +357,7 @@
                     },
                     "text": {
                         "lcId": null,
-                        "defaultText": "Se for noite, então o portão se abrirá."
+                        "defaultText": "Se for manhã **e** estiver frio"
                     },
                     "label": "",
                     "enabled": 1,
@@ -378,7 +384,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "FCCCA64B31E0E04BB5694A2579944A5CE204",
+                "uid": "D3BB38076D6A144C304B27D8178E33DBFF27",
                 "indent": 0
             },
             {
@@ -401,7 +407,7 @@
                     },
                     "text": {
                         "lcId": null,
-                        "defaultText": "Se a sombra não aparecer, então o portão se abrirá."
+                        "defaultText": "Se estiver tarde**e** for noite "
                     },
                     "label": "",
                     "enabled": 1,
@@ -428,19 +434,19 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "5C50D0F26119B545B7883898E2C404192FF1",
+                "uid": "2A7493365284844B946A1B778F32F41E39DC",
                 "indent": 0
             },
             {
                 "id": "vn.ShowChoices",
                 "params": {},
-                "uid": "47F5AE3F3368B4468E5B4DC83CCBB7FF689E",
+                "uid": "CDE4A04328BD3046F358A2828895A16B7CB6",
                 "indent": 0
             },
             {
                 "id": "gs.Idle",
                 "params": {},
-                "uid": "A69B3EFD61C439470369F0177B11BEB9F4CD",
+                "uid": "88CFE23D7013A14AF06BA4D52950AB250475",
                 "indent": 0
             },
             {
@@ -448,7 +454,7 @@
                 "params": {
                     "name": "correta"
                 },
-                "uid": "8BC70BF6159A024F308B12D09D5E3C8CA170",
+                "uid": "E895179E7C1445435F7ABE1254344C21CECD",
                 "indent": 0
             },
             {
@@ -459,7 +465,7 @@
                         "values": []
                     }
                 },
-                "uid": "EFB93358749D37471E3BE15525D95B969CEA",
+                "uid": "523C654B2A354140777AE6D74ACB3A467EA1",
                 "indent": 0
             },
             {
@@ -480,10 +486,10 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Hmmm... sua lógica brilha como o sol. A passagem será liberada."
+                        "defaultText": "Avaliação positiva. A composição lógica foi satisfeita.\n"
                     },
                     "position": 0,
-                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
@@ -491,25 +497,14 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "F43D3236842BD54A850BD1B47F4D5404F5E2",
+                "uid": "BE773A6F9433324F128A41C1EC0FE196F46D",
                 "indent": 0,
                 "expanded": true
             },
             {
-                "id": "gs.CallCommonEvent",
-                "params": {
-                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
-                    "parameters": {
-                        "values": []
-                    }
-                },
-                "uid": "14AB63AD560B6948B52AB564C00DB6EF8063",
-                "indent": 0
-            },
-            {
                 "id": "vn.CharacterExitScene",
                 "params": {
-                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
                     "duration": 0,
                     "waitForCompletion": 0,
                     "easing": {
@@ -528,101 +523,13 @@
                         "duration": 1
                     }
                 },
-                "uid": "C0DCA26B23DA834FD038BCC7CBDE3902AF12",
+                "uid": "B780F3E5449AD34BB55A41484002BEA3BC68",
                 "indent": 0
-            },
-            {
-                "id": "vn.CharacterJoinScene",
-                "params": {
-                    "viewport": {
-                        "type": "scene"
-                    },
-                    "predefinedPositionId": 5,
-                    "expressionId": null,
-                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
-                    "zOrder": 0,
-                    "origin": 0,
-                    "blendMode": 0,
-                    "positionType": 0,
-                    "motionBlur": {
-                        "enabled": 0,
-                        "delay": 2,
-                        "opacity": 100,
-                        "dissolveSpeed": 3
-                    },
-                    "position": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "easing": {
-                        "type": 0,
-                        "inOut": 0
-                    },
-                    "duration": 0,
-                    "waitForCompletion": 1,
-                    "fieldFlags": {
-                        "duration": 1
-                    }
-                },
-                "uid": "D62E630503E20645795A50B743AEE4508CA5",
-                "indent": 0
-            },
-            {
-                "id": "gs.CallCommonEvent",
-                "params": {
-                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
-                    "parameters": {
-                        "values": []
-                    }
-                },
-                "uid": "BB9FB9D81DB1B24048495959191A699B91E6",
-                "indent": 0
-            },
-            {
-                "id": "gs.ShowMessage",
-                "params": {
-                    "waitForCompletion": 1,
-                    "duration": 15,
-                    "expressionId": null,
-                    "custom": {
-                        "object": {
-                            "x": 0,
-                            "y": 0,
-                            "size": {
-                                "width": 300,
-                                "height": 100
-                            }
-                        }
-                    },
-                    "message": {
-                        "lcId": null,
-                        "defaultText": "Era o norte! A sombra indicava isso bem certinho. Mandou bem\n {GT:Input Text Result}!"
-                    },
-                    "position": 0,
-                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
-                    "partial": 0,
-                    "fieldFlags": {
-                        "duration": 1
-                    },
-                    "expressions": [],
-                    "animations": []
-                },
-                "uid": "8F1507074712E34F569935262678A7F8237D",
-                "indent": 0,
-                "expanded": true
             },
             {
                 "id": "vn.CharacterExitScene",
                 "params": {
-                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
                     "duration": 0,
                     "waitForCompletion": 0,
                     "easing": {
@@ -641,7 +548,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "F9BFCF736038A342008AA69544C627F70155",
+                "uid": "EC319CAD80302148841A6461B65A5814D9F2",
                 "indent": 0
             },
             {
@@ -652,7 +559,7 @@
                         "values": []
                     }
                 },
-                "uid": "EB3BAD052D57424CC71BE2649CFD906CDA72",
+                "uid": "4899E0CE2941A447EC99DFA4676CB8CA60DC",
                 "indent": 0
             },
             {
@@ -696,7 +603,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "68F3F0A34FFAC4415A8820F3505855457EA8",
+                "uid": "B3FFE38611E4554B2928BE52F24A2FB5EAF4",
                 "indent": 0
             },
             {
@@ -707,7 +614,7 @@
                         "values": []
                     }
                 },
-                "uid": "EAB41E792592E547FA7A4A616491DBF3D886",
+                "uid": "A674BD0A758A504DC91B9D58487F2C8F2520",
                 "indent": 0
             },
             {
@@ -728,7 +635,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Você conseguiu, {GT:Input Text Result}! Agora a passagem está liberada"
+                        "defaultText": "Estamos ficando bons nisso!\n"
                     },
                     "position": 0,
                     "characterId": "5FDD830E06D93643585926687B5F0BA85302",
@@ -739,7 +646,335 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "00F924745AD436461D094D9792A323EE88AF",
+                "uid": "4186AD2608AF4940162BDBE16C2EB47A5F62",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "87276B26294F28414F5B5FA18773929EFC75",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "B8CE94520F27164BBB49F089ACC6BCC67023",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "115C42262402914E683A00C28A1ECC522010",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "0F8B2C061C20044A9D9B600530C06731CAEE",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Ou talvez... só estamos observando melhor.\n"
+                    },
+                    "position": 0,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "3E0711D068F41244F06B7EA0C77BE39618FA",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Você foi muito bem, {GT:Input Text Result}!"
+                    },
+                    "position": 0,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "984CC01A7E06414033387314AECA2D65AE6F",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "5D68EA7A04FB664C072A5D00D80FA2643159",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "4757FB0B563D874EC82972E3E6886FCAE577",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 1,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 756,
+                        "y": 352,
+                        "angle": 0,
+                        "zoom": 1,
+                        "horizontalFlip": false,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "previewBackground": {
+                        "name": "",
+                        "folderPath": ""
+                    }
+                },
+                "uid": "2937D6795ABB94451A29ACE6DA0E9CCEB45A",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "BBD477954F8F924E2148F0F7DE73F5CE5228",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Agora as portas estão liberadas"
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "72BE2139006497473D789CF3A780EBAD0148",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Podem se dirigir até a sala que está logo a direita. A Prof Ada estará esperando vocês."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "D43562A19899094A9E8B0D5249873CEB1687",
                 "indent": 0,
                 "expanded": true
             },
@@ -747,8 +982,8 @@
                 "id": "vn.ChangeScene",
                 "params": {
                     "scene": {
-                        "uid": "CC2F2C2F55FBA84C5B8A5BA8D066AD1764EB",
-                        "name": "Entrando na acdemia dos códigos"
+                        "uid": "EAA84848122D894C0249989165A6B7995F7F",
+                        "name": "Final do Capítulo 2"
                     },
                     "savePrevious": 0,
                     "erasePictures": 0,
@@ -758,7 +993,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "6E98C32B3C239341305A8DB5A8EF4813CC7B",
+                "uid": "A22E55DC1EF9D242A069A1C2B71165098E03",
                 "indent": 0
             },
             {
@@ -767,13 +1002,13 @@
                     "name": "",
                     "target": "activeContext"
                 },
-                "uid": "B945E74F78D0D240DC8B4526F2A9398A5E69",
+                "uid": "0F3498DE6D49524D7C3911E176EA42FB3E37",
                 "indent": 0
             },
             {
                 "id": "gs.LoopCommand",
                 "params": {},
-                "uid": "F99F8CE120FC414608195B0676C3DDB3E925",
+                "uid": "39378BE71408714E8C78F3C1490CAB47B755",
                 "indent": 0
             },
             {
@@ -781,7 +1016,7 @@
                 "params": {
                     "name": "errada1"
                 },
-                "uid": "1170FD6B0EAEA94DEE3AC4C07DF3E7495AEE",
+                "uid": "76F304C15890E748D3085A578FB05029CACB",
                 "indent": 0
             },
             {
@@ -792,7 +1027,7 @@
                         "values": []
                     }
                 },
-                "uid": "4DC607827230834EB428B6B64393AFF123F0",
+                "uid": "ED1994A96590A6482B79CD91FA2CA2AAE556",
                 "indent": 0
             },
             {
@@ -813,10 +1048,10 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Essa não é a condição correta. O portão permanece fechado."
+                        "defaultText": "Sua lógica esta incorreta. As portas continuam fechadas."
                     },
                     "position": 0,
-                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
@@ -824,9 +1059,75 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "B321EC3546A7904C8F8B3F88DD83566A5827",
+                "uid": "29AEFA7F1E436042E818D1C523F16E4B66AE",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "4228421818EE354EBC1890F355206069D22C",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "32160EE56E9ED648162922D5F95A5FF6A763",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "D062DE782765604D2E29A13535FBA5313B07",
+                "indent": 0
             },
             {
                 "id": "gs.ShowMessage",
@@ -846,21 +1147,98 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Caso a sombra apontar ao norte... posso considerar abrir."
+                        "defaultText": "A gente precisa observar melhor as variáveis antes de decidir.\n"
                     },
                     "position": 0,
-                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
                     },
                     "expressions": [],
-                    "animations": [],
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
+                    "animations": []
+                },
+                "uid": "75270F1D6151A547825859B9BB7D25354A6D",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
                     }
                 },
-                "uid": "44EC0F865F45E44A5B984D365C3F2130F674",
+                "uid": "E0E8CFE125806741BD39CF260C3234288495",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "F4CBAF518634214BCC7B9721CCE1BA483370",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "D5BFFE10693F20489B1993130C0761EA99AC",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "As portas só irão abrir se essas duas condições forem atendidas:\nPeríodo do dia = Manhã\n\nTemperatura = Fria\n"
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "255797379572F648F37B82D95B38131406C2",
                 "indent": 0,
                 "expanded": true
             },
@@ -875,7 +1253,7 @@
                             "index": 0
                         },
                         "commonEventId": 0,
-                        "label": "correta",
+                        "label": "errada1",
                         "switch": {
                             "scope": 1,
                             "index": 0
@@ -884,7 +1262,7 @@
                     },
                     "text": {
                         "lcId": null,
-                        "defaultText": "Se a sombra apontar ao norte, então o portão abrirá"
+                        "defaultText": "Se estiver quente **e** for noite "
                     },
                     "label": "",
                     "enabled": 1,
@@ -918,7 +1296,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "245BFF98470BA047CF1840F3A4B510C8BC72",
+                "uid": "18876DA9499FB649DC7ACC21DC43DF96C2F0",
                 "indent": 0
             },
             {
@@ -932,7 +1310,7 @@
                             "index": 0
                         },
                         "commonEventId": 0,
-                        "label": "errada1",
+                        "label": "errada2",
                         "switch": {
                             "scope": 1,
                             "index": 0
@@ -941,7 +1319,7 @@
                     },
                     "text": {
                         "lcId": null,
-                        "defaultText": "Se tiver nuvens no céu, então o portão se abrirá."
+                        "defaultText": "Se for manhã **ou** estiver frio"
                     },
                     "label": "",
                     "enabled": 1,
@@ -968,7 +1346,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "4BFF6BDA54FA42405D5B10C335BFCE30ED85",
+                "uid": "C81D9DC8810DE743EF9B64F0409C95DF6FB9",
                 "indent": 0
             },
             {
@@ -982,7 +1360,7 @@
                             "index": 0
                         },
                         "commonEventId": 0,
-                        "label": "errada2",
+                        "label": "correta",
                         "switch": {
                             "scope": 1,
                             "index": 0
@@ -991,7 +1369,7 @@
                     },
                     "text": {
                         "lcId": null,
-                        "defaultText": "Se for noite, então o portão se abrirá."
+                        "defaultText": "Se for manhã **e** estiver frio"
                     },
                     "label": "",
                     "enabled": 1,
@@ -1018,7 +1396,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "7DAD2C0452D7F6435B8811F1F0DF49A861A0",
+                "uid": "2CA735FA8E7F0846D619E4068303F43D7D2F",
                 "indent": 0
             },
             {
@@ -1041,7 +1419,7 @@
                     },
                     "text": {
                         "lcId": null,
-                        "defaultText": "Se a sombra não aparecer, então o portão se abrirá."
+                        "defaultText": "Se estiver tarde**e** for noite "
                     },
                     "label": "",
                     "enabled": 1,
@@ -1068,13 +1446,13 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "7045B4AC8C05C54D255B531825733F4BC4C9",
+                "uid": "0336F2AF3DAE644DA46B1E4444339083435F",
                 "indent": 0
             },
             {
                 "id": "vn.ShowChoices",
                 "params": {},
-                "uid": "545A38352ECCA845F68BC6E221FDC577A9E9",
+                "uid": "045F52086825E64B4538A9F7BAC8D7D7EF66",
                 "indent": 0
             },
             {
@@ -1098,7 +1476,7 @@
                         "defaultText": "Essa não é a condição correta. O portão permanece fechado."
                     },
                     "position": 0,
-                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
@@ -1106,14 +1484,20 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "12BD9CC05C4AF64CFC1B90F497C01BCEDE31",
+                "uid": "117F52E181F1344F2B8881C3B88EA112CEF5",
                 "indent": 0,
                 "expanded": true
             },
             {
                 "id": "gs.BreakLoopCommand",
                 "params": {},
-                "uid": "8B4B3D1F0DBEE449F96A3E86B397610D23DE",
+                "uid": "64D301381FDBE24176384507B12C3E641245",
+                "indent": 0
+            },
+            {
+                "id": "gs.LoopCommand",
+                "params": {},
+                "uid": "57FD40BB84FC0348C36AC893DD8E96CF1186",
                 "indent": 0
             },
             {
@@ -1121,7 +1505,7 @@
                 "params": {
                     "name": "errada2"
                 },
-                "uid": "65B847A73876274DB8492F355896EE755FD9",
+                "uid": "250E55B8521F644482780E1375BA10B63930",
                 "indent": 0
             },
             {
@@ -1132,7 +1516,7 @@
                         "values": []
                     }
                 },
-                "uid": "330F960B2307344FE82B72383B18516C8CD8",
+                "uid": "14F180D16118A84C5C384B77C44F9912275F",
                 "indent": 0
             },
             {
@@ -1153,10 +1537,10 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Essa não é a condição correta. O portão permanece fechado."
+                        "defaultText": "Sua lógica esta incorreta. As portas continuam fechadas."
                     },
                     "position": 0,
-                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
@@ -1164,9 +1548,75 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "92DABAF820E07649815A1B7480E927349D7B",
+                "uid": "126564952EF7714C82392692ECDEB2793A85",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "7CE6D56C476410473B3B5FA85D4D48EE1252",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "0E6612C632E24445AF4AE4161ABEFBD3B0EC",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "78CAB60E2FAB62492D5B867360BFD95B5F7E",
+                "indent": 0
             },
             {
                 "id": "gs.ShowMessage",
@@ -1186,21 +1636,98 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Caso a sombra apontar ao norte... posso considerar abrir."
+                        "defaultText": "A gente precisa observar melhor as variáveis antes de decidir.\n"
                     },
                     "position": 0,
-                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
                     },
                     "expressions": [],
-                    "animations": [],
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
+                    "animations": []
+                },
+                "uid": "1563A39F3A49334BE64AD33386AF5C146467",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
                     }
                 },
-                "uid": "C405C0DB66AFF34E7F48E1B66203B7B711A7",
+                "uid": "11E5A715365096456D48DC1804BEF0224FAB",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "DABC6C603AC53745BD8959135057411E6DCA",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "2E88E1AF5B53524E1A7A6730FA062E02C10B",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "As portas só irão abrir se essas duas condições forem atendidas:\nPeríodo do dia = Manhã\n\nTemperatura = Fria\n"
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "6AF8B2395667A24C26590095AED73D6F396F",
                 "indent": 0,
                 "expanded": true
             },
@@ -1215,7 +1742,7 @@
                             "index": 0
                         },
                         "commonEventId": 0,
-                        "label": "correta",
+                        "label": "errada1",
                         "switch": {
                             "scope": 1,
                             "index": 0
@@ -1224,7 +1751,7 @@
                     },
                     "text": {
                         "lcId": null,
-                        "defaultText": "Se a sombra apontar ao norte, então o portão abrirá"
+                        "defaultText": "Se estiver quente **e** for noite "
                     },
                     "label": "",
                     "enabled": 1,
@@ -1258,7 +1785,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "F547440E5CD156494F788D264D658BEEE06F",
+                "uid": "A76B7E0C6B61E24B468AD7B625FCB58E75E0",
                 "indent": 0
             },
             {
@@ -1272,7 +1799,7 @@
                             "index": 0
                         },
                         "commonEventId": 0,
-                        "label": "errada1",
+                        "label": "errada2",
                         "switch": {
                             "scope": 1,
                             "index": 0
@@ -1281,7 +1808,7 @@
                     },
                     "text": {
                         "lcId": null,
-                        "defaultText": "Se tiver nuvens no céu, então o portão se abrirá."
+                        "defaultText": "Se for manhã **ou** estiver frio"
                     },
                     "label": "",
                     "enabled": 1,
@@ -1308,7 +1835,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "EA6EF5A5885EA04E4038460242E792CDC36E",
+                "uid": "02FF68551760A74D7C68FA7217CE466BEE11",
                 "indent": 0
             },
             {
@@ -1322,7 +1849,7 @@
                             "index": 0
                         },
                         "commonEventId": 0,
-                        "label": "errada2",
+                        "label": "correta",
                         "switch": {
                             "scope": 1,
                             "index": 0
@@ -1331,7 +1858,7 @@
                     },
                     "text": {
                         "lcId": null,
-                        "defaultText": "Se for noite, então o portão se abrirá."
+                        "defaultText": "Se for manhã **e** estiver frio"
                     },
                     "label": "",
                     "enabled": 1,
@@ -1358,7 +1885,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "05A911B582D5304BAC79D3235F77F816B3A7",
+                "uid": "C9B5DA496B5EA34CF39B9827AAC64F0AE812",
                 "indent": 0
             },
             {
@@ -1381,7 +1908,7 @@
                     },
                     "text": {
                         "lcId": null,
-                        "defaultText": "Se a sombra não aparecer, então o portão se abrirá."
+                        "defaultText": "Se estiver tarde**e** for noite "
                     },
                     "label": "",
                     "enabled": 1,
@@ -1408,13 +1935,13 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "FEDEE3863F496942FF9A1A05986939A29C8A",
+                "uid": "F3596B298884764AA238DA549C4D1E12B3E0",
                 "indent": 0
             },
             {
                 "id": "vn.ShowChoices",
                 "params": {},
-                "uid": "FE4DEC685177A2467428C856F8FA1B2F6103",
+                "uid": "1057F7981A91A8495E4B25C38B9F1D39064F",
                 "indent": 0
             },
             {
@@ -1438,7 +1965,7 @@
                         "defaultText": "Essa não é a condição correta. O portão permanece fechado."
                     },
                     "position": 0,
-                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
@@ -1446,20 +1973,20 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "5B1D0C57511DC4416D4B4DF7F880F4971B17",
+                "uid": "CC039A9C426CE34E6138B70661F891BCB0D1",
                 "indent": 0,
                 "expanded": true
             },
             {
                 "id": "gs.BreakLoopCommand",
                 "params": {},
-                "uid": "5CC8C5C81DF2794402690F4525A290F4CCE8",
+                "uid": "FAE5FDC15E21E74FDF688696ADDA48EDF0A1",
                 "indent": 0
             },
             {
                 "id": "gs.LoopCommand",
                 "params": {},
-                "uid": "4462951846F54943990A1D1819518706998B",
+                "uid": "931A03C75110C54A9B69FFA558534EA1E46F",
                 "indent": 0
             },
             {
@@ -1467,7 +1994,7 @@
                 "params": {
                     "name": "errada3"
                 },
-                "uid": "1E74F3F87008314B680B8247E58CA52805B6",
+                "uid": "D35EA1230572D64F32897F13FBDA78255B54",
                 "indent": 0
             },
             {
@@ -1478,7 +2005,7 @@
                         "values": []
                     }
                 },
-                "uid": "52FA0EF14DD7A04CEF9B2FF54DE7311CD410",
+                "uid": "9B0AB7CA2A1F114D1D187D232794CF32BCEE",
                 "indent": 0
             },
             {
@@ -1499,10 +2026,10 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Essa não é a condição correta. O portão permanece fechado."
+                        "defaultText": "Sua lógica esta incorreta. As portas continuam fechadas."
                     },
                     "position": 0,
-                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
@@ -1510,9 +2037,75 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "C00C51D06669764BC04ADAD61486177C194D",
+                "uid": "639BBDDA1A4326471749BDA77F80201F3907",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "23C5A52831AF3540AE280268E1C6E720601B",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "254FFD69680CA74E0E8ABEF2E0B26F2BE20B",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "6A2DE2EA9224B4499C795DD617DCCEF00C27",
+                "indent": 0
             },
             {
                 "id": "gs.ShowMessage",
@@ -1532,21 +2125,98 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Caso a sombra apontar ao norte... posso considerar abrir."
+                        "defaultText": "A gente precisa observar melhor as variáveis antes de decidir.\n"
                     },
                     "position": 0,
-                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
                     },
                     "expressions": [],
-                    "animations": [],
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
+                    "animations": []
+                },
+                "uid": "3476213219AAD84562690C587CB87B46BDE7",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
                     }
                 },
-                "uid": "D55C68B824171145215A24568E28305C3911",
+                "uid": "C6824C188ABC7445A4187739AC7F57E86FF0",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "3C3BD011255DE248CB69F4E312B5C67D3E9D",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "B7B6DBA705FB3742C52A18C1EA127DD5CE69",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "As portas só irão abrir se essas duas condições forem atendidas:\nPeríodo do dia = Manhã\n\nTemperatura = Fria\n"
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "4B6DF7BA8AF1584C3F5A8EB4ED3186DBD5CD",
                 "indent": 0,
                 "expanded": true
             },
@@ -1561,7 +2231,7 @@
                             "index": 0
                         },
                         "commonEventId": 0,
-                        "label": "correta",
+                        "label": "errada1",
                         "switch": {
                             "scope": 1,
                             "index": 0
@@ -1570,7 +2240,7 @@
                     },
                     "text": {
                         "lcId": null,
-                        "defaultText": "Se a sombra apontar ao norte, então o portão abrirá"
+                        "defaultText": "Se estiver quente **e** for noite "
                     },
                     "label": "",
                     "enabled": 1,
@@ -1604,7 +2274,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "25E70D7220226144104A31A76D53C80FE5A7",
+                "uid": "97F0D288824EB4452C190AD2DA2C8B3B38C5",
                 "indent": 0
             },
             {
@@ -1618,7 +2288,7 @@
                             "index": 0
                         },
                         "commonEventId": 0,
-                        "label": "errada1",
+                        "label": "errada2",
                         "switch": {
                             "scope": 1,
                             "index": 0
@@ -1627,7 +2297,7 @@
                     },
                     "text": {
                         "lcId": null,
-                        "defaultText": "Se tiver nuvens no céu, então o portão se abrirá."
+                        "defaultText": "Se for manhã **ou** estiver frio"
                     },
                     "label": "",
                     "enabled": 1,
@@ -1654,7 +2324,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "D2C3664C40DA31412F1A19482F53EB023309",
+                "uid": "1BA564DF88F3774F171A7F36535BF53332B6",
                 "indent": 0
             },
             {
@@ -1668,7 +2338,7 @@
                             "index": 0
                         },
                         "commonEventId": 0,
-                        "label": "errada2",
+                        "label": "correta",
                         "switch": {
                             "scope": 1,
                             "index": 0
@@ -1677,7 +2347,7 @@
                     },
                     "text": {
                         "lcId": null,
-                        "defaultText": "Se for noite, então o portão se abrirá."
+                        "defaultText": "Se for manhã **e** estiver frio"
                     },
                     "label": "",
                     "enabled": 1,
@@ -1704,7 +2374,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "49EA35DF5141654E6F7A1DD7254095C336E5",
+                "uid": "6FACEF78486435415B7BC603AC5D13A84F0F",
                 "indent": 0
             },
             {
@@ -1727,7 +2397,7 @@
                     },
                     "text": {
                         "lcId": null,
-                        "defaultText": "Se a sombra não aparecer, então o portão se abrirá."
+                        "defaultText": "Se estiver tarde**e** for noite "
                     },
                     "label": "",
                     "enabled": 1,
@@ -1754,13 +2424,13 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "1F88727521F0A844475A76261B4178D99BBA",
+                "uid": "C968EB4B7218D64DBA4BD5E9F1AFEBF5A5E0",
                 "indent": 0
             },
             {
                 "id": "vn.ShowChoices",
                 "params": {},
-                "uid": "00F790DB95A3B241171963B38047DBE25C3D",
+                "uid": "6A0DD3116B81754B1868EA27EC4E6E34D161",
                 "indent": 0
             },
             {
@@ -1784,7 +2454,7 @@
                         "defaultText": "Essa não é a condição correta. O portão permanece fechado."
                     },
                     "position": 0,
-                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
@@ -1792,26 +2462,18 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "BD89FB2615BEA84C156923A65A3A9C88C761",
+                "uid": "38D692C1877DB340611A3BF566718BA78DD5",
                 "indent": 0,
                 "expanded": true
             },
             {
                 "id": "gs.BreakLoopCommand",
                 "params": {},
-                "uid": "E99143CF0A7CB4498579983191E6FADE981E",
+                "uid": "797B960F46D08244C938BBE4FAA39D44F824",
                 "indent": 0
             }
         ],
         "livePreviewDisabled": false,
-        "numberVariables": [
-            {
-                "name": "",
-                "index": 0,
-                "scope": 0,
-                "domain": "com.degica.vnm.default"
-            }
-        ],
         "booleanVariables": [
             {
                 "name": "",
@@ -1820,13 +2482,6 @@
             }
         ],
         "stringVariables": [
-            {
-                "name": "",
-                "index": 0,
-                "scope": 0
-            }
-        ],
-        "listVariables": [
             {
                 "name": "",
                 "index": 0,

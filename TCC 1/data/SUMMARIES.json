@@ -6080,6 +6080,24 @@
                 "type": "data_record",
                 "order": 0
             }
+        },
+        "01E843AF234CE84EED5879283B41D7492747": {
+            "items": {
+                "name": "O Enigma do Orbe Lógico",
+                "type": "vn.scene",
+                "parentId": "CC2F2C2F55FBA84C5B8A5BA8D066AD1764EB",
+                "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+                "order": 0
+            }
+        },
+        "EAA84848122D894C0249989165A6B7995F7F": {
+            "items": {
+                "name": "Final do Capítulo 2",
+                "type": "vn.scene",
+                "parentId": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+                "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+                "order": 1
+            }
         }
     }
 }

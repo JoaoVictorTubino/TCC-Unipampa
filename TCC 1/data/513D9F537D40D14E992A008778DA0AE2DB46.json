@@ -1,0 +1,83 @@
+{
+    "uid": "513D9F537D40D14E992A008778DA0AE2DB46",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "EscolheuBoy",
+        "type": "data_record",
+        "order": 0,
+        "category": "commonEvents",
+        "id": "513D9F537D40D14E992A008778DA0AE2DB46",
+        "isFolder": false,
+        "parentId": "281987085CD4794BA82877E280C35E0B37C4",
+        "data": {
+            "name": "EscolheuBoy",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [],
+            "commands": [
+                {
+                    "id": "vn.CallScene",
+                    "params": {
+                        "scene": {
+                            "uid": "A08729A17966F24CF848252022584A406C85",
+                            "name": "Escolheu Menino"
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 0,
+                    "uid": "833D46940919334DE02A0F643B44B8E452F8"
+                }
+            ],
+            "index": "513D9F537D40D14E992A008778DA0AE2DB46",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "numberVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "stringVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "listVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "conditionSwitch": {
+                "name": "In Game",
+                "scope": 1,
+                "index": 0,
+                "changed": true,
+                "domain": "com.degica.vnm.default"
+            }
+        },
+        "localizableStrings": {}
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

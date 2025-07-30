@@ -1,0 +1,76 @@
+{
+    "uid": "030EBB619A24D84C5C386E33E89EB025C31A",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "EscolheuGirl",
+        "type": "data_record",
+        "order": 1,
+        "category": "commonEvents",
+        "id": "030EBB619A24D84C5C386E33E89EB025C31A",
+        "isFolder": false,
+        "parentId": "281987085CD4794BA82877E280C35E0B37C4",
+        "data": {
+            "name": "EscolheuGirl",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [],
+            "commands": [
+                {
+                    "id": "vn.CallScene",
+                    "params": {
+                        "scene": {
+                            "uid": "5F9F28B82745A7482269DC07A0B4474870B5",
+                            "name": "Escoheu Menina"
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 0,
+                    "uid": "CEFBC45B89B3A74E93999A43BF840FF08210"
+                }
+            ],
+            "index": "030EBB619A24D84C5C386E33E89EB025C31A",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "numberVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "stringVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "listVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ]
+        },
+        "localizableStrings": {}
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

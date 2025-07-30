@@ -1,0 +1,47 @@
+{
+    "uid": "2F96FCDE55D4984E6A1A25807BE5638458BE",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "HotSpotMenina",
+        "type": "data_record",
+        "category": "commonEvents",
+        "id": "2F96FCDE55D4984E6A1A25807BE5638458BE",
+        "isFolder": false,
+        "parentId": "281987085CD4794BA82877E280C35E0B37C4",
+        "data": {
+            "name": "HotSpotMenina",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [],
+            "commands": [],
+            "index": "2F96FCDE55D4984E6A1A25807BE5638458BE",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "numberVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ]
+        },
+        "order": 2,
+        "localizableStrings": {}
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

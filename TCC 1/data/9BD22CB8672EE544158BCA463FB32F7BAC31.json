@@ -1,0 +1,43 @@
+{
+    "uid": "9BD22CB8672EE544158BCA463FB32F7BAC31",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Protagonista Masculino",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "9BD22CB8672EE544158BCA463FB32F7BAC31",
+        "isFolder": false,
+        "parentId": "8E28CDC5124B034DE64870435540922C00EF",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Protagonista Masculino",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "Boy.png",
+                        "folderPath": "Graphics/Characters/Protagonista Masculino",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "9BD22CB8672EE544158BCA463FB32F7BAC31"
+        },
+        "order": 0
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

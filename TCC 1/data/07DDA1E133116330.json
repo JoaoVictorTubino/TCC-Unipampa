@@ -70,21 +70,25 @@
                 "changed": true
             },
             {
-                "name": "",
+                "name": "ProtagonistaEscolhido",
                 "index": 9,
                 "scope": 1,
                 "domain": "com.degica.vnm.default",
                 "changed": true
             },
             {
-                "name": "",
+                "name": "EscolheuMenino",
                 "index": 10,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
             },
             {
-                "name": "",
+                "name": "EscolheuMenina",
                 "index": 11,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
             },
             {
                 "name": "",

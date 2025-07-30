@@ -1,0 +1,47 @@
+{
+    "uid": "13796F737E30504D978AC9489DB22CD165B3",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "HotSpotMenino",
+        "type": "data_record",
+        "category": "commonEvents",
+        "id": "13796F737E30504D978AC9489DB22CD165B3",
+        "isFolder": false,
+        "parentId": "281987085CD4794BA82877E280C35E0B37C4",
+        "data": {
+            "name": "HotSpotMenino",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [],
+            "commands": [],
+            "index": "13796F737E30504D978AC9489DB22CD165B3",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "numberVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ]
+        },
+        "order": 3,
+        "localizableStrings": {}
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

@@ -1,0 +1,40 @@
+{
+    "uid": "B0FF28274177D541E53AC0508B14E334FA80",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Protagonista Feminina",
+        "type": "data_record",
+        "category": "characters",
+        "id": "B0FF28274177D541E53AC0508B14E334FA80",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "data": {
+            "name": {
+                "lcId": null,
+                "defaultText": "Protagonista Feminina"
+            },
+            "textColor": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 255
+            },
+            "defaultExpressionId": "BC3A72CA61693348C119D9E678056FAA0BF3",
+            "timeTalkingToVoiceVolume": true,
+            "talkingVolume": 5,
+            "lipSyncSensitivity": 1,
+            "breathIntensity": 1,
+            "idleIntensity": 1,
+            "params": [],
+            "index": "B0FF28274177D541E53AC0508B14E334FA80"
+        },
+        "order": 2
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

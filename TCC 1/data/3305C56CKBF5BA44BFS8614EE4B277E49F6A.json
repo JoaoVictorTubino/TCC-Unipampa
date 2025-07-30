@@ -1785,7 +1785,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Se a sombra apontar ao norte... posso considerar abrir."
+                        "defaultText": "Caso a sombra apontar ao norte... posso considerar abrir."
                     },
                     "position": 0,
                     "characterId": "872EE5D043CC56476F0B0CC2E8A786F4D68B",
@@ -2365,7 +2365,7 @@
                         "defaultText": "Eita! O portão fala."
                     },
                     "position": 0,
-                    "characterId": 0,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
@@ -3038,7 +3038,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Ele disse que se a sombra apontar ao norte o portão irá abrir."
+                        "defaultText": "Ele disse que caso a sombra apontar ao norte o portão irá abrir."
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -3165,7 +3165,7 @@
                         "defaultText": "Certamente."
                     },
                     "position": 0,
-                    "characterId": 0,
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
@@ -3198,7 +3198,7 @@
                         "defaultText": "Vou dar 4 alternativas para vocês. Escolham a alternativa que irá solucionar o enigma."
                     },
                     "position": 0,
-                    "characterId": 0,
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1

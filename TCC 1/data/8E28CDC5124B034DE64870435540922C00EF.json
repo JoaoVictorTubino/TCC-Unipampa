@@ -1,0 +1,23 @@
+{
+    "uid": "8E28CDC5124B034DE64870435540922C00EF",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Protagonista Masculino",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "isFolder": true,
+        "parentId": "ROOT",
+        "data": {
+            "name": "Protagonista Masculino",
+            "isFolder": true
+        },
+        "order": 1
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

@@ -2592,84 +2592,84 @@
             "items": {
                 "name": "Ace",
                 "type": "data_record",
-                "order": 7
+                "order": 9
             }
         },
         "154E7EBC9DACD640AD4816514200D508D566": {
             "items": {
                 "name": "Anna",
                 "type": "data_record",
-                "order": 8
+                "order": 10
             }
         },
         "BD57DD5D6E79124D94396CF100590D3A5FD4": {
             "items": {
                 "name": "Daniel",
                 "type": "data_record",
-                "order": 9
+                "order": 11
             }
         },
         "4A7D5EC17353564C3E39DA52EBDE615E4D0B": {
             "items": {
                 "name": "Emma",
                 "type": "data_record",
-                "order": 10
+                "order": 12
             }
         },
         "D817084774AB154CCE68B7B2587B0058EBFA": {
             "items": {
                 "name": "Jane",
                 "type": "data_record",
-                "order": 11
+                "order": 13
             }
         },
         "74220BB53AC3194FC8792C457869A91E2152": {
             "items": {
                 "name": "Jeremy",
                 "type": "data_record",
-                "order": 12
+                "order": 14
             }
         },
         "9CF81D412511E440BE4B99A07AB048F94C48": {
             "items": {
                 "name": "John",
                 "type": "data_record",
-                "order": 13
+                "order": 15
             }
         },
         "A55CECA64F38884F958805C4F621F8053ECD": {
             "items": {
                 "name": "Lila",
                 "type": "data_record",
-                "order": 14
+                "order": 16
             }
         },
         "E8329ECB1FADC546620B0F11CE1DDE19B33F": {
             "items": {
                 "name": "Lucy",
                 "type": "data_record",
-                "order": 15
+                "order": 17
             }
         },
         "FABBDAA473FA764AFD186312445CFD5F2DFD": {
             "items": {
                 "name": "Sam",
                 "type": "data_record",
-                "order": 16
+                "order": 18
             }
         },
         "5C079A01512B3743D258CDA1897DA16CCF1A": {
             "items": {
                 "name": "Victor",
                 "type": "data_record",
-                "order": 17
+                "order": 19
             }
         },
         "9A8F21B05033014BFD78A3566E843985607A": {
             "items": {
                 "name": "Willow",
                 "type": "data_record",
-                "order": 18
+                "order": 20
             }
         },
         "3A78BF4E122004444629EDF41AD5ABD03B9C": {
@@ -2786,7 +2786,7 @@
             "items": {
                 "name": "Ace",
                 "type": "data_record",
-                "order": 4
+                "order": 6
             }
         },
         "C3EC5E3F457E90417C7902645ED63672D205": {
@@ -2961,7 +2961,7 @@
             "items": {
                 "name": "Daniel",
                 "type": "data_record",
-                "order": 5
+                "order": 7
             }
         },
         "834BEA330D771243A87BA9C2182F41059931": {
@@ -3157,7 +3157,7 @@
             "items": {
                 "name": "Emma",
                 "type": "data_record",
-                "order": 6
+                "order": 8
             }
         },
         "C8B841B145ABE249F42A4DC34798295DB9F7": {
@@ -3458,7 +3458,7 @@
             "items": {
                 "name": "Jane",
                 "type": "data_record",
-                "order": 7
+                "order": 9
             }
         },
         "A6B5C27139C7074A5F493090AC98EF6558FC": {
@@ -3759,7 +3759,7 @@
             "items": {
                 "name": "Lucy",
                 "type": "data_record",
-                "order": 8
+                "order": 10
             }
         },
         "3BD476129A4DA545D158C5C48E631854F2FB": {
@@ -4060,7 +4060,7 @@
             "items": {
                 "name": "Sam",
                 "type": "data_record",
-                "order": 9
+                "order": 11
             }
         },
         "9B6BD47645C709410C5B1D76A7E855C80E09": {
@@ -4403,7 +4403,7 @@
             "items": {
                 "name": "Victor",
                 "type": "data_record",
-                "order": 10
+                "order": 12
             }
         },
         "2E2FF98E1676764A686BD856D374489EA47D": {
@@ -4599,7 +4599,7 @@
             "items": {
                 "name": "Willow",
                 "type": "data_record",
-                "order": 11
+                "order": 13
             }
         },
         "B0A7DACC5562434CA869D25601D957C60A64": {
@@ -4900,7 +4900,7 @@
             "items": {
                 "name": "Anna",
                 "type": "data_record",
-                "order": 12
+                "order": 14
             }
         },
         "26A44EDB5904C04CFF7B3E621F19D48172E5": {
@@ -4984,7 +4984,7 @@
             "items": {
                 "name": "Jeremy",
                 "type": "data_record",
-                "order": 13
+                "order": 15
             }
         },
         "3C6D00F63164D6405F2908B7FE052E87932C": {
@@ -5061,7 +5061,7 @@
             "items": {
                 "name": "John",
                 "type": "data_record",
-                "order": 14
+                "order": 16
             }
         },
         "166A6C320CD7D04F677B7E406D3D35C88470": {
@@ -5103,7 +5103,7 @@
             "items": {
                 "name": "Lila",
                 "type": "data_record",
-                "order": 15
+                "order": 17
             }
         },
         "4EC0DA226FA0F843413A6604117DC1F55E3B": {
@@ -5786,7 +5786,7 @@
                 "type": "vn.scene",
                 "parentId": "3305C56CKBF5BA44BFS8614EE4B277E49F6A",
                 "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
-                "order": 0
+                "order": 1
             }
         },
         "4BC1A1F97C9DF54AF66847850D28A7141D5F": {
@@ -5825,7 +5825,7 @@
             "items": {
                 "name": "Beginner's Guide In-Game UI",
                 "type": "data_record",
-                "order": 0
+                "order": 1
             }
         },
         "0680E2763533F740B54A6C139E537CF59C20": {
@@ -5929,14 +5929,14 @@
             "items": {
                 "name": "Prof Ada",
                 "type": "data_record",
-                "order": 6
+                "order": 8
             }
         },
         "2A940CBF1FEDB24FA448A5D4AE9E52B41613": {
             "items": {
                 "name": "Prof Ada",
                 "type": "data_record",
-                "order": 16
+                "order": 18
             }
         },
         "B291FC3C9A0D744B50285826944EF563BAE4": {
@@ -5950,14 +5950,14 @@
             "items": {
                 "name": "Makoto",
                 "type": "data_record",
-                "order": 5
+                "order": 7
             }
         },
         "498BA1001CB862410618F4059B414FA1FFE0": {
             "items": {
                 "name": "Makoto",
                 "type": "data_record",
-                "order": 17
+                "order": 19
             }
         },
         "1817B5B451276441C48AF7F2EBC7C128EB63": {
@@ -5971,14 +5971,14 @@
             "items": {
                 "name": "Yumi",
                 "type": "data_record",
-                "order": 4
+                "order": 6
             }
         },
         "CB81BC8270A0534186299966F948E48028BC": {
             "items": {
                 "name": "Yumi",
                 "type": "data_record",
-                "order": 3
+                "order": 5
             }
         },
         "7CD385DB3C11074C3828A3845FE6BF7C3681": {
@@ -5992,14 +5992,14 @@
             "items": {
                 "name": "Portão Lógico",
                 "type": "data_record",
-                "order": 3
+                "order": 5
             }
         },
         "17887B6A7DB0844C3B283E409E705A42ED66": {
             "items": {
                 "name": "Portão Lógico",
                 "type": "data_record",
-                "order": 2
+                "order": 4
             }
         },
         "F126189F3844844AC93960E05B5D51EDAE3C": {
@@ -6013,14 +6013,14 @@
             "items": {
                 "name": "???",
                 "type": "data_record",
-                "order": 2
+                "order": 4
             }
         },
         "9A8CB2201C15424B6E5BC119F7D02CE4CCA8": {
             "items": {
                 "name": "Eventos Cristais",
                 "type": "data_record",
-                "order": 1
+                "order": 0
             }
         },
         "D0CFC3AB557DB5476A190F18BF09610D6BD3": {
@@ -6064,14 +6064,14 @@
             "items": {
                 "name": "Orbe Lógico",
                 "type": "data_record",
-                "order": 1
+                "order": 3
             }
         },
         "7506A2EC03D27442725ACAE9CD8841B7555A": {
             "items": {
                 "name": "Orbe Lógico",
                 "type": "data_record",
-                "order": 1
+                "order": 3
             }
         },
         "4337E2BD8F18594DB12B57D620D6CE367200": {
@@ -6097,6 +6097,110 @@
                 "parentId": "02AFFC0C6E40B642150AFF06D26EBCE45325",
                 "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
                 "order": 1
+            }
+        },
+        "2AC340774E76314939298FC3BA62FE507F24": {
+            "items": {
+                "name": "Seleção de Protagonista",
+                "type": "vn.scene",
+                "parentId": "3305C56CKBF5BA44BFS8614EE4B277E49F6A",
+                "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+                "order": 0
+            }
+        },
+        "8E28CDC5124B034DE64870435540922C00EF": {
+            "items": {
+                "name": "Protagonista Masculino",
+                "type": "data_record",
+                "order": 2
+            }
+        },
+        "9BD22CB8672EE544158BCA463FB32F7BAC31": {
+            "items": {
+                "name": "Protagonista Masculino",
+                "type": "data_record",
+                "order": 0
+            }
+        },
+        "8B2E9CCC7615444F335BC031ED618D217E94": {
+            "items": {
+                "name": "Protagonista Masculino",
+                "type": "data_record",
+                "order": 1
+            }
+        },
+        "D6602C8858CC2341F51848D7F59F4C4C6A4C": {
+            "items": {
+                "name": "Protagonista Feminina",
+                "type": "data_record",
+                "order": 1
+            }
+        },
+        "BC3A72CA61693348C119D9E678056FAA0BF3": {
+            "items": {
+                "name": "Protagonista Feminina",
+                "type": "data_record",
+                "order": 0
+            }
+        },
+        "B0FF28274177D541E53AC0508B14E334FA80": {
+            "items": {
+                "name": "Protagonista Feminina",
+                "type": "data_record",
+                "order": 2
+            }
+        },
+        "281987085CD4794BA82877E280C35E0B37C4": {
+            "items": {
+                "name": "CharacterSellectEvent",
+                "type": "data_record",
+                "order": 2
+            }
+        },
+        "513D9F537D40D14E992A008778DA0AE2DB46": {
+            "items": {
+                "name": "EscolheuBoy",
+                "type": "data_record",
+                "order": 0
+            }
+        },
+        "030EBB619A24D84C5C386E33E89EB025C31A": {
+            "items": {
+                "name": "EscolheuGirl",
+                "type": "data_record",
+                "order": 1
+            }
+        },
+        "5F9F28B82745A7482269DC07A0B4474870B5": {
+            "items": {
+                "name": "Escoheu Menina",
+                "type": "vn.scene",
+                "parentId": "2AC340774E76314939298FC3BA62FE507F24",
+                "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+                "order": 0
+            }
+        },
+        "A08729A17966F24CF848252022584A406C85": {
+            "items": {
+                "name": "Escolheu Menino",
+                "type": "vn.scene",
+                "parentId": "2AC340774E76314939298FC3BA62FE507F24",
+                "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+                "order": 1
+            }
+        },
+        "2F96FCDE55D4984E6A1A25807BE5638458BE": {
+            "items": {
+                "name": "HotSpotMenina",
+                "type": "data_record",
+                "order": 2
+            }
+        },
+        "13796F737E30504D978AC9489DB22CD165B3": {
+            "items": {
+                "name": "HotSpotMenino",
+                "type": "data_record",
+                "order": 3
             }
         }
     }

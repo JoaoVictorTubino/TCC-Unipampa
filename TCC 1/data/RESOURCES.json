@@ -852,6 +852,12 @@
             "Graphics/Backgrounds/School/StudentdormitoryOutside_Sunset": [
                 ".png"
             ],
+            "Graphics/Backgrounds/Seleção de Protagonista/Select Your Character": [
+                ".png"
+            ],
+            "Graphics/Backgrounds/Seleção de Protagonista/Seleção de Protagonista": [
+                ".png"
+            ],
             "Graphics/Backgrounds/Special/Background_picture1": [
                 ".png"
             ],
@@ -1546,6 +1552,12 @@
                 ".png"
             ],
             "Graphics/Characters/Portão Lógico/Portão Lógico": [
+                ".png"
+            ],
+            "Graphics/Characters/Protagonista Feminina/Girl": [
+                ".png"
+            ],
+            "Graphics/Characters/Protagonista Masculino/Boy": [
                 ".png"
             ],
             "Graphics/Characters/Sam/Casual/SamDate_Angry": [

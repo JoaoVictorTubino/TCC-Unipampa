@@ -44,7 +44,8 @@
                                 "name": "Confirmation Result",
                                 "scope": 1,
                                 "index": 0,
-                                "changed": true
+                                "changed": true,
+                                "domain": "com.degica.vnm.default"
                             },
                             {
                                 "name": "Input Number Result",
@@ -54,55 +55,74 @@
                                 "domain": "com.degica.vnm.default"
                             },
                             {
-                                "name": "",
+                                "name": "Text Speed",
                                 "index": 2,
                                 "scope": 1,
+                                "changed": true,
+                                "domain": "com.degica.vnm.default"
+                            },
+                            {
+                                "name": "Auto Speed",
+                                "index": 3,
+                                "scope": 1,
+                                "changed": true,
+                                "domain": "com.degica.vnm.default"
+                            },
+                            {
+                                "name": "Music Volume",
+                                "index": 4,
+                                "scope": 1,
+                                "domain": "com.degica.vnm.default",
                                 "changed": true
                             },
                             {
-                                "name": "",
-                                "index": 3,
-                                "scope": 1
-                            },
-                            {
-                                "name": "",
-                                "index": 4,
-                                "scope": 1
-                            },
-                            {
-                                "name": "",
+                                "name": "SE Volume",
                                 "index": 5,
-                                "scope": 1
+                                "scope": 1,
+                                "changed": true,
+                                "domain": "com.degica.vnm.default"
                             },
                             {
-                                "name": "",
+                                "name": "Voice Volume",
                                 "index": 6,
-                                "scope": 1
+                                "scope": 1,
+                                "domain": "com.degica.vnm.default",
+                                "changed": true
                             },
                             {
-                                "name": "",
+                                "name": "CristalAzulAtivado",
                                 "index": 7,
-                                "scope": 1
+                                "scope": 1,
+                                "domain": "com.degica.vnm.default",
+                                "changed": true
                             },
                             {
-                                "name": "",
+                                "name": "Escolha",
                                 "index": 8,
-                                "scope": 1
+                                "scope": 1,
+                                "domain": "com.degica.vnm.default",
+                                "changed": true
                             },
                             {
-                                "name": "",
+                                "name": "ProtagonistaEscolhido",
                                 "index": 9,
-                                "scope": 1
+                                "scope": 1,
+                                "domain": "com.degica.vnm.default",
+                                "changed": true
                             },
                             {
-                                "name": "",
+                                "name": "EscolheuMenino",
                                 "index": 10,
-                                "scope": 1
+                                "scope": 1,
+                                "domain": "com.degica.vnm.default",
+                                "changed": true
                             },
                             {
-                                "name": "",
+                                "name": "EscolheuMenina",
                                 "index": 11,
-                                "scope": 1
+                                "scope": 1,
+                                "domain": "com.degica.vnm.default",
+                                "changed": true
                             },
                             {
                                 "name": "",
@@ -567,10 +587,47 @@
                                 "changed": true
                             },
                             {
-                                "name": "",
+                                "name": "Sim",
                                 "index": 3,
                                 "scope": 1,
                                 "domain": "com.degica.vnm.default",
+                                "changed": true
+                            },
+                            {
+                                "name": "Nao",
+                                "index": 4,
+                                "scope": 1,
+                                "domain": "com.degica.vnm.default",
+                                "changed": true
+                            },
+                            {
+                                "name": "",
+                                "index": 5,
+                                "scope": 1,
+                                "changed": true
+                            },
+                            {
+                                "name": "",
+                                "index": 6,
+                                "scope": 1,
+                                "changed": true
+                            },
+                            {
+                                "name": "",
+                                "index": 7,
+                                "scope": 1,
+                                "changed": true
+                            },
+                            {
+                                "name": "",
+                                "index": 8,
+                                "scope": 1,
+                                "changed": true
+                            },
+                            {
+                                "name": "",
+                                "index": 9,
+                                "scope": 1,
                                 "changed": true
                             }
                         ],
@@ -586,37 +643,48 @@
                                 "name": "Backlog Opened",
                                 "index": 1,
                                 "scope": 1,
+                                "changed": true,
+                                "domain": "com.degica.vnm.default"
+                            },
+                            {
+                                "name": "Toggle Skip",
+                                "index": 2,
+                                "scope": 1,
+                                "domain": "com.degica.vnm.default",
                                 "changed": true
                             },
                             {
-                                "name": "",
-                                "index": 2,
-                                "scope": 1
-                            },
-                            {
-                                "name": "",
+                                "name": "Toggle Auto",
                                 "index": 3,
-                                "scope": 1
+                                "scope": 1,
+                                "domain": "com.degica.vnm.default",
+                                "changed": true
                             },
                             {
-                                "name": "",
+                                "name": "Settings opened",
                                 "index": 4,
-                                "scope": 1
+                                "scope": 1,
+                                "domain": "com.degica.vnm.default",
+                                "changed": true
                             },
                             {
-                                "name": "",
+                                "name": "AtivouAzul",
                                 "index": 5,
-                                "scope": 1
+                                "scope": 1,
+                                "domain": "com.degica.vnm.default",
+                                "changed": true
                             },
                             {
-                                "name": "",
+                                "name": "AtivouVerde",
                                 "index": 6,
-                                "scope": 1
+                                "scope": 1,
+                                "changed": true
                             },
                             {
-                                "name": "",
+                                "name": "AtivouVermelho",
                                 "index": 7,
-                                "scope": 1
+                                "scope": 1,
+                                "changed": true
                             },
                             {
                                 "name": "",

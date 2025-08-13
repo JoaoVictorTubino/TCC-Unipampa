@@ -1,0 +1,299 @@
+{
+    "uid": "0C2554880513B54F2F3AC148DFF1BEB52F01",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Tentar Novamente?",
+        "type": "vn.scene",
+        "parentId": "9FA0750443D16440577A5B61E50156BBB4FD",
+        "chapterUid": "8F8492BB491F294C0E6804117615C73121F8",
+        "order": 4,
+        "localizableStrings": {},
+        "commands": [
+            {
+                "id": "gs.ShowText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "predefinedPositionId": 8,
+                    "positionType": 0,
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "blendMode": 0,
+                    "positionOrigin": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Tentar Novamente?"
+                    },
+                    "position": {
+                        "x": -999999999,
+                        "y": 0
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 0,
+                        "easing.type": 1,
+                        "animation.type": 0,
+                        "origin": 1,
+                        "positionOrigin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 0
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "06D9EF284DFD174FB92973A3B2DAC54AC301",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.WaitForInput",
+                "params": {
+                    "key": 1,
+                    "state": 1,
+                    "inputSession": 0,
+                    "action": {
+                        "type": 0,
+                        "data": {
+                            "label": "$$C50EA7EF0592134BEF59E098BD7961D34EB4",
+                            "commonEventId": 0
+                        }
+                    }
+                },
+                "uid": "5E877B591B25774E8E78576121D54ABEE27E",
+                "indent": 0
+            },
+            {
+                "id": "gs.EraseText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "A75E5129344AB94F337840D192F88BFFCA0E",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "sim",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Sim"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 788,
+                        "y": 430,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 300,
+                            "height": 50,
+                            "zoom": 1,
+                            "angle": 0
+                        },
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 300,
+                            "height": 74
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "CDB43B0925E75941B34B6E141B017AE77F0F",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "nao",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Não"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 786,
+                        "y": 554,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {
+                            "x": 395,
+                            "y": 277,
+                            "width": 300,
+                            "height": 74,
+                            "zoom": 1,
+                            "angle": 0
+                        },
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 300,
+                            "height": 74
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "FF2ECF0D18267347D979D7D1B17A6CA72615",
+                "indent": 0
+            },
+            {
+                "id": "vn.ShowChoices",
+                "params": {},
+                "uid": "F6DBAEEF3761934C745B93571D670C001015",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "sim"
+                },
+                "uid": "6A9F1DFB1BEF5540C34981232A34AF57D820",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "7CDF6EF689B997405A0A32E988BD3F4421F8",
+                        "name": "Enigma do Bug"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "30FCECF03C50E04E6E9AFDA35DA940C027E7"
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "nao"
+                },
+                "uid": "B6EEAAFA6885C5417B3ABFB4821426D363FC",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "96EB6CA99CCFF94DE04917C216F085E8E747",
+                        "name": "Title Screen"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "43092842226C92404B89ADE1D364D4730AC5"
+            }
+        ],
+        "livePreviewDisabled": false,
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

@@ -7,7 +7,7 @@
         "type": "vn.scene",
         "parentId": "02AFFC0C6E40B642150AFF06D26EBCE45325",
         "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
-        "order": 1,
+        "order": 2,
         "localizableStrings": {},
         "commands": [
             {
@@ -129,7 +129,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "E foi melhor ainda pelo fato de eu estar aqui com meus dois melhores amigos, Makoto e Yumi"
+                        "defaultText": "E foi melhor ainda pelo fato de eu estar aqui com meus dois melhores amigos, Makoto e Yumi e Yosuke"
                     },
                     "position": 0,
                     "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",

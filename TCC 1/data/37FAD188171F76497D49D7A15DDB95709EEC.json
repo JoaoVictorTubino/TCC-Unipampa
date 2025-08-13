@@ -1,0 +1,126 @@
+{
+    "uid": "37FAD188171F76497D49D7A15DDB95709EEC",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Game Over",
+        "type": "vn.scene",
+        "parentId": "9FA0750443D16440577A5B61E50156BBB4FD",
+        "chapterUid": "8F8492BB491F294C0E6804117615C73121F8",
+        "order": 3,
+        "localizableStrings": {},
+        "commands": [
+            {
+                "id": "gs.ShowText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "predefinedPositionId": 8,
+                    "positionType": 0,
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "blendMode": 0,
+                    "positionOrigin": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Game Over!"
+                    },
+                    "position": {
+                        "x": -999999999,
+                        "y": 0
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 0,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "origin": 1,
+                        "positionOrigin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 0
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "3EEC6C224FC2234DAF1A7B55297E9A90F89C",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.WaitForInput",
+                "params": {
+                    "key": 1,
+                    "state": 1,
+                    "inputSession": 0,
+                    "action": {
+                        "type": 0,
+                        "data": {
+                            "label": "$$C50EA7EF0592134BEF59E098BD7961D34EB4",
+                            "commonEventId": 0
+                        }
+                    }
+                },
+                "uid": "EEA410AC22CBF1413B1A85E4CC83A2790569",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "0C2554880513B54F2F3AC148DFF1BEB52F01",
+                        "name": "Tentar Novamente?"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "7C0ADCD45A6714446E9BE5B51965B0DA8C53"
+            }
+        ],
+        "livePreviewDisabled": false,
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "numberVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

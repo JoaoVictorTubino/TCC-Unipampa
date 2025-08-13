@@ -3,7 +3,7 @@
     "isLoaded": true,
     "lastModificationTime": 0,
     "items": {
-        "name": "Bem Vinco a Academia dos Códigos",
+        "name": "Bem Vinco a Academia dos Códigos(Protagonista Masculino)",
         "type": "vn.scene",
         "parentId": "49DC3EE6267197419859C9E4D23776294B50",
         "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
@@ -137,7 +137,7 @@
                     },
                     "message": {
                         "lcId": "655FF70616B7E74DCF992D89F239835F710F",
-                        "defaultText": "Em um lugar onde a lógica e magia se encontram, um novo estudante se aproxima..."
+                        "defaultText": "Num lugar onde lógica e magia coexistem, quatro jovens cruzam os limites do mundo comum, adentrando a lendária Academia dos Códigos."
                     },
                     "position": 0,
                     "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
@@ -622,7 +622,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Este é Makoto, nos conhecemos desde a infância. Pode-se dizer que ele é meu melhor amigo."
+                        "defaultText": "Esse é o Makoto. Crescemos juntos. Recebemos a carta da academia no mesmo dia. Ele é curioso, engraçado e... às vezes um pouco distraído."
                     },
                     "position": 0,
                     "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
@@ -650,39 +650,6 @@
                 "uid": "ACF1868124460543951A70B477E7A330CC23"
             },
             {
-                "id": "gs.ShowMessage",
-                "params": {
-                    "waitForCompletion": 1,
-                    "duration": 15,
-                    "expressionId": null,
-                    "custom": {
-                        "object": {
-                            "x": 0,
-                            "y": 0,
-                            "size": {
-                                "width": 300,
-                                "height": 100
-                            }
-                        }
-                    },
-                    "message": {
-                        "lcId": null,
-                        "defaultText": "Alguns dias atrás nós dois recebemos uma carta de nos convocando para essa academia misteriosa."
-                    },
-                    "position": 0,
-                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
-                    "partial": 0,
-                    "fieldFlags": {
-                        "duration": 1
-                    },
-                    "expressions": [],
-                    "animations": []
-                },
-                "indent": 0,
-                "uid": "5D22A3EF4976484E3B6B79E6138F33FFB72D",
-                "expanded": true
-            },
-            {
                 "id": "gs.ClearMessage",
                 "params": {
                     "waitForCompletion": 1,
@@ -693,112 +660,6 @@
                 },
                 "indent": 0,
                 "uid": "84CA7D4E35522345FA0AB49525615A379C36"
-            },
-            {
-                "id": "gs.ShowMessage",
-                "params": {
-                    "waitForCompletion": 1,
-                    "duration": 15,
-                    "expressionId": null,
-                    "custom": {
-                        "object": {
-                            "x": 0,
-                            "y": 0,
-                            "size": {
-                                "width": 300,
-                                "height": 100
-                            }
-                        }
-                    },
-                    "message": {
-                        "lcId": null,
-                        "defaultText": "Nós dois sempre fomos alunos exemplares na escola, apesar do Makoto ser meio desligado as vezes."
-                    },
-                    "position": 0,
-                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
-                    "partial": 0,
-                    "fieldFlags": {
-                        "duration": 1
-                    },
-                    "expressions": [],
-                    "animations": [],
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "indent": 0,
-                "uid": "0A48343254A3174A515BBAE8455E212B019F",
-                "expanded": true
-            },
-            {
-                "id": "gs.ClearMessage",
-                "params": {
-                    "waitForCompletion": 1,
-                    "duration": 30,
-                    "fieldFlags": {
-                        "duration": 0
-                    }
-                },
-                "indent": 0,
-                "uid": "ABC10E7A96EDD341002917723F92198E199E"
-            },
-            {
-                "id": "vn.ChangeBackground",
-                "params": {
-                    "viewport": {
-                        "type": "scene"
-                    },
-                    "graphic": {
-                        "name": "Entrada.png",
-                        "folderPath": "Graphics/Backgrounds/Academia dos Códigos",
-                        "hue": 0,
-                        "opacity": 255,
-                        "blending": 0,
-                        "tone": {
-                            "red": 0,
-                            "green": 0,
-                            "blue": 0,
-                            "grey": 0
-                        }
-                    },
-                    "layer": 0,
-                    "duration": 0,
-                    "waitForCompletion": 0,
-                    "blendMode": 0,
-                    "origin": 0,
-                    "zOrder": 0,
-                    "loopVertical": 0,
-                    "loopHorizontal": 0,
-                    "easing": {
-                        "type": 0,
-                        "inOut": 1
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "fieldFlags": {
-                        "duration": 1,
-                        "easing.type": 1,
-                        "animation.type": 0,
-                        "origin": 1,
-                        "zOrder": 1,
-                        "blendMode": 1,
-                        "viewport.type": 1,
-                        "loopVertical": 1,
-                        "loopHorizontal": 1
-                    },
-                    "previewBackground": {
-                        "name": "$live_preview_snapshot"
-                    }
-                },
-                "indent": 0,
-                "uid": "BE2230DF2BEB5047DC38ACF921E6735BCA83",
-                "expanded": false
             },
             {
                 "id": "vn.ZoomBackground",
@@ -896,6 +757,82 @@
                     }
                 },
                 "uid": "687173689EA1064A291A11268631FFD60267",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": {
+                        "name": "Entrada.png",
+                        "folderPath": "Graphics/Backgrounds/Academia dos Códigos",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 0,
+                        "origin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1,
+                        "loopVertical": 1,
+                        "loopHorizontal": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "56D39F5B2D024441FE3ADB4381B30B46C748",
+                "expanded": false
+            },
+            {
+                "id": "vn.ZoomBackground",
+                "params": {
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "zooming": {
+                        "x": 135,
+                        "y": 135
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    }
+                },
+                "uid": "070F3695648301464A9856B8FF3D753B1FCD",
                 "indent": 0
             },
             {
@@ -1053,7 +990,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Esta é Yumi, uma garota que crsceu comigo e Makoto. Ela é a terceira integrante do nosso grupo de amigos."
+                        "defaultText": "Essa é a Yumi , ela racional e observadora. Sempre atenta. Com ela no grupo, nunca ficamos no escuro."
                     },
                     "position": 0,
                     "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
@@ -1126,6 +1063,162 @@
                 "uid": "5EBCF21D9B2D5244880B50A61EEF45E196C5"
             },
             {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": {
+                        "name": "Entrada.png",
+                        "folderPath": "Graphics/Backgrounds/Academia dos Códigos",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 0,
+                        "origin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1,
+                        "loopVertical": 1,
+                        "loopHorizontal": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "F2F1ED8D0ED40543A0385C403D0FEC4400D9",
+                "expanded": false
+            },
+            {
+                "id": "vn.ZoomBackground",
+                "params": {
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "zooming": {
+                        "x": 135,
+                        "y": 135
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    }
+                },
+                "uid": "69F799BD79A7304AA02A5E61C12FA8977D5B",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "56FA60F22D00254CB37B0BD660D974F970D0",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "8048BFFD83B1D344C838AEF811F023E20D29",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "51560AAD542C534B0F7AF8723E156457F1A8"
+            },
+            {
                 "id": "gs.ShowMessage",
                 "params": {
                     "waitForCompletion": 1,
@@ -1171,6 +1264,173 @@
                 "uid": "D7381E515668F441FC790B07E785B927C2A5"
             },
             {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Vocês também foram chamados pela carta estranha, não é?"
+                    },
+                    "position": 0,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "C3022B315154254A0B0B93752C861CDBE803",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Espero que a aventura seja tão boa quanto parece."
+                    },
+                    "position": 0,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "B9A75B3145F29143E66AF254A6606DAF1030",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "9F926A198A873441254B9CB4D4C09A5FA128"
+            },
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": null,
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "C47A5825801F384EE51AAC2525951150B778",
+                "indent": 0
+            },
+            {
+                "id": "vn.MoveCharacter",
+                "params": {
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "predefinedPositionId": 5,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "positionType": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    }
+                },
+                "uid": "907E29A06FC58144F67A2E01D7076315C440",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "E por último temos Yosuke, que conhecemos no trem a caminho da academia. Ele é destemido e curioso, sempre pronto para agir."
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "2BC6BF0D1140124BB578D709E4BEC68B3FE8",
+                "indent": 0,
+                "expanded": true
+            },
+            {
                 "id": "vn.CharacterJoinScene",
                 "params": {
                     "viewport": {
@@ -1212,6 +1472,64 @@
                     }
                 },
                 "uid": "A1485F5E9E1F25420459EA283675EF70E606",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 7,
+                    "expressionId": "7CD385DB3C11074C3828A3845FE6BF7C3681",
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 1,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 20,
+                        "y": 212,
+                        "angle": 0,
+                        "zoom": 1,
+                        "horizontalFlip": false,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "previewBackground": {
+                        "name": "",
+                        "folderPath": ""
+                    }
+                },
+                "uid": "0427BFAE29B24549716ABD74642AD2EE2532",
                 "indent": 0
             },
             {
@@ -1285,6 +1603,56 @@
                 "indent": 0
             },
             {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "19A02B82675EE547E62B4E988BBE94B30592",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "DACDE1DC17F3F749C8989E97C7D08CEC265E",
+                "indent": 0
+            },
+            {
                 "id": "vn.ChangeBackground",
                 "params": {
                     "viewport": {
@@ -1349,6 +1717,50 @@
                     }
                 },
                 "uid": "6A77165614B4514518087AE0C92D0409F2B7",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "B5C099BB4DE8764123284027539A24AAD7AB",
                 "indent": 0
             },
             {
@@ -1949,6 +2361,17 @@
                 "indent": 0
             },
             {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "59DE8CA6926C6643E688D3459E660A8D4C05",
+                "indent": 0
+            },
+            {
                 "id": "vn.CharacterExitScene",
                 "params": {
                     "characterId": "5FDD830E06D93643585926687B5F0BA85302",
@@ -1974,14 +2397,58 @@
                 "indent": 0
             },
             {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "91C14BAB37B792421349F6C13ED70CADBC42",
+                "indent": 0
+            },
+            {
                 "id": "gs.CallCommonEvent",
                 "params": {
-                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
                     "parameters": {
                         "values": []
                     }
                 },
-                "uid": "B905618E863B50467D8BCB2771ADD4F622BA",
+                "uid": "F9B271C5611ED547B399FD517DD973C05B53",
                 "indent": 0
             },
             {
@@ -2002,7 +2469,76 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Que estranho... não estou vendo ninguém aqui, só esse portão enorme."
+                        "defaultText": "Realmente. Não estou vendo ninguém aqui."
+                    },
+                    "position": 0,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "6078798E1BEFE84F23194C31884734C975FE",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "B905618E863B50467D8BCB2771ADD4F622BA",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "0159061317E2064017090748BA4C53E78AF2",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Eles tem razão... não estou vendo ninguém, só esse portão enorme."
                     },
                     "position": 0,
                     "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
@@ -2411,6 +2947,119 @@
                     }
                 },
                 "uid": "AA42ACFD8430274D153AB064A0FD0D6BC76E",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "449993183571124E835A8252216F0CBFCC6A",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "EBA8F84561CBA94F5A5AB9B1398AC197E330",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Meu deus! Esse lugar é incrível."
+                    },
+                    "position": 0,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "E23E90875A2AE54303688EC71AC077EF1878",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "C9AFF49B884191494E8ADAF4EB2370691FD5",
                 "indent": 0
             },
             {
@@ -3514,86 +4163,6 @@
                 "indent": 0
             },
             {
-                "id": "gs.CallCommonEvent",
-                "params": {
-                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
-                    "parameters": {
-                        "values": []
-                    }
-                },
-                "uid": "0100140E3C6D094F803892A236AA010E0F2A",
-                "indent": 0
-            },
-            {
-                "id": "gs.ShowMessage",
-                "params": {
-                    "waitForCompletion": 1,
-                    "duration": 15,
-                    "expressionId": null,
-                    "custom": {
-                        "object": {
-                            "x": 0,
-                            "y": 0,
-                            "size": {
-                                "width": 300,
-                                "height": 100
-                            }
-                        }
-                    },
-                    "message": {
-                        "lcId": null,
-                        "defaultText": "Ah, tipo um desafio de “se isso, então aquilo”?"
-                    },
-                    "position": 0,
-                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
-                    "partial": 0,
-                    "fieldFlags": {
-                        "duration": 1
-                    },
-                    "expressions": [],
-                    "animations": []
-                },
-                "uid": "4682797A2216C843024B6C3677E3198E84ED",
-                "indent": 0,
-                "expanded": true
-            },
-            {
-                "id": "gs.CallCommonEvent",
-                "params": {
-                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
-                    "parameters": {
-                        "values": []
-                    }
-                },
-                "uid": "525A04C78BC3E8453348B6139431D4F89468",
-                "indent": 0
-            },
-            {
-                "id": "vn.CharacterExitScene",
-                "params": {
-                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
-                    "duration": 0,
-                    "waitForCompletion": 0,
-                    "easing": {
-                        "type": 1,
-                        "inOut": 0
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "fieldFlags": {
-                        "duration": 1
-                    }
-                },
-                "uid": "AA2E10804394B1414348ED7153445A130BAA",
-                "indent": 0
-            },
-            {
                 "id": "vn.CharacterJoinScene",
                 "params": {
                     "viewport": {
@@ -3666,7 +4235,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": " Isso. Só uma das opções segue a lógica do enigma."
+                        "defaultText": "Então só uma das opções segue a lógica do enigma?"
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -3771,6 +4340,39 @@
                 },
                 "uid": "4EA4D2207BC66442186BC5350FA6813D657E",
                 "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Exatamente."
+                    },
+                    "position": 0,
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "56C49D812397754BD23B7C8306685A2B3817",
+                "indent": 0,
+                "expanded": true
             },
             {
                 "id": "gs.ShowMessage",
@@ -3947,7 +4549,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Você pode resolver o enigma, {GT:Input Text Result}? Tenho certeza de que você consegue."
+                        "defaultText": "Você pode resolver o enigma? Tenho certeza de que você consegue."
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -4087,11 +4689,157 @@
                 "expanded": true
             },
             {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "F724106B5AA9364885297175ED655F487FCF",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "6914BAFE5089D94C8D88F8004314E4465AEB",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "2D2CA6A717A35346FA5ACA278F2BD5AB693B",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Você consegue, {GT:Input Text Result}!"
+                    },
+                    "position": 0,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "9736BEA616A8094D057A4F549E51681F8AE0",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Acreditamos em você!"
+                    },
+                    "position": 0,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "DFEADBC41E2FF3496B2A4312913D420B9CF7",
+                "indent": 0,
+                "expanded": true
+            },
+            {
                 "id": "vn.ChangeScene",
                 "params": {
                     "scene": {
-                        "uid": "82DEE6988FB2F645672950D1B65402BFC86E",
-                        "name": "Enigma do Portão Lógico"
+                        "uid": "52ABC00C0460974A993819C3D6F565C6D55E",
+                        "name": "Interação com os companheiros(Capítulo 1)"
                     },
                     "savePrevious": 0,
                     "erasePictures": 0,

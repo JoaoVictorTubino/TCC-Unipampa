@@ -1,0 +1,57 @@
+{
+    "uid": "5EDF1CD581C269409D688B647F0C21C4EA81",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Dica AND",
+        "type": "data_record",
+        "category": "commonEvents",
+        "id": "5EDF1CD581C269409D688B647F0C21C4EA81",
+        "isFolder": false,
+        "parentId": "EE0B817A8A32964B2A48C9D30B967F012B03",
+        "data": {
+            "name": "Dica AND",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [],
+            "commands": [
+                {
+                    "id": "vn.ChangeScene",
+                    "params": {
+                        "scene": {
+                            "uid": "E81FBFAD8D3EC847F63B5F46D261D57E9EFD",
+                            "name": "AND"
+                        },
+                        "savePrevious": 0,
+                        "erasePictures": 0,
+                        "eraseTexts": 0,
+                        "eraseVideos": 0,
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 0
+                }
+            ],
+            "index": "5EDF1CD581C269409D688B647F0C21C4EA81",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ]
+        },
+        "order": 0
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

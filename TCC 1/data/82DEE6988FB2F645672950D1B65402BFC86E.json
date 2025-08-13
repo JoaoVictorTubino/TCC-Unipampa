@@ -663,6 +663,130 @@
                     },
                     "predefinedPositionId": 5,
                     "expressionId": null,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "E9E6FD5146F3A8464728F56740719526BB7C",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "6F5F95E7210C8841D56AD2E70A04E0DB7F21",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Eu sabia que você ia conseguir, {GT:Input Text Result}!"
+                    },
+                    "position": 0,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "4EC52D58801BE24DD0584191BA6A0179C03A",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "B6176CB440FB47434C3B41728A62798C9A12",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "ADFCB3B010921343BB3B7A344B90A87105FF",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
                     "characterId": "5FDD830E06D93643585926687B5F0BA85302",
                     "zOrder": 0,
                     "origin": 0,
@@ -742,6 +866,42 @@
                 "uid": "00F924745AD436461D094D9792A323EE88AF",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "D66F25973ED254473E8A4DE3D29B04BA46A7",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "311E0BF36443F54F4B285082369A0E0FF956",
+                "indent": 0
             },
             {
                 "id": "vn.ChangeScene",
@@ -829,6 +989,75 @@
                 "expanded": true
             },
             {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "F36CB5532B0962498C1846A31BDDBE64F90E",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "DBDDAB6C8C37984A243B0A365F9099BB4378",
+                "indent": 0
+            },
+            {
                 "id": "gs.ShowMessage",
                 "params": {
                     "waitForCompletion": 1,
@@ -846,7 +1075,40 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Caso a sombra apontar ao norte... posso considerar abrir."
+                        "defaultText": "Tentem observar melhor as pistas."
+                    },
+                    "position": 0,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "85D99F3A6E27124556397D206627E302D100",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Esse painel explica como funciona a lógica do enigma."
                     },
                     "position": 0,
                     "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
@@ -863,6 +1125,49 @@
                 "uid": "44EC0F865F45E44A5B984D365C3F2130F674",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "5A1A15533C24A84A481ADDB558ADC5601587",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "E2B414AD8A48904CB72BA3167BE7A91CE604",
+                        "name": "Painel de Dicas"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "6C1E4B172BDE474043597E334D9F6EB1C46B"
             },
             {
                 "id": "vn.Choice",
@@ -1169,6 +1474,75 @@
                 "expanded": true
             },
             {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "7D570D172249924D998953D8D904CEC3A77A",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 3,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 0
+                    }
+                },
+                "uid": "3855ABB63E55C645748AF1C2D2B5BA0B231C",
+                "indent": 0
+            },
+            {
                 "id": "gs.ShowMessage",
                 "params": {
                     "waitForCompletion": 1,
@@ -1186,7 +1560,40 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Caso a sombra apontar ao norte... posso considerar abrir."
+                        "defaultText": "Tentem observar melhor as pistas."
+                    },
+                    "position": 0,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "B9422E684EC0B74399597AA22B9A667FE7B0",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Esse painel explica como funciona a lógica do enigma."
                     },
                     "position": 0,
                     "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
@@ -1200,9 +1607,52 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "C405C0DB66AFF34E7F48E1B66203B7B711A7",
+                "uid": "DCC7A8DC9F927848BE5A14C8A83233859515",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "E2B414AD8A48904CB72BA3167BE7A91CE604",
+                        "name": "Painel de Dicas"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "205C1B207A1DA24AE33A2EB4C132242000C3"
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "BE48B48B4575C3460028FC0564AC65ECBE9E",
+                "indent": 0
             },
             {
                 "id": "vn.Choice",
@@ -1515,6 +1965,75 @@
                 "expanded": true
             },
             {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "989E6E9E42F20246ED388E14C9B76FDEF26D",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "B9F913682B47C249B22998A312B6C1024D64",
+                "indent": 0
+            },
+            {
                 "id": "gs.ShowMessage",
                 "params": {
                     "waitForCompletion": 1,
@@ -1532,7 +2051,40 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Caso a sombra apontar ao norte... posso considerar abrir."
+                        "defaultText": "Tentem observar melhor as pistas."
+                    },
+                    "position": 0,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "ADBB1F5D1F9A8844218918C40E342ABF8480",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Esse painel explica como funciona a lógica do enigma."
                     },
                     "position": 0,
                     "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
@@ -1546,9 +2098,52 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "D55C68B824171145215A24568E28305C3911",
+                "uid": "8B99458B76A83441A0580718C88B56366500",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "D35589C36629A64C109862206AD0BC92C59E",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "E2B414AD8A48904CB72BA3167BE7A91CE604",
+                        "name": "Painel de Dicas"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "007D891197FB8946F138752007A382EF3D93"
             },
             {
                 "id": "vn.Choice",

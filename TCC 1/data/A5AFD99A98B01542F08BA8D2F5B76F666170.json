@@ -1,0 +1,55 @@
+{
+    "uid": "A5AFD99A98B01542F08BA8D2F5B76F666170",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "InteragirYosukeCh2",
+        "type": "data_record",
+        "category": "commonEvents",
+        "id": "A5AFD99A98B01542F08BA8D2F5B76F666170",
+        "isFolder": false,
+        "parentId": "6466E0BB214AC6434119A1B3C7171CC2D258",
+        "data": {
+            "name": "InteragirYosukeCh2",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [],
+            "commands": [
+                {
+                    "id": "vn.CallScene",
+                    "params": {
+                        "scene": {
+                            "uid": "CF279C5079B4C142A68B87A124EAB42FF096",
+                            "name": "Interagir Yosuke(Ch2)"
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 0,
+                    "uid": "2268863A8B5DB44E4889D3D27F9C7E0671EB"
+                }
+            ],
+            "index": "A5AFD99A98B01542F08BA8D2F5B76F666170",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ]
+        },
+        "order": 1,
+        "localizableStrings": {}
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

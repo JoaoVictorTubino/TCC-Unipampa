@@ -1,0 +1,384 @@
+{
+    "uid": "2A89B3CB7C18344B1368BF35CB5D1EE27A41",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Conclusão alternativa",
+        "type": "vn.scene",
+        "parentId": "88E5146317521149147895A47133CC5BA6C1",
+        "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+        "order": 0,
+        "localizableStrings": {},
+        "commands": [
+            {
+                "id": "gs.PlayMusic",
+                "params": {
+                    "layer": 0,
+                    "loop": 1,
+                    "music": {
+                        "folderPath": "Audio/Music",
+                        "name": "Tutorial_-_Good_Mood.ogg",
+                        "volume": 100,
+                        "playbackRate": 100
+                    },
+                    "fadeInDuration": 0,
+                    "playTime": {
+                        "min": 10,
+                        "max": 30
+                    },
+                    "playRange": {
+                        "start": 10,
+                        "end": 20
+                    },
+                    "playType": 0,
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "music.volume": 1,
+                        "music.playbackRate": 1,
+                        "fadeInDuration": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "87F6503606F467497A5948E172664910F138",
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "E esse foi nosso primeiro dia na Academia dos Códigos"
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "8E362D455C96554D099849640A0EF904877B",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Foi uma experiência muito diferente e divertida."
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "1D42AE54427E8846F55968C5AFAAEED7E9A8",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "E foi melhor ainda pelo fato de eu estar aqui com meus dois melhores amigos, Makoto e Yumi e Yosuke"
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "000523DA49CC134A29494240E3D979E9894C",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Falando nisso. O uqe será que aquele símbolo que o Yosuke encontrou segnifica?"
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "18E7760A3E8DC545F02920308713CA366986",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Falando nisso. O uqe será que aquele símbolo que o Yosuke encontrou segnifica?"
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "F02C3FC87B08E14A947A8901D648AE3A648B",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Quais outras entidades e enigmas iremos encontra aquir?"
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "258823267D01334A3E9BF462FA67C844FE3D",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Mal posso esperar para descobrir."
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "9CEB62033DB4D249E078E466A8C4A8EB15F0",
+                "expanded": true
+            },
+            {
+                "id": "gs.ChangeTextSettings",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 1,
+                    "bold": 0,
+                    "italic": 0,
+                    "underline": 0,
+                    "smallCaps": 0,
+                    "strikeThrough": 0,
+                    "lineSpacing": 0,
+                    "padding": [
+                        6,
+                        0,
+                        6,
+                        0
+                    ],
+                    "font": "Verdana",
+                    "size": 80,
+                    "outline": 0,
+                    "shadow": 0,
+                    "outlineColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "shadowColor": {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0,
+                        "alpha": 255
+                    },
+                    "fieldFlags": {
+                        "font": 1,
+                        "size": 0
+                    }
+                },
+                "indent": 0,
+                "uid": "46B463F13AF13842A05A4BF922C3DA2E0C0E"
+            },
+            {
+                "id": "gs.ShowText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "predefinedPositionId": 8,
+                    "positionType": 0,
+                    "number": 1,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "positionOrigin": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Continua..."
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "origin": 1,
+                        "positionOrigin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "A3F729444B49884698591EB381549446C386",
+                "expanded": true
+            }
+        ],
+        "livePreviewDisabled": false
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

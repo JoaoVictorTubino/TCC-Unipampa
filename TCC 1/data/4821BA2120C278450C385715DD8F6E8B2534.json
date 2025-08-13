@@ -1,0 +1,43 @@
+{
+    "uid": "4821BA2120C278450C385715DD8F6E8B2534",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Yosuke",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "4821BA2120C278450C385715DD8F6E8B2534",
+        "isFolder": false,
+        "parentId": "EB5EAD995509584C6B995A9832789968F05F",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Yosuke",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "Yosuke.png",
+                        "folderPath": "Graphics/Characters/Yosuke",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "4821BA2120C278450C385715DD8F6E8B2534"
+        },
+        "order": 0
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

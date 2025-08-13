@@ -694,7 +694,7 @@
                     },
                     "predefinedPositionId": 5,
                     "expressionId": null,
-                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
                     "zOrder": 0,
                     "origin": 0,
                     "blendMode": 0,
@@ -759,10 +759,10 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Ou talvez... só estamos observando melhor.\n"
+                        "defaultText": "Eu sabia que você ia conseguir, {GT:Input Text Result}!"
                     },
                     "position": 0,
-                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
@@ -773,6 +773,75 @@
                 "uid": "3E0711D068F41244F06B7EA0C77BE39618FA",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "4FEAFAD711412442463B66954F6AC32D34CD",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "659D8A37875DD6441F8876A4026BDECD6E9B",
+                "indent": 0
             },
             {
                 "id": "gs.ShowMessage",
@@ -1075,50 +1144,6 @@
                 "indent": 0
             },
             {
-                "id": "vn.CharacterJoinScene",
-                "params": {
-                    "viewport": {
-                        "type": "scene"
-                    },
-                    "predefinedPositionId": 5,
-                    "expressionId": null,
-                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
-                    "zOrder": 0,
-                    "origin": 0,
-                    "blendMode": 0,
-                    "positionType": 0,
-                    "motionBlur": {
-                        "enabled": 0,
-                        "delay": 2,
-                        "opacity": 100,
-                        "dissolveSpeed": 3
-                    },
-                    "position": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "easing": {
-                        "type": 0,
-                        "inOut": 0
-                    },
-                    "duration": 0,
-                    "waitForCompletion": 1,
-                    "fieldFlags": {
-                        "duration": 1
-                    }
-                },
-                "uid": "32160EE56E9ED648162922D5F95A5FF6A763",
-                "indent": 0
-            },
-            {
                 "id": "gs.CallCommonEvent",
                 "params": {
                     "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
@@ -1147,10 +1172,10 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "A gente precisa observar melhor as variáveis antes de decidir.\n"
+                        "defaultText": "Tentem observar melhor as pistas."
                     },
                     "position": 0,
-                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
@@ -1158,9 +1183,63 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "75270F1D6151A547825859B9BB7D25354A6D",
+                "uid": "11628C327FAED343D47A912970D27D508C38",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Esse painel explica como funciona a lógica do enigma."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "9CE121F64143754D75184171E5219FBAF41B",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "6E37E36F8FFB054109088EB2FBC2E4F1EB39",
+                        "name": "Painel de Dicas CH2"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "F7C6909028A6324A02791AB5F61A481B73BC"
             },
             {
                 "id": "gs.CallCommonEvent",
@@ -1171,31 +1250,6 @@
                     }
                 },
                 "uid": "E0E8CFE125806741BD39CF260C3234288495",
-                "indent": 0
-            },
-            {
-                "id": "vn.CharacterExitScene",
-                "params": {
-                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
-                    "duration": 0,
-                    "waitForCompletion": 0,
-                    "easing": {
-                        "type": 1,
-                        "inOut": 0
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "fieldFlags": {
-                        "duration": 1
-                    }
-                },
-                "uid": "F4CBAF518634214BCC7B9721CCE1BA483370",
                 "indent": 0
             },
             {
@@ -1564,50 +1618,6 @@
                 "indent": 0
             },
             {
-                "id": "vn.CharacterJoinScene",
-                "params": {
-                    "viewport": {
-                        "type": "scene"
-                    },
-                    "predefinedPositionId": 5,
-                    "expressionId": null,
-                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
-                    "zOrder": 0,
-                    "origin": 0,
-                    "blendMode": 0,
-                    "positionType": 0,
-                    "motionBlur": {
-                        "enabled": 0,
-                        "delay": 2,
-                        "opacity": 100,
-                        "dissolveSpeed": 3
-                    },
-                    "position": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "easing": {
-                        "type": 0,
-                        "inOut": 0
-                    },
-                    "duration": 0,
-                    "waitForCompletion": 1,
-                    "fieldFlags": {
-                        "duration": 1
-                    }
-                },
-                "uid": "0E6612C632E24445AF4AE4161ABEFBD3B0EC",
-                "indent": 0
-            },
-            {
                 "id": "gs.CallCommonEvent",
                 "params": {
                     "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
@@ -1636,10 +1646,10 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "A gente precisa observar melhor as variáveis antes de decidir.\n"
+                        "defaultText": "Tentem observar melhor as pistas."
                     },
                     "position": 0,
-                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
@@ -1647,7 +1657,43 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "1563A39F3A49334BE64AD33386AF5C146467",
+                "uid": "3494DCEE8DD6D549C89BF9E8FA19AB1BDF04",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Esse painel explica como funciona a lógica do enigma."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "7BE0D21B43BB6142D93BCA52753C5A0E92C8",
                 "indent": 0,
                 "expanded": true
             },
@@ -1663,29 +1709,22 @@
                 "indent": 0
             },
             {
-                "id": "vn.CharacterExitScene",
+                "id": "vn.ChangeScene",
                 "params": {
-                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
-                    "duration": 0,
-                    "waitForCompletion": 0,
-                    "easing": {
-                        "type": 1,
-                        "inOut": 0
+                    "scene": {
+                        "uid": "6E37E36F8FFB054109088EB2FBC2E4F1EB39",
+                        "name": "Painel de Dicas CH2"
                     },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "fieldFlags": {
-                        "duration": 1
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "DABC6C603AC53745BD8959135057411E6DCA",
-                "indent": 0
+                "indent": 0,
+                "uid": "8B37BE102897F44850882D54B6810F4B6056"
             },
             {
                 "id": "gs.CallCommonEvent",
@@ -2005,7 +2044,7 @@
                         "values": []
                     }
                 },
-                "uid": "9B0AB7CA2A1F114D1D187D232794CF32BCEE",
+                "uid": "159D5D4F225AD747B839F8377518219E12B0",
                 "indent": 0
             },
             {
@@ -2037,7 +2076,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "639BBDDA1A4326471749BDA77F80201F3907",
+                "uid": "7DFA81E53E7023408388D976F9A08C501C65",
                 "indent": 0,
                 "expanded": true
             },
@@ -2049,51 +2088,7 @@
                         "values": []
                     }
                 },
-                "uid": "23C5A52831AF3540AE280268E1C6E720601B",
-                "indent": 0
-            },
-            {
-                "id": "vn.CharacterJoinScene",
-                "params": {
-                    "viewport": {
-                        "type": "scene"
-                    },
-                    "predefinedPositionId": 5,
-                    "expressionId": null,
-                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
-                    "zOrder": 0,
-                    "origin": 0,
-                    "blendMode": 0,
-                    "positionType": 0,
-                    "motionBlur": {
-                        "enabled": 0,
-                        "delay": 2,
-                        "opacity": 100,
-                        "dissolveSpeed": 3
-                    },
-                    "position": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "easing": {
-                        "type": 0,
-                        "inOut": 0
-                    },
-                    "duration": 0,
-                    "waitForCompletion": 1,
-                    "fieldFlags": {
-                        "duration": 1
-                    }
-                },
-                "uid": "254FFD69680CA74E0E8ABEF2E0B26F2BE20B",
+                "uid": "F6D2C80797BF0547114B0673D4CE9407A115",
                 "indent": 0
             },
             {
@@ -2104,7 +2099,7 @@
                         "values": []
                     }
                 },
-                "uid": "6A2DE2EA9224B4499C795DD617DCCEF00C27",
+                "uid": "068F992D8F3F0248A29B01549D57BD8B402B",
                 "indent": 0
             },
             {
@@ -2125,10 +2120,10 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "A gente precisa observar melhor as variáveis antes de decidir.\n"
+                        "defaultText": "Tentem observar melhor as pistas."
                     },
                     "position": 0,
-                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
@@ -2136,7 +2131,43 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "3476213219AAD84562690C587CB87B46BDE7",
+                "uid": "E2A004AC5DF9524EAC3B0BE3D558046C48F6",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Esse painel explica como funciona a lógica do enigma."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "5E86948C77FE3741A3493AE67146A50AC7B7",
                 "indent": 0,
                 "expanded": true
             },
@@ -2148,33 +2179,26 @@
                         "values": []
                     }
                 },
-                "uid": "C6824C188ABC7445A4187739AC7F57E86FF0",
+                "uid": "13EE418616A114429E596269A3337ABC2790",
                 "indent": 0
             },
             {
-                "id": "vn.CharacterExitScene",
+                "id": "vn.ChangeScene",
                 "params": {
-                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
-                    "duration": 0,
-                    "waitForCompletion": 0,
-                    "easing": {
-                        "type": 1,
-                        "inOut": 0
+                    "scene": {
+                        "uid": "6E37E36F8FFB054109088EB2FBC2E4F1EB39",
+                        "name": "Painel de Dicas CH2"
                     },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "fieldFlags": {
-                        "duration": 1
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "3C3BD011255DE248CB69F4E312B5C67D3E9D",
-                "indent": 0
+                "indent": 0,
+                "uid": "1C5CAC664B378148372803620151C5D97784"
             },
             {
                 "id": "gs.CallCommonEvent",
@@ -2184,7 +2208,7 @@
                         "values": []
                     }
                 },
-                "uid": "B7B6DBA705FB3742C52A18C1EA127DD5CE69",
+                "uid": "F15411AF6DB7A34D941B99C80947B5BE4D89",
                 "indent": 0
             },
             {

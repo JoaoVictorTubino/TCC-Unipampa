@@ -1,0 +1,43 @@
+{
+    "uid": "FBA3ED7A49DFB84ECF4BE6F9FC4ADD2209EB",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Bug",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "FBA3ED7A49DFB84ECF4BE6F9FC4ADD2209EB",
+        "isFolder": false,
+        "parentId": "56D8E68A41737444EA490E57B2A81F5337CD",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Bug",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "Bug.png",
+                        "folderPath": "Graphics/Characters/Bug",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "FBA3ED7A49DFB84ECF4BE6F9FC4ADD2209EB"
+        },
+        "order": 0
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

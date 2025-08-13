@@ -1,0 +1,40 @@
+{
+    "uid": "5B07158A208A9344513ACC8982ED8ED22CFB",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Yosuke",
+        "type": "data_record",
+        "category": "characters",
+        "id": "5B07158A208A9344513ACC8982ED8ED22CFB",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "data": {
+            "name": {
+                "lcId": null,
+                "defaultText": "Yosuke"
+            },
+            "textColor": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 255
+            },
+            "defaultExpressionId": "4821BA2120C278450C385715DD8F6E8B2534",
+            "timeTalkingToVoiceVolume": true,
+            "talkingVolume": 5,
+            "lipSyncSensitivity": 1,
+            "breathIntensity": 1,
+            "idleIntensity": 1,
+            "params": [],
+            "index": "5B07158A208A9344513ACC8982ED8ED22CFB"
+        },
+        "order": 2
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

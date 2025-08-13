@@ -1,0 +1,1173 @@
+{
+    "uid": "7CDF6EF689B997405A0A32E988BD3F4421F8",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Enigma do Bug",
+        "type": "vn.scene",
+        "parentId": "9FA0750443D16440577A5B61E50156BBB4FD",
+        "chapterUid": "8F8492BB491F294C0E6804117615C73121F8",
+        "order": 2,
+        "livePreviewDisabled": false,
+        "localizableStrings": {},
+        "commands": [
+            {
+                "id": "gs.PlayMusic",
+                "params": {
+                    "layer": 0,
+                    "loop": 1,
+                    "music": {
+                        "folderPath": "Audio/Music/Bug Themes",
+                        "name": "8-bit-dungeon-251388.ogg",
+                        "volume": 100,
+                        "playbackRate": 100
+                    },
+                    "fadeInDuration": 0,
+                    "playTime": {
+                        "min": 10,
+                        "max": 30
+                    },
+                    "playRange": {
+                        "start": 10,
+                        "end": 20
+                    },
+                    "playType": 0,
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "music.volume": 1,
+                        "music.playbackRate": 1,
+                        "fadeInDuration": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "EB86661359317546DF5A3DA499DD8BED6EC7",
+                "expanded": false
+            },
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": {
+                        "name": "Sala Antiga.png",
+                        "folderPath": "Graphics/Backgrounds/Academia dos Códigos",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 0,
+                        "origin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1,
+                        "loopVertical": 1,
+                        "loopHorizontal": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "6345AD4A34F44540DA6A69F77363781F8C05",
+                "expanded": false
+            },
+            {
+                "id": "vn.ZoomBackground",
+                "params": {
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "zooming": {
+                        "x": 135,
+                        "y": 135
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "fieldFlags": {
+                        "easing.type": 1
+                    }
+                },
+                "uid": "8D20E6EE6A195040A3382565FE4CB09CA6B7",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 1,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 132,
+                        "y": 394,
+                        "angle": 0,
+                        "zoom": 1,
+                        "horizontalFlip": false,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "previewBackground": {
+                        "name": "",
+                        "folderPath": ""
+                    }
+                },
+                "uid": "87670A8D6D29B340CC4A85845735C8B2549D",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "A06C22AC5E89024B926B0499CCE6B8E36EA8",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "A porta só se abrirá caso for noite e estiver chovendo ou for manhã E a temperatura estiver quente.\nQualquer outra combinação manterá a porta fechada."
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "159431A8116BE6479C485496CFB6C0FE994A",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "correta",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se for noite e estiver chovendo ou Se for manhã e estiver quente."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 518,
+                        "y": 124,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {
+                            "x": 313,
+                            "y": 62,
+                            "width": 662,
+                            "height": 66,
+                            "zoom": 1,
+                            "angle": 0
+                        },
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 882,
+                            "height": 66
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "4E13BE071B75224771697676BA9DA6F9593F",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada1",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": " Se for noite ou estiver chovendo, a porta se abrirá."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 520,
+                        "y": 200,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {
+                            "x": 251,
+                            "y": 100,
+                            "width": 882,
+                            "height": 66,
+                            "zoom": 1,
+                            "angle": 0
+                        },
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 882,
+                            "height": 66
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "3C98C0FC5ADA954FB60955249960AC9F5100",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada2",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se for manhã e estiver quente, a porta não se abrirá."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 522,
+                        "y": 278,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {
+                            "x": 313,
+                            "y": 62,
+                            "width": 662,
+                            "height": 66,
+                            "zoom": 1,
+                            "angle": 0
+                        },
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 882,
+                            "height": 66
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "B360163906C514488F5987521C5A68E14661",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada3",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se for noite e estiver quente, a porta se abrirá."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 526,
+                        "y": 360,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {
+                            "x": 251,
+                            "y": 169,
+                            "width": 882,
+                            "height": 66,
+                            "zoom": 1,
+                            "angle": 0
+                        },
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 882,
+                            "height": 66
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "2E24162C1591C84B61589CF51AA956B49AE3",
+                "indent": 0
+            },
+            {
+                "id": "vn.ShowChoices",
+                "params": {},
+                "uid": "70C2EE9F7F48D649772B1E328610329F04FE",
+                "indent": 0
+            },
+            {
+                "id": "gs.Idle",
+                "params": {},
+                "uid": "28AEF2EF8BA0A74C9529E5B5B3B5652E2A12",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "correta"
+                },
+                "uid": "61F1C28A572872436D4B664532DC2C15EC27",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "49DF655E482EE24DAF0AA01438642A2F415E",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "... Interessante."
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "096A84300277F7465799BC65A14A5A6303B0",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Vocês realmente entenderam a lógica da distorção... ou tiveram sorte?"
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "0992070F70DBA6439C6A90D5402717CE2BB0",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "De qualquer forma, a porta se abre... mas não pensem que estão mais perto da vitória."
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "FDF243EC7D50044BC27A11B3FA9E93056895",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Isso foi apenas o primeiro passo para perderem o resto da sanidade.\n"
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "C1F817570AF0C343EC68F834B41C4F773557",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.LoopCommand",
+                "params": {},
+                "uid": "FF68EE888BA9114001883DD357088F1985CE",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "errada1"
+                },
+                "uid": "575D9DA71A78924A1B1BFD23CAA3D9518C54",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "B7D55EFC8AA2F4420D3A5557B3630288E26F",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Hahahaha... Eu avisei, não avisei?\n"
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "01F088B26B0AD542BA897A45D4033A975D24",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Sua lógica ainda está presa a correntes antigas."
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "11F9BDAD9C29D043597AA933DF01D80ED934",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Cada escolha errada fortalece meu domínio sobre este lugar... e enfraquece o seu."
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "1781BCE237010841444AD411CB30C3F0F815",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Aproveitem sua estadia nessa sala."
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "DF0D14B271854042560B4C226CDE8AEF084D",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "37FAD188171F76497D49D7A15DDB95709EEC",
+                        "name": "Game Over"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "F61F2C033AE5804110088E522CF7F2863C9E"
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "errada2"
+                },
+                "uid": "DCDD2C1C56A8F24F036ADFD84889FEDA9DF5",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "AC62EA296851F74FC10A0616F15866DE8AAA",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Hahahaha... Eu avisei, não avisei?\n"
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "B703958F9B6794419A79B61799F8E11AF212",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Sua lógica ainda está presa a correntes antigas."
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "BC151E056C9A0443B938DE872C9ADBCD75CE",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Cada escolha errada fortalece meu domínio sobre este lugar... e enfraquece o seu."
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "878F981F72D4E241F689411222035B0C1DD8",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Aproveitem sua estadia nessa sala."
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "0585CA8901AB314C6C4B9BF102791F6DB89A",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "37FAD188171F76497D49D7A15DDB95709EEC",
+                        "name": "Game Over"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "7B824B9B2B16684AC14B2DE3A56395E3BB68"
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "errada3"
+                },
+                "uid": "C4097E3537E6864BDD6806F8F54862413924",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "FAC5BFE650803440371AA805E2A423B96002",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Hahahaha... Eu avisei, não avisei?\n"
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "E22890A18874D74705294F310F4E3C5E8D55",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Sua lógica ainda está presa a correntes antigas."
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "2C06536795C5564DD4889B2431B7081AFE67",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Cada escolha errada fortalece meu domínio sobre este lugar... e enfraquece o seu."
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "12E713F601A6C8498F8AA2448D6CFD49E31D",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Aproveitem sua estadia nessa sala."
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "2B07576883A67844EB591DB7950B28E99E74",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "37FAD188171F76497D49D7A15DDB95709EEC",
+                        "name": "Game Over"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "55A339E042E26740146AEF46F8E3D227531E"
+            }
+        ],
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

@@ -1,0 +1,43 @@
+{
+    "uid": "810F3E869968A641BC4A1133658AF5FC5F4C",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Painel Visual Capitulo 2",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "810F3E869968A641BC4A1133658AF5FC5F4C",
+        "isFolder": false,
+        "parentId": "F4604FBC5BB535452D080A67B6B1E23276ED",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Painel Visual Capitulo 2",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "5fcf47f6-60f9-4ec3-9679-0a67d2947915.jpg",
+                        "folderPath": "Graphics/Exemplos Visuais",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "810F3E869968A641BC4A1133658AF5FC5F4C"
+        },
+        "order": 0
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

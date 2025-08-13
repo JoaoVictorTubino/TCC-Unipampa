@@ -1,0 +1,23 @@
+{
+    "uid": "F4604FBC5BB535452D080A67B6B1E23276ED",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Painel Visual Capítulo 2",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "isFolder": true,
+        "parentId": "ROOT",
+        "data": {
+            "name": "Painel Visual Capítulo 2",
+            "isFolder": true
+        },
+        "order": 1
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

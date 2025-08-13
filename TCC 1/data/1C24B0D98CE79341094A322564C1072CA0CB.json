@@ -1,0 +1,23 @@
+{
+    "uid": "1C24B0D98CE79341094A322564C1072CA0CB",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Interacoes Capitulo 1",
+        "type": "data_record",
+        "category": "commonEvents",
+        "isFolder": true,
+        "parentId": "ROOT",
+        "data": {
+            "name": "Interacoes Capitulo 1",
+            "isFolder": true
+        },
+        "order": 3
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

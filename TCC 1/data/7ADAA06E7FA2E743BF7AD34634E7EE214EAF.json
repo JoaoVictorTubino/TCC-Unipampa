@@ -1,0 +1,55 @@
+{
+    "uid": "7ADAA06E7FA2E743BF7AD34634E7EE214EAF",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "InteragirMakotoCh2",
+        "type": "data_record",
+        "category": "commonEvents",
+        "id": "7ADAA06E7FA2E743BF7AD34634E7EE214EAF",
+        "isFolder": false,
+        "parentId": "6466E0BB214AC6434119A1B3C7171CC2D258",
+        "data": {
+            "name": "InteragirMakotoCh2",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [],
+            "commands": [
+                {
+                    "id": "vn.CallScene",
+                    "params": {
+                        "scene": {
+                            "uid": "D5CB2F962F10884D783BED9136712C966E1F",
+                            "name": "Interqagir Makoto(Ch2)"
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 0,
+                    "uid": "94CCDDE19EBF424CF50AE9B6B083BD7D64A8"
+                }
+            ],
+            "index": "7ADAA06E7FA2E743BF7AD34634E7EE214EAF",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ]
+        },
+        "order": 2,
+        "localizableStrings": {}
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

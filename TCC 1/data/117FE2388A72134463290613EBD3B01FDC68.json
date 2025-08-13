@@ -1,0 +1,55 @@
+{
+    "uid": "117FE2388A72134463290613EBD3B01FDC68",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "InteragirMakoto",
+        "type": "data_record",
+        "category": "commonEvents",
+        "id": "117FE2388A72134463290613EBD3B01FDC68",
+        "isFolder": false,
+        "parentId": "1C24B0D98CE79341094A322564C1072CA0CB",
+        "data": {
+            "name": "InteragirMakoto",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [],
+            "commands": [
+                {
+                    "id": "vn.CallScene",
+                    "params": {
+                        "scene": {
+                            "uid": "10897CE11D0AF643A33A52D1B7B04C809635",
+                            "name": "Interagir com Makoto"
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 0,
+                    "uid": "048FE69227FF874ED59BFE025938CAC25888"
+                }
+            ],
+            "index": "117FE2388A72134463290613EBD3B01FDC68",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ]
+        },
+        "order": 1,
+        "localizableStrings": {}
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

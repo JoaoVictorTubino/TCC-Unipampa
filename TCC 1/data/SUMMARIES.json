@@ -815,7 +815,7 @@
         },
         "3305C56CKBF5BA44BFS8614EE4B277E49F6A": {
             "items": {
-                "name": "Bem Vinco a Academia dos Códigos",
+                "name": "Bem Vinco a Academia dos Códigos(Protagonista Masculino)",
                 "type": "vn.scene",
                 "parentId": "49DC3EE6267197419859C9E4D23776294B50",
                 "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
@@ -2592,84 +2592,84 @@
             "items": {
                 "name": "Ace",
                 "type": "data_record",
-                "order": 9
+                "order": 12
             }
         },
         "154E7EBC9DACD640AD4816514200D508D566": {
             "items": {
                 "name": "Anna",
                 "type": "data_record",
-                "order": 10
+                "order": 13
             }
         },
         "BD57DD5D6E79124D94396CF100590D3A5FD4": {
             "items": {
                 "name": "Daniel",
                 "type": "data_record",
-                "order": 11
+                "order": 14
             }
         },
         "4A7D5EC17353564C3E39DA52EBDE615E4D0B": {
             "items": {
                 "name": "Emma",
                 "type": "data_record",
-                "order": 12
+                "order": 15
             }
         },
         "D817084774AB154CCE68B7B2587B0058EBFA": {
             "items": {
                 "name": "Jane",
                 "type": "data_record",
-                "order": 13
+                "order": 16
             }
         },
         "74220BB53AC3194FC8792C457869A91E2152": {
             "items": {
                 "name": "Jeremy",
                 "type": "data_record",
-                "order": 14
+                "order": 17
             }
         },
         "9CF81D412511E440BE4B99A07AB048F94C48": {
             "items": {
                 "name": "John",
                 "type": "data_record",
-                "order": 15
+                "order": 18
             }
         },
         "A55CECA64F38884F958805C4F621F8053ECD": {
             "items": {
                 "name": "Lila",
                 "type": "data_record",
-                "order": 16
+                "order": 19
             }
         },
         "E8329ECB1FADC546620B0F11CE1DDE19B33F": {
             "items": {
                 "name": "Lucy",
                 "type": "data_record",
-                "order": 17
+                "order": 20
             }
         },
         "FABBDAA473FA764AFD186312445CFD5F2DFD": {
             "items": {
                 "name": "Sam",
                 "type": "data_record",
-                "order": 18
+                "order": 21
             }
         },
         "5C079A01512B3743D258CDA1897DA16CCF1A": {
             "items": {
                 "name": "Victor",
                 "type": "data_record",
-                "order": 19
+                "order": 22
             }
         },
         "9A8F21B05033014BFD78A3566E843985607A": {
             "items": {
                 "name": "Willow",
                 "type": "data_record",
-                "order": 20
+                "order": 23
             }
         },
         "3A78BF4E122004444629EDF41AD5ABD03B9C": {
@@ -2786,7 +2786,7 @@
             "items": {
                 "name": "Ace",
                 "type": "data_record",
-                "order": 6
+                "order": 9
             }
         },
         "C3EC5E3F457E90417C7902645ED63672D205": {
@@ -2961,7 +2961,7 @@
             "items": {
                 "name": "Daniel",
                 "type": "data_record",
-                "order": 7
+                "order": 10
             }
         },
         "834BEA330D771243A87BA9C2182F41059931": {
@@ -3157,7 +3157,7 @@
             "items": {
                 "name": "Emma",
                 "type": "data_record",
-                "order": 8
+                "order": 11
             }
         },
         "C8B841B145ABE249F42A4DC34798295DB9F7": {
@@ -3458,7 +3458,7 @@
             "items": {
                 "name": "Jane",
                 "type": "data_record",
-                "order": 9
+                "order": 12
             }
         },
         "A6B5C27139C7074A5F493090AC98EF6558FC": {
@@ -3759,7 +3759,7 @@
             "items": {
                 "name": "Lucy",
                 "type": "data_record",
-                "order": 10
+                "order": 13
             }
         },
         "3BD476129A4DA545D158C5C48E631854F2FB": {
@@ -4060,7 +4060,7 @@
             "items": {
                 "name": "Sam",
                 "type": "data_record",
-                "order": 11
+                "order": 14
             }
         },
         "9B6BD47645C709410C5B1D76A7E855C80E09": {
@@ -4403,7 +4403,7 @@
             "items": {
                 "name": "Victor",
                 "type": "data_record",
-                "order": 12
+                "order": 15
             }
         },
         "2E2FF98E1676764A686BD856D374489EA47D": {
@@ -4599,7 +4599,7 @@
             "items": {
                 "name": "Willow",
                 "type": "data_record",
-                "order": 13
+                "order": 16
             }
         },
         "B0A7DACC5562434CA869D25601D957C60A64": {
@@ -4900,7 +4900,7 @@
             "items": {
                 "name": "Anna",
                 "type": "data_record",
-                "order": 14
+                "order": 17
             }
         },
         "26A44EDB5904C04CFF7B3E621F19D48172E5": {
@@ -4984,7 +4984,7 @@
             "items": {
                 "name": "Jeremy",
                 "type": "data_record",
-                "order": 15
+                "order": 18
             }
         },
         "3C6D00F63164D6405F2908B7FE052E87932C": {
@@ -5061,7 +5061,7 @@
             "items": {
                 "name": "John",
                 "type": "data_record",
-                "order": 16
+                "order": 19
             }
         },
         "166A6C320CD7D04F677B7E406D3D35C88470": {
@@ -5103,7 +5103,7 @@
             "items": {
                 "name": "Lila",
                 "type": "data_record",
-                "order": 17
+                "order": 20
             }
         },
         "4EC0DA226FA0F843413A6604117DC1F55E3B": {
@@ -5929,14 +5929,14 @@
             "items": {
                 "name": "Prof Ada",
                 "type": "data_record",
-                "order": 8
+                "order": 11
             }
         },
         "2A940CBF1FEDB24FA448A5D4AE9E52B41613": {
             "items": {
                 "name": "Prof Ada",
                 "type": "data_record",
-                "order": 18
+                "order": 21
             }
         },
         "B291FC3C9A0D744B50285826944EF563BAE4": {
@@ -5950,14 +5950,14 @@
             "items": {
                 "name": "Makoto",
                 "type": "data_record",
-                "order": 7
+                "order": 10
             }
         },
         "498BA1001CB862410618F4059B414FA1FFE0": {
             "items": {
                 "name": "Makoto",
                 "type": "data_record",
-                "order": 19
+                "order": 22
             }
         },
         "1817B5B451276441C48AF7F2EBC7C128EB63": {
@@ -5971,14 +5971,14 @@
             "items": {
                 "name": "Yumi",
                 "type": "data_record",
-                "order": 6
+                "order": 9
             }
         },
         "CB81BC8270A0534186299966F948E48028BC": {
             "items": {
                 "name": "Yumi",
                 "type": "data_record",
-                "order": 5
+                "order": 8
             }
         },
         "7CD385DB3C11074C3828A3845FE6BF7C3681": {
@@ -5992,14 +5992,14 @@
             "items": {
                 "name": "Portão Lógico",
                 "type": "data_record",
-                "order": 5
+                "order": 8
             }
         },
         "17887B6A7DB0844C3B283E409E705A42ED66": {
             "items": {
                 "name": "Portão Lógico",
                 "type": "data_record",
-                "order": 4
+                "order": 7
             }
         },
         "F126189F3844844AC93960E05B5D51EDAE3C": {
@@ -6013,7 +6013,7 @@
             "items": {
                 "name": "???",
                 "type": "data_record",
-                "order": 4
+                "order": 7
             }
         },
         "9A8CB2201C15424B6E5BC119F7D02CE4CCA8": {
@@ -6064,14 +6064,14 @@
             "items": {
                 "name": "Orbe Lógico",
                 "type": "data_record",
-                "order": 3
+                "order": 6
             }
         },
         "7506A2EC03D27442725ACAE9CD8841B7555A": {
             "items": {
                 "name": "Orbe Lógico",
                 "type": "data_record",
-                "order": 3
+                "order": 6
             }
         },
         "4337E2BD8F18594DB12B57D620D6CE367200": {
@@ -6096,7 +6096,7 @@
                 "type": "vn.scene",
                 "parentId": "02AFFC0C6E40B642150AFF06D26EBCE45325",
                 "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
-                "order": 1
+                "order": 2
             }
         },
         "2AC340774E76314939298FC3BA62FE507F24": {
@@ -6105,14 +6105,14 @@
                 "type": "vn.scene",
                 "parentId": "3305C56CKBF5BA44BFS8614EE4B277E49F6A",
                 "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
-                "order": 0
+                "order": 1
             }
         },
         "8E28CDC5124B034DE64870435540922C00EF": {
             "items": {
                 "name": "Protagonista Masculino",
                 "type": "data_record",
-                "order": 2
+                "order": 5
             }
         },
         "9BD22CB8672EE544158BCA463FB32F7BAC31": {
@@ -6126,14 +6126,14 @@
             "items": {
                 "name": "Protagonista Masculino",
                 "type": "data_record",
-                "order": 1
+                "order": 4
             }
         },
         "D6602C8858CC2341F51848D7F59F4C4C6A4C": {
             "items": {
                 "name": "Protagonista Feminina",
                 "type": "data_record",
-                "order": 1
+                "order": 4
             }
         },
         "BC3A72CA61693348C119D9E678056FAA0BF3": {
@@ -6147,7 +6147,7 @@
             "items": {
                 "name": "Protagonista Feminina",
                 "type": "data_record",
-                "order": 2
+                "order": 5
             }
         },
         "281987085CD4794BA82877E280C35E0B37C4": {
@@ -6201,6 +6201,378 @@
                 "name": "HotSpotMenino",
                 "type": "data_record",
                 "order": 3
+            }
+        },
+        "E6635A088BE7D74A9F5BC613B949401F6076": {
+            "items": {
+                "name": "Bem Vindo a Academia dos Códigos(Protagonista Feminina)",
+                "type": "vn.scene",
+                "parentId": "3305C56CKBF5BA44BFS8614EE4B277E49F6A",
+                "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+                "order": 2
+            }
+        },
+        "5B07158A208A9344513ACC8982ED8ED22CFB": {
+            "items": {
+                "name": "Yosuke",
+                "type": "data_record",
+                "order": 3
+            }
+        },
+        "EB5EAD995509584C6B995A9832789968F05F": {
+            "items": {
+                "name": "Yosuke",
+                "type": "data_record",
+                "order": 3
+            }
+        },
+        "4821BA2120C278450C385715DD8F6E8B2534": {
+            "items": {
+                "name": "Yosuke",
+                "type": "data_record",
+                "order": 0
+            }
+        },
+        "E5AB0797622DE3404B4A5971F42E9D256FAB": {
+            "items": {
+                "name": "Bug",
+                "type": "data_record",
+                "order": 2
+            }
+        },
+        "56D8E68A41737444EA490E57B2A81F5337CD": {
+            "items": {
+                "name": "Bug",
+                "type": "data_record",
+                "order": 2
+            }
+        },
+        "FBA3ED7A49DFB84ECF4BE6F9FC4ADD2209EB": {
+            "items": {
+                "name": "Bug",
+                "type": "data_record",
+                "order": 0
+            }
+        },
+        "52ABC00C0460974A993819C3D6F565C6D55E": {
+            "items": {
+                "name": "Interação com os companheiros(Capítulo 1)",
+                "type": "vn.scene",
+                "parentId": "3305C56CKBF5BA44BFS8614EE4B277E49F6A",
+                "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+                "order": 3
+            }
+        },
+        "F242352B34EDE243F079A52749D64B1BD783": {
+            "items": {
+                "name": "Interagir com companheiros(Capítulo 1)",
+                "type": "vn.scene",
+                "parentId": "52ABC00C0460974A993819C3D6F565C6D55E",
+                "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+                "order": 0
+            }
+        },
+        "9F22992768363247AC5BFE1792145D2BA316": {
+            "items": {
+                "name": "Interagir com Yumi",
+                "type": "vn.scene",
+                "parentId": "F242352B34EDE243F079A52749D64B1BD783",
+                "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+                "order": 2
+            }
+        },
+        "1FDDCFA818678742FE3A8861B1222C97C94A": {
+            "items": {
+                "name": "Interagic com Yosuke",
+                "type": "vn.scene",
+                "parentId": "F242352B34EDE243F079A52749D64B1BD783",
+                "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+                "order": 2
+            }
+        },
+        "10897CE11D0AF643A33A52D1B7B04C809635": {
+            "items": {
+                "name": "Interagir com Makoto",
+                "type": "vn.scene",
+                "parentId": "F242352B34EDE243F079A52749D64B1BD783",
+                "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+                "order": 0
+            }
+        },
+        "1C24B0D98CE79341094A322564C1072CA0CB": {
+            "items": {
+                "name": "Interacoes Capitulo 1",
+                "type": "data_record",
+                "order": 3
+            }
+        },
+        "0FA2BAD7073F014E8E8A12E65C09A85B7153": {
+            "items": {
+                "name": "InteragirYumi",
+                "type": "data_record",
+                "order": 0
+            }
+        },
+        "A8BD1C6F37257746BE083A8406B0DDC04D60": {
+            "items": {
+                "name": "InteragirYosuke",
+                "type": "data_record",
+                "order": 2
+            }
+        },
+        "117FE2388A72134463290613EBD3B01FDC68": {
+            "items": {
+                "name": "InteragirMakoto",
+                "type": "data_record",
+                "order": 1
+            }
+        },
+        "E2B414AD8A48904CB72BA3167BE7A91CE604": {
+            "items": {
+                "name": "Painel de Dicas",
+                "type": "vn.scene",
+                "parentId": "82DEE6988FB2F645672950D1B65402BFC86E",
+                "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+                "order": 0
+            }
+        },
+        "A98A613A641C584BA25BC936726692B8268D": {
+            "items": {
+                "name": "Interagir com companheiros(Capítulo 2)",
+                "type": "vn.scene",
+                "parentId": "CC2F2C2F55FBA84C5B8A5BA8D066AD1764EB",
+                "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+                "order": 1
+            }
+        },
+        "6466E0BB214AC6434119A1B3C7171CC2D258": {
+            "items": {
+                "name": "Interacoes Capitulo 2",
+                "type": "data_record",
+                "order": 4
+            }
+        },
+        "D0B3B78C3FE5A94ADA49F9E24479A7DAB9F0": {
+            "items": {
+                "name": "InteragirYumiCh2",
+                "type": "data_record",
+                "order": 0
+            }
+        },
+        "A5AFD99A98B01542F08BA8D2F5B76F666170": {
+            "items": {
+                "name": "InteragirYosukeCh2",
+                "type": "data_record",
+                "order": 1
+            }
+        },
+        "7ADAA06E7FA2E743BF7AD34634E7EE214EAF": {
+            "items": {
+                "name": "InteragirMakotoCh2",
+                "type": "data_record",
+                "order": 2
+            }
+        },
+        "D24A1D0779679441D36963050BFF0185DEAC": {
+            "items": {
+                "name": "Interagir Yumi(Ch2)",
+                "type": "vn.scene",
+                "parentId": "A98A613A641C584BA25BC936726692B8268D",
+                "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+                "order": 0
+            }
+        },
+        "D5CB2F962F10884D783BED9136712C966E1F": {
+            "items": {
+                "name": "Interqagir Makoto(Ch2)",
+                "type": "vn.scene",
+                "parentId": "A98A613A641C584BA25BC936726692B8268D",
+                "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+                "order": 1
+            }
+        },
+        "CF279C5079B4C142A68B87A124EAB42FF096": {
+            "items": {
+                "name": "Interagir Yosuke(Ch2)",
+                "type": "vn.scene",
+                "parentId": "A98A613A641C584BA25BC936726692B8268D",
+                "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+                "order": 2
+            }
+        },
+        "6E37E36F8FFB054109088EB2FBC2E4F1EB39": {
+            "items": {
+                "name": "Painel de Dicas CH2",
+                "type": "vn.scene",
+                "parentId": "01E843AF234CE84EED5879283B41D7492747",
+                "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+                "order": 0
+            }
+        },
+        "F4604FBC5BB535452D080A67B6B1E23276ED": {
+            "items": {
+                "name": "Painel Visual Capítulo 2",
+                "type": "data_record",
+                "order": 1
+            }
+        },
+        "810F3E869968A641BC4A1133658AF5FC5F4C": {
+            "items": {
+                "name": "Painel Visual Capitulo 2",
+                "type": "data_record",
+                "order": 0
+            }
+        },
+        "3EE756B5527B844A4C59CBF55937154E9671": {
+            "items": {
+                "name": "Painel Visual Capitulo 2",
+                "type": "data_record",
+                "order": 1
+            }
+        },
+        "E81FBFAD8D3EC847F63B5F46D261D57E9EFD": {
+            "items": {
+                "name": "AND",
+                "type": "vn.scene",
+                "parentId": "6E37E36F8FFB054109088EB2FBC2E4F1EB39",
+                "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+                "order": 0
+            }
+        },
+        "52C8BA1D2C74704C416AF7C25B6B31A2BE32": {
+            "items": {
+                "name": "OR",
+                "type": "vn.scene",
+                "parentId": "6E37E36F8FFB054109088EB2FBC2E4F1EB39",
+                "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+                "order": 1
+            }
+        },
+        "EE0B817A8A32964B2A48C9D30B967F012B03": {
+            "items": {
+                "name": "Dicas AND OR",
+                "type": "data_record",
+                "order": 5
+            }
+        },
+        "5EDF1CD581C269409D688B647F0C21C4EA81": {
+            "items": {
+                "name": "Dica AND",
+                "type": "data_record",
+                "order": 0
+            }
+        },
+        "E2BEAD099D1231459A99E616303CC17D6846": {
+            "items": {
+                "name": "Dica OR",
+                "type": "data_record",
+                "order": 1
+            }
+        },
+        "88E5146317521149147895A47133CC5BA6C1": {
+            "items": {
+                "name": "Caminho Extra Capítulo 2",
+                "type": "vn.scene",
+                "parentId": "CC2F2C2F55FBA84C5B8A5BA8D066AD1764EB",
+                "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+                "order": 2
+            }
+        },
+        "2A89B3CB7C18344B1368BF35CB5D1EE27A41": {
+            "items": {
+                "name": "Conclusão alternativa",
+                "type": "vn.scene",
+                "parentId": "88E5146317521149147895A47133CC5BA6C1",
+                "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+                "order": 0
+            }
+        },
+        "8F8492BB491F294C0E6804117615C73121F8": {
+            "items": {
+                "name": "Chapter 3",
+                "type": "vn.chapter",
+                "order": 5
+            }
+        },
+        "9FA0750443D16440577A5B61E50156BBB4FD": {
+            "items": {
+                "name": "Sala Corrompida",
+                "type": "vn.scene",
+                "parentId": "8F8492BB491F294C0E6804117615C73121F8",
+                "chapterUid": "8F8492BB491F294C0E6804117615C73121F8",
+                "order": 0
+            }
+        },
+        "354122141F1423475288E1F6FAA1ACCC68A5": {
+            "items": {
+                "name": "Bug",
+                "type": "vn.scene",
+                "parentId": "9FA0750443D16440577A5B61E50156BBB4FD",
+                "chapterUid": "8F8492BB491F294C0E6804117615C73121F8",
+                "order": 0
+            }
+        },
+        "C79A6E014E73044B676AE096EFD1B900A7EA": {
+            "items": {
+                "name": "Encontro com o Bug",
+                "type": "vn.scene",
+                "parentId": "9FA0750443D16440577A5B61E50156BBB4FD",
+                "chapterUid": "8F8492BB491F294C0E6804117615C73121F8",
+                "order": 1
+            }
+        },
+        "7CDF6EF689B997405A0A32E988BD3F4421F8": {
+            "items": {
+                "name": "Enigma do Bug",
+                "type": "vn.scene",
+                "parentId": "9FA0750443D16440577A5B61E50156BBB4FD",
+                "chapterUid": "8F8492BB491F294C0E6804117615C73121F8",
+                "order": 2
+            }
+        },
+        "37FAD188171F76497D49D7A15DDB95709EEC": {
+            "items": {
+                "name": "Game Over",
+                "type": "vn.scene",
+                "parentId": "9FA0750443D16440577A5B61E50156BBB4FD",
+                "chapterUid": "8F8492BB491F294C0E6804117615C73121F8",
+                "order": 3
+            }
+        },
+        "0C2554880513B54F2F3AC148DFF1BEB52F01": {
+            "items": {
+                "name": "Tentar Novamente?",
+                "type": "vn.scene",
+                "parentId": "9FA0750443D16440577A5B61E50156BBB4FD",
+                "chapterUid": "8F8492BB491F294C0E6804117615C73121F8",
+                "order": 4
+            }
+        },
+        "BC7945317F825443963A788711D4F1430DBA": {
+            "items": {
+                "name": "Fim do Capítulo 3",
+                "type": "vn.scene",
+                "parentId": "9FA0750443D16440577A5B61E50156BBB4FD",
+                "chapterUid": "8F8492BB491F294C0E6804117615C73121F8",
+                "order": 5
+            }
+        },
+        "F876B4A94C1CD84F7529F9C5F5B3F565F13C": {
+            "items": {
+                "name": "Final Alternativo",
+                "type": "vn.scene",
+                "parentId": "BC7945317F825443963A788711D4F1430DBA",
+                "chapterUid": "8F8492BB491F294C0E6804117615C73121F8",
+                "order": 0
+            }
+        },
+        "036BC17C3036674C248A1814BBC85CF11D42": {
+            "items": {
+                "name": "Continua",
+                "type": "vn.scene",
+                "parentId": "BC7945317F825443963A788711D4F1430DBA",
+                "chapterUid": "8F8492BB491F294C0E6804117615C73121F8",
+                "order": 1
             }
         }
     }

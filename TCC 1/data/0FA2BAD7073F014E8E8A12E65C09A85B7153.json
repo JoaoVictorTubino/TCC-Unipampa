@@ -1,0 +1,53 @@
+{
+    "uid": "0FA2BAD7073F014E8E8A12E65C09A85B7153",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "InteragirYumi",
+        "type": "data_record",
+        "category": "commonEvents",
+        "id": "0FA2BAD7073F014E8E8A12E65C09A85B7153",
+        "isFolder": false,
+        "parentId": "1C24B0D98CE79341094A322564C1072CA0CB",
+        "data": {
+            "name": "InteragirYumi",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [],
+            "commands": [
+                {
+                    "id": "vn.CallScene",
+                    "params": {
+                        "scene": {
+                            "uid": "9F22992768363247AC5BFE1792145D2BA316",
+                            "name": "Interagir com Yumi"
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 0
+                }
+            ],
+            "index": "0FA2BAD7073F014E8E8A12E65C09A85B7153",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ]
+        },
+        "order": 0
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

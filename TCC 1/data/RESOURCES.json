@@ -3,6 +3,17 @@
     "items": {
         "type": "resource_table",
         "resources": {
+            "Audio/Music/Bug Themes/554253__dwaa__glitch_c": [
+                ".wav"
+            ],
+            "Audio/Music/Bug Themes/8-bit-dungeon-251388": [
+                ".mp3",
+                ".ogg"
+            ],
+            "Audio/Music/Bug Themes/tense-suspense-background-music-320439": [
+                ".mp3",
+                ".ogg"
+            ],
             "Audio/Music/Competitive_-_Fired_Up": [
                 ".ogg"
             ],
@@ -219,6 +230,9 @@
             "fonts": [
                 ".css"
             ],
+            "Graphics/Backgrounds/Academia dos Códigos/bug": [
+                ".png"
+            ],
             "Graphics/Backgrounds/Academia dos Códigos/Corredor": [
                 ".png"
             ],
@@ -226,6 +240,9 @@
                 ".png"
             ],
             "Graphics/Backgrounds/Academia dos Códigos/Interior da Academia": [
+                ".png"
+            ],
+            "Graphics/Backgrounds/Academia dos Códigos/Sala Antiga": [
                 ".png"
             ],
             "Graphics/Backgrounds/Academia dos Códigos/Sala de Aula ": [
@@ -1044,6 +1061,9 @@
             "Graphics/Characters/Anna/No Glasses/Anna_Worried": [
                 ".png"
             ],
+            "Graphics/Characters/Bug/Bug": [
+                ".png"
+            ],
             "Graphics/Characters/Daniel/Casual/DanielDate_Angry": [
                 ".png"
             ],
@@ -1548,9 +1568,6 @@
             "Graphics/Characters/Orbe Lógico/Orbe Lógico": [
                 ".png"
             ],
-            "Graphics/Characters/Portão Lógico/ChatGPT_Image_12_de_mai._de_2025__22_42_05-removebg-preview": [
-                ".png"
-            ],
             "Graphics/Characters/Portão Lógico/Portão Lógico": [
                 ".png"
             ],
@@ -1875,10 +1892,16 @@
             "Graphics/Characters/Willow/Yukata/WillowYukata_Sick": [
                 ".png"
             ],
-            "Graphics/Characters/Yumi/ChatGPT_Image_12_de_mai._de_2025__22_42_16-removebg-preview": [
+            "Graphics/Characters/Yosuke/Yosuke": [
                 ".png"
             ],
             "Graphics/Characters/Yumi/Yumi": [
+                ".png"
+            ],
+            "Graphics/Exemplos Visuais/5fcf47f6-60f9-4ec3-9679-0a67d2947915": [
+                ".jpg"
+            ],
+            "Graphics/Exemplos Visuais/desvio-condicional-simples-lógica": [
                 ".png"
             ],
             "Graphics/Fonts/Rubik-Regular": [

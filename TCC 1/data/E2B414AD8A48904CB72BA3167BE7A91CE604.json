@@ -1,0 +1,321 @@
+{
+    "uid": "E2B414AD8A48904CB72BA3167BE7A91CE604",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Painel de Dicas",
+        "type": "vn.scene",
+        "parentId": "82DEE6988FB2F645672950D1B65402BFC86E",
+        "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+        "order": 0,
+        "localizableStrings": {},
+        "commands": [
+            {
+                "id": "gs.PlayMusic",
+                "params": {
+                    "layer": 0,
+                    "loop": 1,
+                    "music": {
+                        "folderPath": "Audio/Music",
+                        "name": "Tutorial_-_Good_Mood.ogg",
+                        "volume": 100,
+                        "playbackRate": 100
+                    },
+                    "fadeInDuration": 0,
+                    "playTime": {
+                        "min": 10,
+                        "max": 30
+                    },
+                    "playRange": {
+                        "start": 10,
+                        "end": 20
+                    },
+                    "playType": 0,
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "music.volume": 1,
+                        "music.playbackRate": 1,
+                        "fadeInDuration": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "A165FC3996A4F744182AB164691488390CC8",
+                "expanded": false
+            },
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": {
+                        "name": "Entrada.png",
+                        "folderPath": "Graphics/Backgrounds/Academia dos Códigos",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 0,
+                        "origin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1,
+                        "loopVertical": 1,
+                        "loopHorizontal": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "BA9C33B4427B08428E08E427C07DCFDE8894",
+                "expanded": false
+            },
+            {
+                "id": "vn.ZoomBackground",
+                "params": {
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "zooming": {
+                        "x": 135,
+                        "y": 135
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "fieldFlags": {
+                        "easing.type": 1
+                    }
+                },
+                "uid": "62FCB9C55AB295447B4BC5A851C025851029",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowPicture",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "size": {
+                        "type": 0,
+                        "width": 100,
+                        "height": 100
+                    },
+                    "visual": {
+                        "type": 0,
+                        "quad": {
+                            "color": {
+                                "red": 255,
+                                "green": 255,
+                                "blue": 255,
+                                "alpha": 255
+                            }
+                        },
+                        "frame": {
+                            "thickness": 16,
+                            "cornerSize": 16
+                        },
+                        "threePartImage": {
+                            "orientation": 0
+                        }
+                    },
+                    "predefinedPositionId": 0,
+                    "number": 0,
+                    "blendMode": 0,
+                    "zOrder": 0,
+                    "duration": 0,
+                    "origin": 0,
+                    "waitForCompletion": 0,
+                    "positionType": 1,
+                    "position": {
+                        "x": 708,
+                        "y": 284,
+                        "angle": 0,
+                        "zoom": 1,
+                        "horizontalFlip": false,
+                        "data": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 593,
+                            "height": 449,
+                            "zoom": 1,
+                            "angle": 0,
+                            "horizontalFlip": false
+                        },
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "origin": 1,
+                        "duration": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    },
+                    "graphic": {
+                        "name": "desvio-condicional-simples-lógica.png",
+                        "folderPath": "Graphics/Exemplos Visuais",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    }
+                },
+                "uid": "3B344BB3250D9443151B7DB2A95DD18D23A0",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "49B2DC37566F68464B7A42C8AA4EB5BD60DF",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Como podem ver, esse painel ilustra a lógica condicional, onde temos ações que irão ocorrer baseado na condição proposta. O enigma é basicamente isso, se atentem na dica do portão lógico e vocês irão conseguir solucionar o enigma."
+                    },
+                    "position": 0,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "37EB12578079574482393DD7FF5C227D874F",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.WaitForInput",
+                "params": {
+                    "key": 1,
+                    "state": 1,
+                    "inputSession": 0,
+                    "action": {
+                        "type": 0,
+                        "data": {
+                            "label": "$$C50EA7EF0592134BEF59E098BD7961D34EB4",
+                            "commonEventId": 0
+                        }
+                    }
+                },
+                "uid": "C4078E135B42A3498A1A52F8BC0B4327CB20",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "82DEE6988FB2F645672950D1B65402BFC86E",
+                        "name": "Enigma do Portão Lógico"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "BC11D7E6370665440198E166DEA05F35750E"
+            }
+        ],
+        "livePreviewDisabled": false,
+        "listVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

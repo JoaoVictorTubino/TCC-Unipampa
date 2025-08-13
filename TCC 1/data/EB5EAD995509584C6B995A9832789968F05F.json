@@ -1,0 +1,23 @@
+{
+    "uid": "EB5EAD995509584C6B995A9832789968F05F",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Yosuke",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "isFolder": true,
+        "parentId": "ROOT",
+        "data": {
+            "name": "Yosuke",
+            "isFolder": true
+        },
+        "order": 2
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

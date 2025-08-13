@@ -1,0 +1,861 @@
+{
+    "uid": "F242352B34EDE243F079A52749D64B1BD783",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Interagir com companheiros(Capítulo 1)",
+        "type": "vn.scene",
+        "parentId": "52ABC00C0460974A993819C3D6F565C6D55E",
+        "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+        "order": 0,
+        "localizableStrings": {},
+        "commands": [
+            {
+                "id": "gs.PlayMusic",
+                "params": {
+                    "layer": 0,
+                    "loop": 1,
+                    "music": {
+                        "folderPath": "Audio/Music",
+                        "name": "Tutorial_-_Good_Mood.ogg",
+                        "volume": 100,
+                        "playbackRate": 100
+                    },
+                    "fadeInDuration": 0,
+                    "playTime": {
+                        "min": 10,
+                        "max": 30
+                    },
+                    "playRange": {
+                        "start": 10,
+                        "end": 20
+                    },
+                    "playType": 0,
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "music.volume": 1,
+                        "music.playbackRate": 1,
+                        "fadeInDuration": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "2881523E7E770640EB9B602851AE726B4CFC",
+                "expanded": true
+            },
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": {
+                        "name": "Entrada.png",
+                        "folderPath": "Graphics/Backgrounds/Academia dos Códigos",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 0,
+                        "origin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1,
+                        "loopVertical": 1,
+                        "loopHorizontal": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "57F320B7193AE649274B9A17FD0C1A93A6A6",
+                "expanded": false
+            },
+            {
+                "id": "vn.ZoomBackground",
+                "params": {
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "zooming": {
+                        "x": 135,
+                        "y": 135
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    }
+                },
+                "uid": "F15DEE446EA9B645FE6BFA6832C5C5B1ACD9",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "0AA902411020E2428F4BA1679EF34987C0D8"
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Com quem deseja conversar?"
+                    },
+                    "position": 0,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "9A577D7F0E8484495F697289AD0B3689F4CF",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "632E82FF2B5FC34FC44BA11445E6ED7C5154"
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "59092404189116412B4B54C4DF7503435ADF",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 4,
+                    "expressionId": null,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "7BCC28DA2C840844649BACF0634399A9E8EB",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 6,
+                    "expressionId": null,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "ECC920DD39061148CD59A8A7F83D54BA51DA",
+                "indent": 0
+            },
+            {
+                "id": "gs.AddHotspot",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 2,
+                    "shape": "rect",
+                    "positionType": 0,
+                    "actions": {
+                        "onClick": {
+                            "type": 1,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": "0FA2BAD7073F014E8E8A12E65C09A85B7153",
+                            "label": "yumi",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": {
+                                "uid": "9F22992768363247AC5BFE1792145D2BA316",
+                                "name": "Interagir com Yumi"
+                            }
+                        },
+                        "onEnter": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onSelect": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onDeselect": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onLeave": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onDrag": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onDrop": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onDropReceive": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        }
+                    },
+                    "dragging": {
+                        "enabled": 0,
+                        "variable": {
+                            "scope": 1,
+                            "index": 0,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "horizontal": 1,
+                        "vertical": 0,
+                        "rect": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 200,
+                                "height": 50
+                            }
+                        }
+                    },
+                    "position": 1,
+                    "box": {
+                        "x": 70,
+                        "y": 160,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 416,
+                            "height": 928
+                        }
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "7D3E631C223FF3409789C2993465F7C0F789",
+                "indent": 0
+            },
+            {
+                "id": "gs.AddHotspot",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 3,
+                    "shape": "rect",
+                    "positionType": 0,
+                    "actions": {
+                        "onClick": {
+                            "type": 1,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": "A8BD1C6F37257746BE083A8406B0DDC04D60",
+                            "label": "yosuke",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": {
+                                "uid": "1FDDCFA818678742FE3A8861B1222C97C94A",
+                                "name": "Interagic com Yosuke"
+                            }
+                        },
+                        "onEnter": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onSelect": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onDeselect": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onLeave": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onDrag": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onDrop": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onDropReceive": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        }
+                    },
+                    "dragging": {
+                        "enabled": 0,
+                        "variable": {
+                            "scope": 1,
+                            "index": 0,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "horizontal": 1,
+                        "vertical": 0,
+                        "rect": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 200,
+                                "height": 50
+                            }
+                        }
+                    },
+                    "position": 1,
+                    "box": {
+                        "x": 730,
+                        "y": 186,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 430,
+                            "height": 894
+                        }
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "0214C3A31CFB39492B8A06F6293812F8F41A",
+                "indent": 0
+            },
+            {
+                "id": "gs.AddHotspot",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 4,
+                    "shape": "rect",
+                    "positionType": 0,
+                    "actions": {
+                        "onClick": {
+                            "type": 1,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": "117FE2388A72134463290613EBD3B01FDC68",
+                            "label": "makoto",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": {
+                                "uid": "10897CE11D0AF643A33A52D1B7B04C809635",
+                                "name": "Interagir com Makoto"
+                            }
+                        },
+                        "onEnter": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onSelect": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onDeselect": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onLeave": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onDrag": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onDrop": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onDropReceive": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        }
+                    },
+                    "dragging": {
+                        "enabled": 0,
+                        "variable": {
+                            "scope": 1,
+                            "index": 0,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "horizontal": 1,
+                        "vertical": 0,
+                        "rect": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 200,
+                                "height": 50
+                            }
+                        }
+                    },
+                    "position": 1,
+                    "box": {
+                        "x": 1436,
+                        "y": 206,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 376,
+                            "height": 870
+                        }
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "BDD41ECC8C30044C604828E94ECD85D9D26F",
+                "indent": 0
+            }
+        ],
+        "livePreviewDisabled": false,
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "numberVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

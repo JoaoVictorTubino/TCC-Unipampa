@@ -1,0 +1,40 @@
+{
+    "uid": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Bug",
+        "type": "data_record",
+        "order": 2,
+        "category": "characters",
+        "id": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "data": {
+            "name": {
+                "lcId": null,
+                "defaultText": "Bug"
+            },
+            "textColor": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 255
+            },
+            "defaultExpressionId": "FBA3ED7A49DFB84ECF4BE6F9FC4ADD2209EB",
+            "timeTalkingToVoiceVolume": true,
+            "talkingVolume": 5,
+            "lipSyncSensitivity": 1,
+            "breathIntensity": 1,
+            "idleIntensity": 1,
+            "params": [],
+            "index": "E5AB0797622DE3404B4A5971F42E9D256FAB"
+        }
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

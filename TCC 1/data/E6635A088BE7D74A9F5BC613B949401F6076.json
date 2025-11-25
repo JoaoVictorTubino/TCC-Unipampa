@@ -43,7 +43,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "E6D83EFD30705248E68977A12910DDBD4C18"
+                "uid": "9397E0EB560CF24353393A6056F18C0835E4"
             },
             {
                 "id": "vn.ChangeBackground",
@@ -100,7 +100,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "4066CDA71503824AD23875230216B80A2798",
+                "uid": "10A9D78E2FEEB2406D292D53FD2A9E12B308",
                 "expanded": false
             },
             {
@@ -118,8 +118,30 @@
                         "inOut": 1
                     }
                 },
-                "uid": "04F2BE1E128EE74AE358F8E243DAC970CD5D",
+                "uid": "06665C922052F141702B1576451AEC34B81C",
                 "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "2231202D19BCA54A9359E44936F104E47F60"
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "007256F137DF4245F179E6C2C34F9B22E5F3"
             },
             {
                 "id": "gs.ShowMessage",
@@ -139,7 +161,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Num lugar onde lógica e magia coexistem, quatro jovens cruzam os limites do mundo comum, adentrando a lendária Academia dos Códigos."
+                        "defaultText": "Em um lugar onde lógica e magia coexistem, quatro jovens cruzam os limites do mundo comum, adentrando a lendária Academia dos Códigos."
                     },
                     "position": 0,
                     "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
@@ -151,8 +173,20 @@
                     "animations": []
                 },
                 "indent": 0,
-                "uid": "F1B86DA6871DF245C94B59D430F5AA4FB4E9",
+                "uid": "47F476279B7E5846506B039114CF42FB083E",
                 "expanded": true
+            },
+            {
+                "id": "gs.ClearMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 30,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "E49F4B5E50EF0143AF8B3B832CA8567596AC",
+                "indent": 0
             },
             {
                 "id": "gs.MessageSettings",
@@ -218,12 +252,24 @@
                         "shadow": 1,
                         "shadowColor": 1,
                         "shadowOffsetX": 1,
-                        "shadowOffsetY": 1
+                        "shadowOffsetY": 1,
+                        "lineAlignment": 1
                     }
                 },
                 "indent": 0,
-                "uid": "0DDC5A4F85E973488F893657F209A3D042D7",
+                "uid": "81D3D53B78C37644350A9224865A3365EFF6",
                 "expanded": false
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "AEE5EC060B90C1467278E3A40C3313777BC8"
             },
             {
                 "id": "vn.CharacterJoinScene",
@@ -267,7 +313,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "3F716EC207592142130AEE37A226B49E7D6F"
+                "uid": "1FAFF70C6F0990449D69010438F9980AF528"
             },
             {
                 "id": "gs.CallCommonEvent",
@@ -278,7 +324,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "650FDF8618E4774F2E6BD361BDB6E6BC37EB"
+                "uid": "DB832A628E1D3642356BA0F841EA6C0D6469"
             },
             {
                 "id": "gs.ShowMessage",
@@ -310,7 +356,7 @@
                     "animations": []
                 },
                 "indent": 0,
-                "uid": "3D56C4955CA86448765B1DD13E5B84143C6F",
+                "uid": "0051513701B69346401BE7001A289FD982A7",
                 "expanded": true
             },
             {
@@ -324,7 +370,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "C08D16FE5918544BCA694828F75EE49D2C66"
+                "uid": "539B13142278784E7769D043D24D8079A7FA"
             },
             {
                 "id": "gs.ShowMessage",
@@ -356,7 +402,7 @@
                     "animations": []
                 },
                 "indent": 0,
-                "uid": "3589089B05E7F34C3779D26718E2536411FC",
+                "uid": "0E155BC916ECE6430929AE95724D69E3D2F0",
                 "expanded": true
             },
             {
@@ -389,7 +435,7 @@
                     "animations": []
                 },
                 "indent": 0,
-                "uid": "C12DD5753F011447B45863727F026A678303",
+                "uid": "9133F9A56CC9D64836495C256AB9F03601F7",
                 "expanded": true
             },
             {
@@ -410,7 +456,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Aqui, cada desafio testa sua mente... não sua força."
+                        "defaultText": "Aqui, sua mente será sua maior aliada — não seus músculos."
                     },
                     "position": 0,
                     "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
@@ -422,7 +468,7 @@
                     "animations": []
                 },
                 "indent": 0,
-                "uid": "409C93222B7AB24A2C4859B57CAC724D7A39",
+                "uid": "A7751A473BF4F84E08585B28F54DDB5C6428",
                 "expanded": true
             },
             {
@@ -448,7 +494,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "EDC8E8C13A119140C46A58F6ACD78C7D62D5"
+                "uid": "FE1769E3617E764FD45A7205170480D29C90"
             },
             {
                 "id": "gs.CallCommonEvent",
@@ -459,7 +505,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "9690FFD8539171413589E6D6896204D59CD5"
+                "uid": "18E994B99846D3497D18872639A0C30A0CBC"
             },
             {
                 "id": "vn.CharacterJoinScene",
@@ -503,7 +549,19 @@
                     }
                 },
                 "indent": 0,
-                "uid": "639003DC3420524EDC685E52EBE29F9E6471"
+                "uid": "49480D993EF70545B07B47218F330A756306"
+            },
+            {
+                "id": "gs.ClearMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 30,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "31B5EC8F36FF654C573B6224C0E3D505135E",
+                "indent": 0
             },
             {
                 "id": "gs.CallCommonEvent",
@@ -514,7 +572,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "9B95E7EF23CE90410B391B33BB4CCC3F60A1"
+                "uid": "EE6707BE37B517423C8B59E62DF8576E55EF"
             },
             {
                 "id": "gs.ShowMessage",
@@ -546,7 +604,7 @@
                     "animations": []
                 },
                 "indent": 0,
-                "uid": "F9066C394852824CB82B2D544B583441007A",
+                "uid": "2173254F87700044044BBAC622769B9A623F",
                 "expanded": true
             },
             {
@@ -559,7 +617,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "C4BE5B0362B6D44B67285B701F86449899C3"
+                "uid": "440695812565E246B12BFA54BFAFDC121770"
             },
             {
                 "id": "gs.CallCommonEvent",
@@ -570,7 +628,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "00532B2F70A66147CC4A73C21A905BBD57F1"
+                "uid": "4D429D190FF554434448A636B5B8CFB7301B"
             },
             {
                 "id": "vn.ChangeBackground",
@@ -604,7 +662,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "D8F228EA2D0B8247907A77A683497E86ABE6"
+                "uid": "05E3F27A74D1174DA6183BA0049D32D55FA2"
             },
             {
                 "id": "gs.ShowMessage",
@@ -636,7 +694,7 @@
                     "animations": []
                 },
                 "indent": 0,
-                "uid": "59ABD6487258D84F77996FD95A94E32B5F12",
+                "uid": "CF13639D8B8EA345142976A81982D9FF0C7A",
                 "expanded": true
             },
             {
@@ -649,7 +707,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "81AAFB1509971140B51938D3A249A34CD8AD"
+                "uid": "C45177996F47F347B6280B7117AF992DF9D5"
             },
             {
                 "id": "gs.ClearMessage",
@@ -661,7 +719,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "F1884DE88614B2466D1B929389397028CF6C"
+                "uid": "A85DF0C6340D6640594A3AC162AE444C44D5"
             },
             {
                 "id": "vn.ZoomBackground",
@@ -678,7 +736,7 @@
                         "inOut": 1
                     }
                 },
-                "uid": "8A6188B044B9894DA00AA83671A56090AB35",
+                "uid": "0313376F4CC1B04A83383D042CAD2269EABF",
                 "indent": 0
             },
             {
@@ -690,7 +748,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "FD2DE81942BF894233787D7247E9CDDBE73C"
+                "uid": "4FEA9ED10C3BF4489D2911304AE4E7FAE50A"
             },
             {
                 "id": "vn.CharacterExitScene",
@@ -714,7 +772,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "DCF407387EAFD3476A29477802D81A137E3F",
+                "uid": "DB81D8F45A65E0444F481F791A5B72A30CAD",
                 "indent": 0
             },
             {
@@ -758,7 +816,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "0248765681B87246D36A872756F10A6510A7",
+                "uid": "434AD9BA5541734AA18A0B86CB2BDCECEFE4",
                 "indent": 0
             },
             {
@@ -816,7 +874,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "038EB2215CD3B546FB68A0B5EF5F582BA908",
+                "uid": "6559D0FB46A8094A9F69DC809C2A099E87B1",
                 "expanded": false
             },
             {
@@ -834,7 +892,7 @@
                         "inOut": 1
                     }
                 },
-                "uid": "9387DE0F6943B940A37A01F1431C07AD463C",
+                "uid": "F0FAAA7B4D27834CCD39D834401808670851",
                 "indent": 0
             },
             {
@@ -846,7 +904,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "90ABF1327BFDA844BA39110652A0F8C24166"
+                "uid": "23FE53485640A048C52A3E4354DC8CAD94DF"
             },
             {
                 "id": "gs.ShowMessage",
@@ -866,7 +924,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Presta atenção, Makoto."
+                        "defaultText": "Presta atenção, Makoto. "
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -878,7 +936,7 @@
                     "animations": []
                 },
                 "indent": 0,
-                "uid": "38022F586B243246B7284B34C82D9A1C6ED7",
+                "uid": "E10BAE519C10C94EC18ADAA349E6310BE5BF",
                 "expanded": true
             },
             {
@@ -903,7 +961,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "8C7D59D4304F4242756A64F4FE72638AEF36",
+                "uid": "804E08A9669EF44BB0890324795122DE60F0",
                 "indent": 0
             },
             {
@@ -940,7 +998,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "6644186B3DC3544A9D78E9E2F3B11F51C9A3",
+                "uid": "0C0AFCD85BF8B243CD1A3E69C1444930B6AD",
                 "indent": 0
             },
             {
@@ -960,7 +1018,7 @@
                         "inOut": 1
                     }
                 },
-                "uid": "43F6CC779BADD146CD0B54F18B402B9BF318",
+                "uid": "B58AD63422B2354C41683F4031143F21D7CA",
                 "indent": 0
             },
             {
@@ -972,7 +1030,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "CE2184C55021D246276A62B92731E3C63367"
+                "uid": "8F77A86F6E1361465A7B7C32158E689C0BE0"
             },
             {
                 "id": "gs.ShowMessage",
@@ -992,7 +1050,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Essa é a Yumi , ela racional e observadora. Sempre atenta. Com ela no grupo, nunca ficamos no escuro."
+                        "defaultText": "Essa é a Yumi. Ela é racional e observadora. Sempre atenta. Com ela no grupo, nunca ficamos no escuro."
                     },
                     "position": 0,
                     "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
@@ -1004,7 +1062,7 @@
                     "animations": []
                 },
                 "indent": 0,
-                "uid": "7EE02D4555D6244CE8698094F84194EB6063",
+                "uid": "59F2EF427CE7B34085494CC74AED5B163245",
                 "expanded": true
             },
             {
@@ -1017,7 +1075,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "148086019927144B526949F839F951E26383"
+                "uid": "851F7C9D67DF7349A65AB124384E91A57520"
             },
             {
                 "id": "gs.ShowMessage",
@@ -1037,7 +1095,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Podemos dizer que ela é a voz da razão no nosso grupo, ou seja, o oposto do Makoto"
+                        "defaultText": "Podemos dizer que ela é a voz da razão no nosso grupo, ou seja, o oposto do Makoto."
                     },
                     "position": 0,
                     "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
@@ -1049,7 +1107,7 @@
                     "animations": []
                 },
                 "indent": 0,
-                "uid": "F5B4AB5B5716C34BF28A4A6319BBE1D05639",
+                "uid": "2C4FEC051BCB8344613BC4F5F7DA7D4A0185",
                 "expanded": true
             },
             {
@@ -1062,7 +1120,40 @@
                     }
                 },
                 "indent": 0,
-                "uid": "CAC48B7A88BE9344FF4AA502CEB0BC35B091"
+                "uid": "6417477B61E3E741FE898CC406A9DB68D33A"
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Ela também foi convocada para essa academia com a gente."
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "FB2471F53E55D44B5E4905983B432E674A8A",
+                "expanded": true
             },
             {
                 "id": "vn.ChangeBackground",
@@ -1119,7 +1210,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "38D2A4AA82CEB0462B4BDB778A5F68E44440",
+                "uid": "673E2CA281B5D84F7428EFC15DD1F9F3B759",
                 "expanded": false
             },
             {
@@ -1137,7 +1228,7 @@
                         "inOut": 1
                     }
                 },
-                "uid": "952245F581D5A8404E0B4D26EAA1F0D12517",
+                "uid": "E7D8DC79569B0443D34914F5BF024C4A69F7",
                 "indent": 0
             },
             {
@@ -1162,7 +1253,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "06C6211419B48346C97AEC128D0AECF00EB5",
+                "uid": "AEE2AD046E3B654E246A8A58FE945CF6BE9E",
                 "indent": 0
             },
             {
@@ -1206,7 +1297,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "EF1DBD2674759647C638F7052987A2675E90",
+                "uid": "78368A793C0F684EEF3A80B5AE02794F3751",
                 "indent": 0
             },
             {
@@ -1218,40 +1309,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "55B298686C17864B7A081D36129256F32443"
-            },
-            {
-                "id": "gs.ShowMessage",
-                "params": {
-                    "waitForCompletion": 1,
-                    "duration": 15,
-                    "expressionId": null,
-                    "custom": {
-                        "object": {
-                            "x": 0,
-                            "y": 0,
-                            "size": {
-                                "width": 300,
-                                "height": 100
-                            }
-                        }
-                    },
-                    "message": {
-                        "lcId": null,
-                        "defaultText": "Ela também foi convocada para essa academia com a gente."
-                    },
-                    "position": 0,
-                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
-                    "partial": 0,
-                    "fieldFlags": {
-                        "duration": 1
-                    },
-                    "expressions": [],
-                    "animations": []
-                },
-                "indent": 0,
-                "uid": "0A43E2030E4C454FC19B5DB4C21860CA5CE9",
-                "expanded": true
+                "uid": "B512C86F27D16442246B0FF01FB3C24EF3F6"
             },
             {
                 "id": "gs.ClearMessage",
@@ -1263,7 +1321,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "FE10F08D819855477529D2D3BA36E63121B0"
+                "uid": "2621ABCE16200749C898CCE9F440FAD5F275"
             },
             {
                 "id": "gs.ShowMessage",
@@ -1294,7 +1352,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "35E58D8610DB444F209814A52F86A51BF374",
+                "uid": "A53DE63A1524F14E510A9748CB5F58DC0822",
                 "indent": 0,
                 "expanded": true
             },
@@ -1327,7 +1385,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "AC4585356659324E539B44B946BC9F0A45A0",
+                "uid": "4BCB1CA617AA874980299220142AD1FA28C2",
                 "indent": 0,
                 "expanded": true
             },
@@ -1340,7 +1398,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "8DEF28EE2FCF2940D679E9C959376B66E4D4"
+                "uid": "374E64986C00E44BFB6B64295C18F1C3AF1B"
             },
             {
                 "id": "vn.ChangeBackground",
@@ -1376,7 +1434,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "7C3B0A3F9E1E044D881B3658BC6E414F5B46",
+                "uid": "6675EDA4418493408A69CC97E18013681803",
                 "indent": 0
             },
             {
@@ -1396,7 +1454,7 @@
                         "inOut": 1
                     }
                 },
-                "uid": "B54270622FAC464B7B6BE884D846F5B180C7",
+                "uid": "35033AA52652D1450D8BA6A42DB53546D9A2",
                 "indent": 0
             },
             {
@@ -1428,9 +1486,21 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "472EE94022C195413C1804E2345C088E9D64",
+                "uid": "249930E199C5C3441F3B647123254104C71A",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "gs.ClearMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 30,
+                    "fieldFlags": {
+                        "duration": 0
+                    }
+                },
+                "indent": 0,
+                "uid": "C84E1CDC2185574C247B796527C3AF7201B0"
             },
             {
                 "id": "vn.CharacterJoinScene",
@@ -1473,7 +1543,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "972D7CCB16EE9741A61898324E898B4379EA",
+                "uid": "B46BD3504C42C64FA18BB425FDCC336C9374",
                 "indent": 0
             },
             {
@@ -1531,7 +1601,7 @@
                         "folderPath": ""
                     }
                 },
-                "uid": "88EF4A735F3D1948EF28D6C166DADE81FFDA",
+                "uid": "DCA299615E37C24193796E14EB1933C62193",
                 "indent": 0
             },
             {
@@ -1564,7 +1634,7 @@
                     "animations": []
                 },
                 "indent": 0,
-                "uid": "5E3701538B12A041583B34F60CD2DFAD2965",
+                "uid": "1C5F55DF6EE40745053AD305FD8C15DC0B83",
                 "expanded": true
             },
             {
@@ -1577,7 +1647,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "B1FCF1557EF9854AE90A7AA53AAF2A100D53"
+                "uid": "EA3F88C094DA8747C81A901136FC324128AD"
             },
             {
                 "id": "vn.CharacterExitScene",
@@ -1601,7 +1671,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "D459E7425E965142B76A758675C674DD24CB",
+                "uid": "51099D526125D144705B3D23CD1B8AA4582E",
                 "indent": 0
             },
             {
@@ -1626,32 +1696,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "F46D1EFA8E586147256AC346C6A91ABF7E01",
-                "indent": 0
-            },
-            {
-                "id": "vn.CharacterExitScene",
-                "params": {
-                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
-                    "duration": 0,
-                    "waitForCompletion": 0,
-                    "easing": {
-                        "type": 1,
-                        "inOut": 0
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "fieldFlags": {
-                        "duration": 1
-                    }
-                },
-                "uid": "90A8E91B8061B54CEE3B09830AADDDBD0EAD",
+                "uid": "F80129410DA27241536875E4645153E160AB",
                 "indent": 0
             },
             {
@@ -1700,7 +1745,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "A099400330412741BC6B5996C725DF873A76",
+                "uid": "E7F6DF475A90184BC5480AF3D642F0D0BDFF",
                 "indent": 0
             },
             {
@@ -1718,7 +1763,18 @@
                         "inOut": 1
                     }
                 },
-                "uid": "40B9814D8134C2406E48E6D3D6A426ADAC59",
+                "uid": "09A5C1002943664CB03A4E54126209B13B56",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "CC3D4AE389055942F17994E7537EEBC45AFA",
                 "indent": 0
             },
             {
@@ -1728,7 +1784,7 @@
                         "type": "scene"
                     },
                     "predefinedPositionId": 5,
-                    "expressionId": null,
+                    "expressionId": "7CD385DB3C11074C3828A3845FE6BF7C3681",
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
                     "zOrder": 0,
                     "origin": 0,
@@ -1762,19 +1818,32 @@
                         "duration": 1
                     }
                 },
-                "uid": "155973B817C34245F5494E79C2C730B05D2A",
+                "uid": "B9B37E315A13E347569A151227B7BFFF563E",
                 "indent": 0
             },
             {
-                "id": "gs.CallCommonEvent",
+                "id": "vn.MoveCharacter",
                 "params": {
-                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
-                    "parameters": {
-                        "values": []
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "predefinedPositionId": 5,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "positionType": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "fieldFlags": {
+                        "easing.type": 1
                     }
                 },
-                "uid": "129BB0FD4AFB324636795A391E4109D6F973",
-                "indent": 0
+                "uid": "77B6FBC170C34041DA482B59F5DA6F1E7237",
+                "indent": 0,
+                "expanded": true
             },
             {
                 "id": "gs.ShowMessage",
@@ -1794,7 +1863,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Olha aquele relógio... "
+                        "defaultText": "Olha aquele relógio..."
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -1805,7 +1874,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "8CC27F906480324B0D5AA131E768F29E241C",
+                "uid": "3E439A3069D0D04114686938CDE7DC4BBF1D",
                 "indent": 0,
                 "expanded": true
             },
@@ -1818,7 +1887,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "602DBEF52E69374EAE6A8C1195EFF05AA739",
+                "uid": "14401E93860181405F7932358645E18370EA",
                 "indent": 0
             },
             {
@@ -1850,7 +1919,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "C47BA0B429D7504D051B984541ED810A8FA8",
+                "uid": "2740C9481C8BF443368B62A178655F4710FC",
                 "indent": 0,
                 "expanded": true
             },
@@ -1876,7 +1945,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "4730F6122B4041423A8836C6CC29D8C00F7F",
+                "uid": "BEBF4C1345741645207A5DF07CC1F70C3E9A",
                 "indent": 0
             },
             {
@@ -1887,7 +1956,7 @@
                         "values": []
                     }
                 },
-                "uid": "2E7F31DB69AF76466F9AEDD56043BCEE2372",
+                "uid": "99EC5688753D7240695AA39001544A2F3198",
                 "indent": 0
             },
             {
@@ -1932,7 +2001,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "EDEBAC562BADF64067688F824535570E1179"
+                "uid": "F3D9A2CE82FED640F71AB613128C6778EE48"
             },
             {
                 "id": "gs.CallCommonEvent",
@@ -1942,7 +2011,7 @@
                         "values": []
                     }
                 },
-                "uid": "4DD59F8F881E57402C79F657334C18FB64EC",
+                "uid": "1696A8545701154BD83AAD080499DFBD11AE",
                 "indent": 0
             },
             {
@@ -1974,7 +2043,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "89727CAA5BEFF7447F5BE9D74E4AACF05863",
+                "uid": "D45A0CB1035D324C3E289A73A66BC3C42034",
                 "indent": 0,
                 "expanded": true
             },
@@ -1987,7 +2056,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "D76684FB43A0934E5289A9A5F5E479F3740A",
+                "uid": "0249282591D3124BB87A6C04DCCEC7F4B915",
                 "indent": 0
             },
             {
@@ -2019,7 +2088,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "EFCC4AB859DB04478A4ACC54C5A43554F334",
+                "uid": "DD1D0BD1700E874C4368A10413B7CE5B6413",
                 "indent": 0,
                 "expanded": true
             },
@@ -2032,7 +2101,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "FD623E082DEFA44EDB78020891B328D0097C",
+                "uid": "488E171D48BB0940981919629CAD4F9B6192",
                 "indent": 0
             },
             {
@@ -2057,7 +2126,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "88DB46CB8E12D74B6F19D6A039CA324AB0BC",
+                "uid": "96EFC95439D7D849142B22D8B0F95A08BDC0",
                 "indent": 0
             },
             {
@@ -2068,7 +2137,7 @@
                         "values": []
                     }
                 },
-                "uid": "A73C42A22FA2084D3639EC50235B727E6254",
+                "uid": "2D81B1E84715A94BE36B57A2A011F846058E",
                 "indent": 0
             },
             {
@@ -2112,7 +2181,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "0901AB628F54C94BD11BCAD3EF0DB4E29C86",
+                "uid": "1EE8CE726E5D1545A27BA7B1E94DB8D5B433",
                 "indent": 0
             },
             {
@@ -2123,7 +2192,7 @@
                         "values": []
                     }
                 },
-                "uid": "ACA1A87D52B5F349212A77C4382F8E8738C9",
+                "uid": "184DF3AF81AE71453949D1578218A95EBA75",
                 "indent": 0
             },
             {
@@ -2155,7 +2224,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "E2A61D6330F4D14B526A62E2FF62F29D48C9",
+                "uid": "755694FA64AC024F00884A38CA384750501B",
                 "indent": 0,
                 "expanded": true
             },
@@ -2167,7 +2236,7 @@
                         "values": []
                     }
                 },
-                "uid": "598F27637A4AB24DDC4B79C602A49DF703B6",
+                "uid": "5E173F2F8163E94B7788F184BC1F6E9986DF",
                 "indent": 0
             },
             {
@@ -2178,7 +2247,7 @@
                         "values": []
                     }
                 },
-                "uid": "E9B060367EC1514DC34AFD276CA21898AA6D",
+                "uid": "B0B0DC1392F22549303A0EB36DD361715453",
                 "indent": 0
             },
             {
@@ -2210,7 +2279,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "2B9747744765E44594183FD30341AC2DFA03",
+                "uid": "319975B616A8934C9C3AA1283B7FAF1BE234",
                 "indent": 0,
                 "expanded": true
             },
@@ -2223,7 +2292,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "17265BC83CEEB149A81B45625D3A93BEB2DB",
+                "uid": "865A2B6647DC074AEB5B998397B18B55529F",
                 "indent": 0
             },
             {
@@ -2234,7 +2303,7 @@
                         "values": []
                     }
                 },
-                "uid": "3CDBB84964A17749908BB436B344A6383887",
+                "uid": "60C581AB3FEA5740055B17A38D964134CCB3",
                 "indent": 0
             },
             {
@@ -2259,7 +2328,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "C5A325D0371B054B875B8935CEABA0C26A7C",
+                "uid": "766876B422E5E24D091AFAB7B64A25D67F51",
                 "indent": 0
             },
             {
@@ -2303,7 +2372,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "3FDD02EB593CE54877483F92B05D8BA01C6F",
+                "uid": "9A30073610B3264DC26A28B25C259AA231AA",
                 "indent": 0
             },
             {
@@ -2314,7 +2383,7 @@
                         "values": []
                     }
                 },
-                "uid": "F2ED699542065347974867913EA1C7E1F8D5",
+                "uid": "5E8D22244F9C9640A5896526828ABD2BAEF1",
                 "indent": 0
             },
             {
@@ -2346,7 +2415,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "BB45937610FDE847F78A8305D9D55CE3CA8C",
+                "uid": "EBD01B2A2123A84FF5593FE033F6FD06147D",
                 "indent": 0,
                 "expanded": true
             },
@@ -2359,7 +2428,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "344672F11C86A341437BF3D4202DD1C35486",
+                "uid": "2C1CAD277DC6C746B58B6B836C89D477D6D6",
                 "indent": 0
             },
             {
@@ -2370,7 +2439,7 @@
                         "values": []
                     }
                 },
-                "uid": "5D9027EB24DE3641D819C4E7813D67FAD3D6",
+                "uid": "6261FACD464AF94CD20A425882CDC75B61FC",
                 "indent": 0
             },
             {
@@ -2395,7 +2464,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "966784A38314D64A513841B7945029932895",
+                "uid": "29F51BC72F895346B42A01138EA36A985122",
                 "indent": 0
             },
             {
@@ -2439,7 +2508,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "FDEBEF636E758843A5088A17B1029BAB416A",
+                "uid": "E3DBC8A73D4912410E8AB0C828DCBBE6988F",
                 "indent": 0
             },
             {
@@ -2450,7 +2519,7 @@
                         "values": []
                     }
                 },
-                "uid": "213DB8694A4CB7481C2BBBE10728027966B5",
+                "uid": "F3ABCB2C748F36405F78D103D0151332C543",
                 "indent": 0
             },
             {
@@ -2482,7 +2551,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "7CECA22282F4234DFC481E93FF5E0B82ECA7",
+                "uid": "EA20C62C1097984BDA7A90F657021E4E55D7",
                 "indent": 0,
                 "expanded": true
             },
@@ -2494,7 +2563,7 @@
                         "values": []
                     }
                 },
-                "uid": "A51B36062C5819455628B6B72CD5943A94C9",
+                "uid": "E59B68CA62F73943E1881987DB2B71D12A72",
                 "indent": 0
             },
             {
@@ -2519,7 +2588,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "709E8C535580D44BEF0B5598D666760468B2",
+                "uid": "C892C1A087EB21494178ACC43184F28ACABC",
                 "indent": 0
             },
             {
@@ -2551,7 +2620,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "F98F522152A2E741A51AA19142718E463F93",
+                "uid": "7D565F5039C60640E2390C58B81A4CBE66DE",
                 "indent": 0,
                 "expanded": true
             },
@@ -2565,7 +2634,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "4344B50237A5614BB02BCF59804CDB221891"
+                "uid": "77F59DE11EAA52446718D0E4D0A0A4B46995"
             },
             {
                 "id": "vn.CharacterJoinScene",
@@ -2608,7 +2677,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "FFB51C9E57D69548EA4B1492F3AC92F1848F",
+                "uid": "E00EE30F288B5841577A3AC41E291AB62A73",
                 "indent": 0
             },
             {
@@ -2619,7 +2688,7 @@
                         "values": []
                     }
                 },
-                "uid": "D3201C5351BC684F414B33F03FAB40A6AECA",
+                "uid": "3782B5FE6832A644CC2A30963EE367D3899C",
                 "indent": 0
             },
             {
@@ -2640,7 +2709,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Vc também ouviu, não é {GT:Input Text Result}?"
+                        "defaultText": "Vc também ouviu, não é, {GT:Input Text Result}?"
                     },
                     "position": 0,
                     "characterId": "5FDD830E06D93643585926687B5F0BA85302",
@@ -2651,7 +2720,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "AA19C502201DB747A6682FF0FC253995541F",
+                "uid": "643D43A94027C0402D7A55A60C96911F0073",
                 "indent": 0,
                 "expanded": true
             },
@@ -2663,7 +2732,7 @@
                         "values": []
                     }
                 },
-                "uid": "BC8B00AE6AB07942B269F450C5F3CB660F24",
+                "uid": "EB46F2A67A51F64B053BA348EC9E3C568785",
                 "indent": 0
             },
             {
@@ -2688,7 +2757,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "FC6913381435574F681930509DB9307EBBC9",
+                "uid": "6000A06F15A91543DE2A6E274BA21B762071",
                 "indent": 0
             },
             {
@@ -2732,7 +2801,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "E05135336F17D34CD06A8C91EE372DF8E3F1",
+                "uid": "542A82E37AB2A4424999331298432C00491C",
                 "indent": 0
             },
             {
@@ -2743,7 +2812,7 @@
                         "values": []
                     }
                 },
-                "uid": "7A61BE123666D74A3E2A9E9437D8FAB7471B",
+                "uid": "C8BA7C298D60D043371901037436FDE1EDFF",
                 "indent": 0
             },
             {
@@ -2775,7 +2844,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "CFF1FF778952B34D7F8B15242A30A1EF9D9F",
+                "uid": "AA9337ED53C968499A69F0765FB8AF4310F5",
                 "indent": 0,
                 "expanded": true
             },
@@ -2801,7 +2870,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "AFD1AEA777F404445E49619551529DEF17C2",
+                "uid": "A1D8BC256CE134403B99E900985106EC9C69",
                 "indent": 0
             },
             {
@@ -2812,7 +2881,7 @@
                         "values": []
                     }
                 },
-                "uid": "D9C2855734F61346C678E64893B66CD79FC6",
+                "uid": "0EEE0A3178B71548963965C7F98CC779AAF9",
                 "indent": 0
             },
             {
@@ -2856,7 +2925,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "AA89BEC58942F34D8D78A561770D6D830136",
+                "uid": "33AE4F463A1ED948A50AF896075427295462",
                 "indent": 0
             },
             {
@@ -2867,7 +2936,7 @@
                         "values": []
                     }
                 },
-                "uid": "E2A649735701544CC488B323C992A91F7E82",
+                "uid": "ED75489033A35746CD4A30A1C96C25431F33",
                 "indent": 0
             },
             {
@@ -2879,7 +2948,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "76CFAEEE6F4D094E88397342750D14BB220F",
+                "uid": "985164F7026DE84B591905A4A2A67E6E5FC0",
                 "indent": 0
             },
             {
@@ -2911,7 +2980,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "01A479EF6EF6A246348A4FD44F49C322D11C",
+                "uid": "8A9B5A8E9D91884F1D4AA6A9C3864D56CABD",
                 "indent": 0,
                 "expanded": true
             },
@@ -2937,7 +3006,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "EB5185520A9EC94AA498C5B54130CDDB6372",
+                "uid": "72D149030D6AA441542876586EB43F0E66FF",
                 "indent": 0
             },
             {
@@ -2948,7 +3017,7 @@
                         "values": []
                     }
                 },
-                "uid": "61317CA61A38C446888961E3BD055FC4DEA2",
+                "uid": "1E5018739575C24DAE5AFD540F6AE695A237",
                 "indent": 0
             },
             {
@@ -2992,7 +3061,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "E81B25C6002AF646187AF237C4691D86327F",
+                "uid": "5FD2424B33C9D44E9A2B61052A8ACCA364F6",
                 "indent": 0
             },
             {
@@ -3003,7 +3072,7 @@
                         "values": []
                     }
                 },
-                "uid": "9EB2D9C83DC3A247F88BAE48516D951F0E5F",
+                "uid": "30A1BF8A5477244105889398C62BC2B8084F",
                 "indent": 0
             },
             {
@@ -3035,9 +3104,20 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "3B00452555DBD847602B8795E6D9CEE97D5E",
+                "uid": "3244299E7E1CB641FB3B799714BED24FE9AC",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "09B3DB9E75A2F24BB96AB1C518127C6C6495",
+                "indent": 0
             },
             {
                 "id": "vn.CharacterExitScene",
@@ -3061,7 +3141,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "0EDCB7993A4A324A2739B3659FD33EFC41EB",
+                "uid": "E014E3ED7F63934BEF7A5F76C190EBEFEC8A",
                 "indent": 0
             },
             {
@@ -3105,7 +3185,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "7C1BCBA44F29694FF128FB75D6F2DE3A5B6C",
+                "uid": "F77C0E206548F54EDA0BD0D7F7648F8220F9",
                 "indent": 0
             },
             {
@@ -3116,7 +3196,7 @@
                         "values": []
                     }
                 },
-                "uid": "3E632AE0863B8245681BD7D18536E59A202C",
+                "uid": "D1A3111B23D31643CC6B9A90F40B2F711850",
                 "indent": 0
             },
             {
@@ -3137,7 +3217,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Tá aí algo que eu não esperava ver hj."
+                        "defaultText": "Tá aí algo que eu não esperava ver hoje."
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -3148,7 +3228,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "2D20869B8D1D4242464B7A47EBC67350DEB9",
+                "uid": "E7689C99313FB14A5A5B24843FBA52E1E549",
                 "indent": 0,
                 "expanded": true
             },
@@ -3174,7 +3254,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "0AA8063379AE6845385A7761C6386AFD92B5",
+                "uid": "ED590F74874B1148C77A7508D3A05A26D94A",
                 "indent": 0
             },
             {
@@ -3185,7 +3265,7 @@
                         "values": []
                     }
                 },
-                "uid": "DC6DFB8217FDE34051387C704970CE483646",
+                "uid": "52F78F8118938847AE0883B2EF8B59440009",
                 "indent": 0
             },
             {
@@ -3229,7 +3309,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "7851695F40F23846463B28F1F18054041FEC",
+                "uid": "0DE2270F191F72423E4A49A2CC432CE4606B",
                 "indent": 0
             },
             {
@@ -3240,7 +3320,7 @@
                         "values": []
                     }
                 },
-                "uid": "38D9086F4B83A74DD558F6771D7D6D54789E",
+                "uid": "8DF890CE3A7EC74A8C4A4593B4F00BE533F9",
                 "indent": 0
             },
             {
@@ -3272,7 +3352,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "FFACE10B58D059431189F4A8C515C599D0E6",
+                "uid": "894DBCDE5385F44AB39A92B3499976962011",
                 "indent": 0,
                 "expanded": true
             },
@@ -3298,7 +3378,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "7AA87B064D8A07463A1A8437E1A89D74C6DC",
+                "uid": "E790E92216A99941E1390186F7EBF62582F1",
                 "indent": 0
             },
             {
@@ -3309,7 +3389,7 @@
                         "values": []
                     }
                 },
-                "uid": "457897C02AFBE14C0469EAF6B56B7EF69050",
+                "uid": "D873A3D98C8EB344A87AD864A527F341F276",
                 "indent": 0
             },
             {
@@ -3353,7 +3433,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "0B76880797D90649FC8AA8B7546E5F5678BD",
+                "uid": "CC7C0DA059D29440BF8802D893DF7547DCDA",
                 "indent": 0
             },
             {
@@ -3364,7 +3444,7 @@
                         "values": []
                     }
                 },
-                "uid": "A2DFA7BF9EB1904414599662C5C72D0CD0C5",
+                "uid": "5499DDA51CA25143BD29EAC71617F74674D1",
                 "indent": 0
             },
             {
@@ -3396,7 +3476,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "5153C05147699342C218691728305853B85E",
+                "uid": "0F988EA4872E1141B4484519C7F2772519FD",
                 "indent": 0,
                 "expanded": true
             },
@@ -3408,7 +3488,7 @@
                         "values": []
                     }
                 },
-                "uid": "BF0C8DAC3CDA3944C83AB3D51AD162465C28",
+                "uid": "C41D3DE64D56C8415E8A4ED3DD0AFB3BF6A9",
                 "indent": 0
             },
             {
@@ -3433,7 +3513,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "C186C0E721355541857A77821971ECCC0682",
+                "uid": "6186F1BF59C6C548CF48D8F572D696E15CD2",
                 "indent": 0
             },
             {
@@ -3477,7 +3557,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "2B6C3B9D195AC343F54888071A6CE4764EEB",
+                "uid": "DA6560F45F4C7349F75A5118C5B1F0F8B43E",
                 "indent": 0
             },
             {
@@ -3488,7 +3568,7 @@
                         "values": []
                     }
                 },
-                "uid": "9D6C511983898042464ABDD579AA9C23A022",
+                "uid": "6A074C242982B646DA6BCE0479E0860111F9",
                 "indent": 0
             },
             {
@@ -3509,7 +3589,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Ah, foi mal eu esqueci. Fiquei chocado com o fato de conversar com um portão."
+                        "defaultText": "Ah, foi mal! Eu esqueci. Fiquei chocado com o fato de conversar com um portão."
                     },
                     "position": 0,
                     "characterId": "5FDD830E06D93643585926687B5F0BA85302",
@@ -3520,7 +3600,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "12A21A816C3B6740A54A09664114E51FB943",
+                "uid": "D0AD46BD9147554A603BD2433CA3E3550332",
                 "indent": 0,
                 "expanded": true
             },
@@ -3532,7 +3612,7 @@
                         "values": []
                     }
                 },
-                "uid": "A2C25BD35498864DCE1A06F194CD8D76B845",
+                "uid": "F4F9C90E61AE614D144B07E5BD02821ED857",
                 "indent": 0
             },
             {
@@ -3557,7 +3637,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "688A29B42A5A774ECF59047481D3722B47A5",
+                "uid": "86A5FEC52C97F748441852490BE36107C317",
                 "indent": 0
             },
             {
@@ -3568,7 +3648,7 @@
                         "values": []
                     }
                 },
-                "uid": "970E2D3022058748E90A02521329D22C63A9",
+                "uid": "4FCB125223E891473A2973A08463797C6C65",
                 "indent": 0
             },
             {
@@ -3612,7 +3692,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "3589BA296768284CBB481483BCB280D375C9",
+                "uid": "36478EFD3F714146C5681DA21E3803BB997C",
                 "indent": 0
             },
             {
@@ -3623,7 +3703,7 @@
                         "values": []
                     }
                 },
-                "uid": "310B8D68686FE442510875A67B1AC4B35FA9",
+                "uid": "17EDC42437D50842775AC460C42523901343",
                 "indent": 0
             },
             {
@@ -3644,7 +3724,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Típico de você Makoto."
+                        "defaultText": "Típico de você, Makoto."
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -3655,7 +3735,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "3A6E9D1D7E29384EBA99B7A0938A95C89C7A",
+                "uid": "CBBD074274F2824AAD99BDA33FC205164B6D",
                 "indent": 0,
                 "expanded": true
             },
@@ -3668,7 +3748,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "EF0BC63B7647574F901BBE12FA5620B14056",
+                "uid": "567077F91276B6466F0B31748A6F91310DC8",
                 "indent": 0
             },
             {
@@ -3700,7 +3780,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "CB2E3D8C685F2247064BF6872CD5955F1219",
+                "uid": "A70768983409674A529BA688C0D70185B805",
                 "indent": 0,
                 "expanded": true
             },
@@ -3726,7 +3806,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "BF0698526A987342F7389234F6213C945DC8",
+                "uid": "88E159CB4DC7F54A7E2A9E0266A16ABE9DEA",
                 "indent": 0
             },
             {
@@ -3737,7 +3817,7 @@
                         "values": []
                     }
                 },
-                "uid": "A59E817327277745A43979F3C57C531DDB71",
+                "uid": "6B6E4CBD43F7D544101B3B78B9543EEEBA5B",
                 "indent": 0
             },
             {
@@ -3781,7 +3861,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "2D55E984267203413F5A8015794F3D120F6E",
+                "uid": "D38F82A051FB75431359378640BA3731A432",
                 "indent": 0
             },
             {
@@ -3792,7 +3872,7 @@
                         "values": []
                     }
                 },
-                "uid": "5E326A437D40784CC50B9DC8CB9AAECB9F88",
+                "uid": "90119E4F87C9654436598B800E75FF62403C",
                 "indent": 0
             },
             {
@@ -3824,7 +3904,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "F66B2BE343E42243088B78526850B8B2A204",
+                "uid": "45F833045BC1E841C70A91B31E1713FE5AD9",
                 "indent": 0,
                 "expanded": true
             },
@@ -3857,7 +3937,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "5ABD9E6B0326184826983713C4EC7D7AFBF4",
+                "uid": "FCB3492539D2B34F9F88236714BB733D8B9D",
                 "indent": 0,
                 "expanded": true
             },
@@ -3869,7 +3949,7 @@
                         "values": []
                     }
                 },
-                "uid": "9A95148700198140C07ABEA8BF120DD81ED4",
+                "uid": "045240C27EEF714CA46932B8A6AFFE529D74",
                 "indent": 0
             },
             {
@@ -3894,7 +3974,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "82394CDC10EF1849883B38C2A50D8425A747",
+                "uid": "3A981B2A35F4724C388876016E51F15B2991",
                 "indent": 0
             },
             {
@@ -3919,7 +3999,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "B23D0D7C6F1CC549368890353FCE575837D3",
+                "uid": "3D8F71C66A3B8846CA38C279268AFAEF16BD",
                 "indent": 0
             },
             {
@@ -3961,7 +4041,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "FE45FF3E48C8314DCC58A1261797D3683232"
+                "uid": "5F358271543ED444CE9B4FB644052C99FA5D"
             },
             {
                 "id": "vn.CharacterJoinScene",
@@ -4004,7 +4084,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "BE03015F665CF3465D5AFAD6E7F539BB1A34",
+                "uid": "4ADE846F4FD1344C64297B78D1C0759BA01E",
                 "indent": 0
             },
             {
@@ -4015,7 +4095,7 @@
                         "values": []
                     }
                 },
-                "uid": "D720FFBC2CC42642D28BC3A19830A49A94B0",
+                "uid": "DB3A396D11A39341B758A80479BFFBB595F5",
                 "indent": 0
             },
             {
@@ -4047,7 +4127,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "B5E54DE94AD62345673A3046D9DF600BD908",
+                "uid": "6A4E72E265A67443006ABDF5B45701B67757",
                 "indent": 0,
                 "expanded": true
             },
@@ -4069,7 +4149,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Apenas uma das alternativa os levará adiante."
+                        "defaultText": "Apenas uma das alternativas os levará adiante."
                     },
                     "position": 0,
                     "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
@@ -4080,7 +4160,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "FECE665F1E3BD64FA89B84E36BEB3793BED8",
+                "uid": "8E13F33082AF234E5E4ADBD84F9812375E4F",
                 "indent": 0,
                 "expanded": true
             },
@@ -4092,7 +4172,7 @@
                         "values": []
                     }
                 },
-                "uid": "DA9388EB734B784DBC9A25A1BB26382FA806",
+                "uid": "71E2C3C88FD0A2407B3BFA66788C193FC77B",
                 "indent": 0
             },
             {
@@ -4117,51 +4197,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "FE9D207B5B20F546FF99ECA44FCBF3E9E4CD",
-                "indent": 0
-            },
-            {
-                "id": "vn.CharacterJoinScene",
-                "params": {
-                    "viewport": {
-                        "type": "scene"
-                    },
-                    "predefinedPositionId": 5,
-                    "expressionId": null,
-                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
-                    "zOrder": 0,
-                    "origin": 0,
-                    "blendMode": 0,
-                    "positionType": 0,
-                    "motionBlur": {
-                        "enabled": 0,
-                        "delay": 2,
-                        "opacity": 100,
-                        "dissolveSpeed": 3
-                    },
-                    "position": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "easing": {
-                        "type": 0,
-                        "inOut": 0
-                    },
-                    "duration": 0,
-                    "waitForCompletion": 1,
-                    "fieldFlags": {
-                        "duration": 1
-                    }
-                },
-                "uid": "0187A2DF3144E745C358B1F915D98E58485D",
+                "uid": "00F316F4254C60498C58B3C32E3DF90027CD",
                 "indent": 0
             },
             {
@@ -4205,7 +4241,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "63DD3CB762D036463F983AB79849C0F8E416",
+                "uid": "AC5CA26518DB7744713A5223AF260B38D052",
                 "indent": 0
             },
             {
@@ -4216,7 +4252,7 @@
                         "values": []
                     }
                 },
-                "uid": "FB850DEC3D65814CF57837290818E6F9AB1E",
+                "uid": "25CB1E5A944544475E08A2597DE1DB42C4D2",
                 "indent": 0
             },
             {
@@ -4248,7 +4284,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "A4EB8683007666452C299C5935637B98CA72",
+                "uid": "2AC404DF8AC5314E6E6BF048F6EE4DD56C26",
                 "indent": 0,
                 "expanded": true
             },
@@ -4260,13 +4296,13 @@
                         "values": []
                     }
                 },
-                "uid": "27D423C22CB4F2409B8856A4A47BE1ED4010",
+                "uid": "E3BF7E155181D2470C3A82543EAD8CDF2667",
                 "indent": 0
             },
             {
                 "id": "vn.CharacterExitScene",
                 "params": {
-                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
                     "duration": 0,
                     "waitForCompletion": 0,
                     "easing": {
@@ -4285,7 +4321,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "ACE61FA20111C44CFC0A79C4096D5AFADABC",
+                "uid": "D6E10DFA438DC44A1E1AD4075D92E00A93FC",
                 "indent": 0
             },
             {
@@ -4329,7 +4365,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "10B9FDFA7550E549254BBE0570A2A2A70756",
+                "uid": "E5E870A65EF12249922BB69388E9066F9EF8",
                 "indent": 0
             },
             {
@@ -4340,7 +4376,7 @@
                         "values": []
                     }
                 },
-                "uid": "951D8AF431B98345001A6082E887E59C6DF5",
+                "uid": "314185EE49B38641F8883E76619759CCFA43",
                 "indent": 0
             },
             {
@@ -4372,7 +4408,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "1B3F6E238F4D64462358E7353AC73AF43AF9",
+                "uid": "41258DF04CC09349C28BE5A7042D69A9735B",
                 "indent": 0,
                 "expanded": true
             },
@@ -4405,7 +4441,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "9E312D7736A986461D7BDD35E0D4676D5E7A",
+                "uid": "EE34F5F40706E24518690D064384911A38D4",
                 "indent": 0,
                 "expanded": true
             },
@@ -4417,7 +4453,7 @@
                         "values": []
                     }
                 },
-                "uid": "9D62A59D65168444DB683B3714E7C658615F",
+                "uid": "D38E69D29EA8D745BE6B74E68A577B5614D4",
                 "indent": 0
             },
             {
@@ -4442,7 +4478,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "1110AE972C21D84C8C18DC995FBDBEA6106E",
+                "uid": "E575F95739AB0546D4882B739A22DFE65399",
                 "indent": 0
             },
             {
@@ -4486,7 +4522,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "26D4293F2A9556407759B687EA65D02DD8FA",
+                "uid": "72223156772AD54134392AC9B16B239B90CE",
                 "indent": 0
             },
             {
@@ -4497,7 +4533,7 @@
                         "values": []
                     }
                 },
-                "uid": "988C3CF14AFBA54D1C4BA725EFB06128D99C",
+                "uid": "1F918D3372613448D84BFEE8F0B46FA3D1DB",
                 "indent": 0
             },
             {
@@ -4518,7 +4554,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Vc entendeu, não é  {GT:Input Text Result}?"
+                        "defaultText": "Você entendeu, não é {GT:Input Text Result}?"
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -4529,7 +4565,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "8BE0E71140C7D843541847245407D3B74BBA",
+                "uid": "A75A8CFC8227F64B5389690865C4DFA92A78",
                 "indent": 0,
                 "expanded": true
             },
@@ -4562,7 +4598,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "409E80EE98B24847530955E832970E3463C3",
+                "uid": "D231A2B92497A448184A08E735916F5B583E",
                 "indent": 0,
                 "expanded": true
             },
@@ -4574,7 +4610,7 @@
                         "values": []
                     }
                 },
-                "uid": "8A301B1E7C67274E84499D15EB3695147FF8",
+                "uid": "700485B87A85F04C716B9D4433D543EE9385",
                 "indent": 0
             },
             {
@@ -4599,7 +4635,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "8C75A1809C5FE44B9A2B163363A2824568F9",
+                "uid": "16E008214D05F04E617BAA59589DC3C9901D",
                 "indent": 0
             },
             {
@@ -4643,7 +4679,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "6D3D7E86475953405E88D357CC3E31504978",
+                "uid": "39FAC1377D3E7247E13A98467882968D54A8",
                 "indent": 0
             },
             {
@@ -4654,7 +4690,7 @@
                         "values": []
                     }
                 },
-                "uid": "C821CBB01B3D294AED39E1C53252BA959262",
+                "uid": "1FB100FD7A39934BAF38C102011408D91B3F",
                 "indent": 0
             },
             {
@@ -4675,7 +4711,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Vai lá {GT:Input Text Result}!"
+                        "defaultText": "Vai lá, {GT:Input Text Result}!"
                     },
                     "position": 0,
                     "characterId": "5FDD830E06D93643585926687B5F0BA85302",
@@ -4686,9 +4722,20 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "CF01FCC18077F74EE9597F497D430D16B5AC",
+                "uid": "2939C05A553115492A28359856F1B1029C83",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "CB6557893051C340D62B3758B886D836983C",
+                "indent": 0
             },
             {
                 "id": "vn.CharacterExitScene",
@@ -4712,7 +4759,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "EFE72A4929AF3842C5582A48308DC61366AB",
+                "uid": "A24694F82815054BF32B47852A313E77AA5D",
                 "indent": 0
             },
             {
@@ -4756,7 +4803,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "1FACBB1A692162489E1B6D68F2FF41380241",
+                "uid": "E60ABF8F188CE54E6B98CF841BE2843FA24B",
                 "indent": 0
             },
             {
@@ -4767,7 +4814,7 @@
                         "values": []
                     }
                 },
-                "uid": "5610454E1C38474C4C8B5A1896D8B2829DCD",
+                "uid": "434D7E315A428942BD7A1E11DF5C83B807A0",
                 "indent": 0
             },
             {
@@ -4799,7 +4846,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "9D51E2732B2163403F195245DB06B504C463",
+                "uid": "467A562A72395441BE7B5AB8BA4E5D5464DE",
                 "indent": 0,
                 "expanded": true
             },
@@ -4832,9 +4879,20 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "E9128EEE695D58417A0B870478A88FD53E15",
+                "uid": "392B8DEB86FAD64BD76A1EE8960CBDCBA605",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "35AEE00C7115614A483B0FB392FC7EDEFA8B",
+                "indent": 0
             },
             {
                 "id": "vn.ChangeScene",
@@ -4851,7 +4909,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "E00360A91DB4264E4828B58385C4A45DBC5E",
+                "uid": "EA55529C14656642EA9988A4595AF887754C",
                 "indent": 0
             }
         ]

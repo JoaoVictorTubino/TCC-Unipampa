@@ -126,6 +126,17 @@
                 "expanded": false
             },
             {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "4F92738174DD0443281A7F076CBA9DC1515C"
+            },
+            {
                 "id": "gs.EraseHotspot",
                 "params": {
                     "numberDomain": "com.degica.vnm.default",

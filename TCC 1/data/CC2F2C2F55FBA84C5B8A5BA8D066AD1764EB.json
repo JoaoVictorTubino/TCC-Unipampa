@@ -171,7 +171,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "O que será que nos agurada aqui... mais desafios talvez."
+                        "defaultText": "O que será que nos aguarda aqui... mais desafios talvez."
                     },
                     "position": 0,
                     "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
@@ -257,7 +257,7 @@
                     "duration": 0,
                     "waitForCompletion": 1,
                     "fieldFlags": {
-                        "duration": 1
+                        "duration": 0
                     }
                 },
                 "uid": "CCDEAB605FC867489A9BCE16FE44FCF9A720",
@@ -325,7 +325,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "E aparentemente nehuma dessas portas fala."
+                        "defaultText": "E aparentemente nenhuma dessas portas falam."
                     },
                     "position": 0,
                     "characterId": "5FDD830E06D93643585926687B5F0BA85302",
@@ -449,7 +449,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Todas as portas estão trancadas. "
+                        "defaultText": "Todas as portas estão trancadas."
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -763,7 +763,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "E lá vem mais um enigma...\n"
+                        "defaultText": "E lá vem mais um enigma..."
                     },
                     "position": 0,
                     "characterId": "5FDD830E06D93643585926687B5F0BA85302",
@@ -796,7 +796,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Qual dessas portas esta falando com a gente?"
+                        "defaultText": "Qual dessas portas está falando com a gente?"
                     },
                     "position": 0,
                     "characterId": "5FDD830E06D93643585926687B5F0BA85302",
@@ -895,7 +895,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Quem é que esta falando?"
+                        "defaultText": "Quem é que está falando?"
                     },
                     "position": 0,
                     "characterId": "5FDD830E06D93643585926687B5F0BA85302",
@@ -1380,7 +1380,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Ele será o guia do vocês nesse novo enigma"
+                        "defaultText": "Ele será o guia do vocês nesse novo enigma."
                     },
                     "position": 0,
                     "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
@@ -2088,7 +2088,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Aparentemente cada um deles tem uma cois escrita."
+                        "defaultText": "Aparentemente cada um deles tem uma coisa escrita."
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -2292,7 +2292,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Esses sãos os painéis condiconais."
+                        "defaultText": "Esses sãos os painéis condicionais."
                     },
                     "position": 0,
                     "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
@@ -2358,7 +2358,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Vocês terão 4 opçoes, mas dessa vez ao invés de uma condição ser atendida..."
+                        "defaultText": "Vocês terão quatro opções, mas dessa vez ao invés de uma condição ser atendida..."
                     },
                     "position": 0,
                     "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
@@ -2391,7 +2391,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Vocês deverão escolher a alternativa que atenda todas as condições dos painéis lógicos"
+                        "defaultText": "Vocês deverão escolher a alternativa que atenda todas as condições dos painéis lógicos."
                     },
                     "position": 0,
                     "characterId": 0,
@@ -2515,7 +2515,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Esse parece mais dificíl que o último enigma."
+                        "defaultText": "Esse parece mais difícil que o último enigma."
                     },
                     "position": 0,
                     "characterId": "5FDD830E06D93643585926687B5F0BA85302",
@@ -2705,7 +2705,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Tenho certeza que você vai cosneguir."
+                        "defaultText": "Tenho certeza que você vai conseguir."
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",

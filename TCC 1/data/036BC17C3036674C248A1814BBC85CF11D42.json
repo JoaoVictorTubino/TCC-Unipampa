@@ -1,13 +1,14 @@
 {
     "uid": "036BC17C3036674C248A1814BBC85CF11D42",
     "isLoaded": true,
-    "lastModificationTime": null,
+    "lastModificationTime": 0,
     "items": {
-        "type": "vn.scene",
         "name": "Continua",
+        "type": "vn.scene",
         "parentId": "BC7945317F825443963A788711D4F1430DBA",
-        "localizableStrings": {},
         "chapterUid": "8F8492BB491F294C0E6804117615C73121F8",
+        "order": 1,
+        "localizableStrings": {},
         "commands": [
             {
                 "id": "gs.PlayMusic",
@@ -114,14 +115,12 @@
                 "indent": 0
             }
         ],
-        "livePreviewDisabled": false,
-        "order": 1
+        "livePreviewDisabled": false
     },
     "summary": [
         "name",
         "type",
         "parentId",
-        "o",
         "chapterUid",
         "order"
     ],

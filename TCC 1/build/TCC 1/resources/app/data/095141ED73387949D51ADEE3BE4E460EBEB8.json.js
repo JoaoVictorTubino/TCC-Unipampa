@@ -1,0 +1,55 @@
+GS.dataCache['095141ED73387949D51ADEE3BE4E460EBEB8'] = {
+    "uid": "095141ED73387949D51ADEE3BE4E460EBEB8",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "InteragirYosuke(Fem)",
+        "type": "data_record",
+        "category": "commonEvents",
+        "id": "095141ED73387949D51ADEE3BE4E460EBEB8",
+        "isFolder": false,
+        "data": {
+            "name": "InteragirYosuke(Fem)",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [],
+            "commands": [
+                {
+                    "id": "vn.CallScene",
+                    "params": {
+                        "scene": {
+                            "uid": "74016CCF26BD38493218B9B38178AB64141F",
+                            "name": "Interagir com Yosuke (Rota feminina)"
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 0,
+                    "uid": "4DD471C46175B644FE2A54828168DD270478"
+                }
+            ],
+            "index": "095141ED73387949D51ADEE3BE4E460EBEB8",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ]
+        },
+        "localizableStrings": {},
+        "order": 7,
+        "parentId": "B90AC9F29E506445122BD9C54CFE574FD147"
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

@@ -6534,9 +6534,9 @@
             "items": {
                 "name": "Game Over",
                 "type": "vn.scene",
-                "parentId": "9FA0750443D16440577A5B61E50156BBB4FD",
+                "parentId": "0C2554880513B54F2F3AC148DFF1BEB52F01",
                 "chapterUid": "8F8492BB491F294C0E6804117615C73121F8",
-                "order": 3
+                "order": 0
             }
         },
         "0C2554880513B54F2F3AC148DFF1BEB52F01": {
@@ -6573,6 +6573,97 @@
                 "parentId": "BC7945317F825443963A788711D4F1430DBA",
                 "chapterUid": "8F8492BB491F294C0E6804117615C73121F8",
                 "order": 1
+            }
+        },
+        "BAD66C8C077BE8499B88E0429730F70882D0": {
+            "items": {
+                "name": "Entrando na academia dos códigos(Rota feminina)",
+                "type": "vn.scene",
+                "parentId": "CC2F2C2F55FBA84C5B8A5BA8D066AD1764EB",
+                "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+                "order": 3
+            }
+        },
+        "1956079938F08341DA4BC4C4283DBC5623B9": {
+            "items": {
+                "name": "Enigma do Portão Lógico(Protagonista feminina)",
+                "type": "vn.scene",
+                "parentId": "82DEE6988FB2F645672950D1B65402BFC86E",
+                "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+                "order": 1
+            }
+        },
+        "746F6754808A634A94196311050B62F5132E": {
+            "items": {
+                "name": "Interação com Companheiros(Rota feminina)",
+                "type": "vn.scene",
+                "parentId": "3305C56CKBF5BA44BFS8614EE4B277E49F6A",
+                "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+                "order": 4
+            }
+        },
+        "D1418948992F4845944AB044BCC9E04753AD": {
+            "items": {
+                "name": "Interagir com Yumi(Rota feminina)",
+                "type": "vn.scene",
+                "parentId": "746F6754808A634A94196311050B62F5132E",
+                "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+                "order": 0
+            }
+        },
+        "B72512BC4431824F827B44E0FA24C7F1E045": {
+            "items": {
+                "name": "Interagir com Makoto(Rota feminina)",
+                "type": "vn.scene",
+                "parentId": "746F6754808A634A94196311050B62F5132E",
+                "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+                "order": 1
+            }
+        },
+        "74016CCF26BD38493218B9B38178AB64141F": {
+            "items": {
+                "name": "Interagir com Yosuke (Rota feminina)",
+                "type": "vn.scene",
+                "parentId": "746F6754808A634A94196311050B62F5132E",
+                "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+                "order": 2
+            }
+        },
+        "D79B0DA34942F148AD8B2DA3263746AE6DB9": {
+            "items": {
+                "name": "Interagir com compaheiros(Capitulo 1) Rota feminina",
+                "type": "vn.scene",
+                "parentId": "746F6754808A634A94196311050B62F5132E",
+                "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+                "order": 3
+            }
+        },
+        "B90AC9F29E506445122BD9C54CFE574FD147": {
+            "items": {
+                "name": "Interacoes Capitulo 1(Rota feminina)",
+                "type": "data_record",
+                "order": 3
+            }
+        },
+        "230C8B9256EA7144DB2AAAC4053CEB5E4192": {
+            "items": {
+                "name": "InteragirYumi(Fem)",
+                "type": "data_record",
+                "order": 0
+            }
+        },
+        "BCB56B286CD2754E76586949777DEA3354FE": {
+            "items": {
+                "name": "InteragirMakoto(Fem)",
+                "type": "data_record",
+                "order": 1
+            }
+        },
+        "095141ED73387949D51ADEE3BE4E460EBEB8": {
+            "items": {
+                "name": "InteragirYosuke(Fem)",
+                "type": "data_record",
+                "order": 7
             }
         }
     }

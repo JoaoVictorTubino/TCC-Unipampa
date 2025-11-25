@@ -1,0 +1,2945 @@
+GS.dataCache['BAD66C8C077BE8499B88E0429730F70882D0'] = {
+    "uid": "BAD66C8C077BE8499B88E0429730F70882D0",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Entrando na academia dos códigos(Rota feminina)",
+        "type": "vn.scene",
+        "parentId": "CC2F2C2F55FBA84C5B8A5BA8D066AD1764EB",
+        "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+        "order": 3,
+        "localizableStrings": {},
+        "commands": [
+            {
+                "id": "gs.PlayMusic",
+                "params": {
+                    "layer": 0,
+                    "loop": 1,
+                    "music": {
+                        "folderPath": "Audio/Music",
+                        "name": "Tutorial_-_Good_Mood.ogg",
+                        "volume": 100,
+                        "playbackRate": 100
+                    },
+                    "fadeInDuration": 0,
+                    "playTime": {
+                        "min": 10,
+                        "max": 30
+                    },
+                    "playRange": {
+                        "start": 10,
+                        "end": 20
+                    },
+                    "playType": 0,
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "music.volume": 1,
+                        "music.playbackRate": 1,
+                        "fadeInDuration": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "8873F35E239B214D52197A3225C7CBD0DDF0"
+            },
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": {
+                        "name": "Interior da Academia.png",
+                        "folderPath": "Graphics/Backgrounds/Academia dos Códigos",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 0,
+                        "origin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1,
+                        "loopVertical": 1,
+                        "loopHorizontal": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "B43D9DA62503D64F7F5A6BE08B8ACB3D3B10",
+                "expanded": false
+            },
+            {
+                "id": "vn.ZoomBackground",
+                "params": {
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "zooming": {
+                        "x": 135,
+                        "y": 135
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    }
+                },
+                "uid": "9857345075E33248CA3AFD17170D6C0FF971",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Finalmente conseguimos superar o primeiro desafio e entrar na academia."
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "3DDD19526D5F954B1579CD769FA913B9D635",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "O que será que nos aguarda aqui... mais desafios talvez."
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "BA5ECBDA4065E24BC47BE889836111BC32AD",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Bom. Vamos descobrir."
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "5C2A1AF103EB124588286EF2249A1F62911D",
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 0
+                    }
+                },
+                "uid": "5A302D257AA9674D6B7AF5A84B3969417FE6",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "5A4E68917AA00140ED09ECC1CA13CBE1B11B",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Uau... Isso aqui parece um templo antigo. Só faltam as armadilhas."
+                    },
+                    "position": 0,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "D13AA1C71D26154CF91975B4E1958B3AB129",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "E aparentemente nenhuma dessas portas falam."
+                    },
+                    "position": 0,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "0DE0407F5BE2E74FDC3B62721078E6B424D7",
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "2F49303C4637D642076BDCB926C537636259",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "16867BD037C6F849451A8F51FF21DC11788A",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "EFA81B054C666441AE1B7AE0BEF0EA46EF2B",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "64A7F7D15609964BFF5A88508FBA1BAB14C8",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Todas as portas estão trancadas."
+                    },
+                    "position": 0,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "DC7A60EA4B57774A896BD0915AFDD471C19E",
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Algo vai acontecer."
+                    },
+                    "position": 0,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "72B9FF3077CAE14A252A9B36CBE1F2F413BD",
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "31EFC38472D0E645F79A27789EA2FDAE2A2B",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "C634C5B039B9E244B53B80E31C7953D75065",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "A14CC9438B2E164D90891CE55F9B87589448",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "A555275E093C644A912AC8779F1905ABC50A",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Se as portas não abrem, então ou estão seladas por magia... ou por lógica."
+                    },
+                    "position": 0,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "4FB62C844FB72444BB2AB7E6F50A6F164C86",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Somente quem compreender as relações entre condições e consequências poderá avançar."
+                    },
+                    "position": 0,
+                    "characterId": "872EE5D043CC56476F0B0CC2E8A786F4D68B",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "D4C372CC254C714D4B78CAE222E1D133EB42",
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "E53A1A37139546437E584766510BB062582D",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "E3886F1F5B0F98491A2AA8615F10BF36E255",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "B3076E8E4793874D6C2A31438BB3053C06DD",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "D4432B041D5FF34CD16B9BE45F890C1DFADE",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "E lá vem mais um enigma..."
+                    },
+                    "position": 0,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "5E822D6A44C7524F1E68B53347D1E18F403F",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Qual dessas portas está falando com a gente?"
+                    },
+                    "position": 0,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "B5083ABB5E1377483D2A2267EF97F128C8D2",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Nenhuma."
+                    },
+                    "position": 0,
+                    "characterId": "872EE5D043CC56476F0B0CC2E8A786F4D68B",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "7C50A9B66476A14CC2287F32939746F00076",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Então..."
+                    },
+                    "position": 0,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "3509760866EAE641EF8B12266DDFCE4AD557",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Quem é que está falando?"
+                    },
+                    "position": 0,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "FCD8856B9801474F568BA5D16D804B5249F3",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "B1DA8D61135CE549916B08B6B06809F1357D",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "505C32EE714DB747D11983922AD3D0D770EA",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 1,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 756,
+                        "y": 352,
+                        "angle": 0,
+                        "zoom": 1,
+                        "horizontalFlip": false,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "previewBackground": {
+                        "name": "",
+                        "folderPath": ""
+                    }
+                },
+                "uid": "F950CFA480BFA64F636A931859734AC72BB5",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "D9EF61EA214913428E3BC2A0231AAC9C70C2",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Eu, o Orbe Lógico."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "592E54893E705945B47AA1F3B0E8646156EE",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "04D46B770704B2471299C223E86B6E6D21CE",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "84E586AA6C56C346F08A4215C6A80ACBE1DD",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "303E3EE6528DF744CF6B3D86AA504FFF5238",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "549CA2380DCF184C2C0AF1262F43A48F79BD",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Agora tem um orbe falante."
+                    },
+                    "position": 0,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "05AC4D381565844A2A5B503135E87078ADFA",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Não sei como ainda me surpreendo com esse lugar."
+                    },
+                    "position": 0,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "90DBB6E89F785441BB3A0F041B030297A839",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Imagino que você tenha algum enigma pra gente."
+                    },
+                    "position": 0,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "7CB8B51916C2A14EE04A37C510888175C8A8",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "C552F30C6C74A143B71A670378E820539DCF",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "26D5EAF1441468476F790A81B2B60260C3D8",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "BFBB338D6A82444B2E7BE887F1DC988815BE",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "F61741877EC0464AD66B1645E9298F3263B8",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Vejo que vocês já conheceram o Orbe Lógico."
+                    },
+                    "position": 0,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "F98A4FEB3234F847732869B9455B1E680A27",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Ele será o guia do vocês nesse novo enigma."
+                    },
+                    "position": 0,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "05EE1E8F9D27C3495F49CF26289E915DC309",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Vocês agora enfrentaram o Desafio das Duplas."
+                    },
+                    "position": 0,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "82DB5BDC013B3148E3096F419D34DC925FB9",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Nem sempre uma condição isolada será suficiente."
+                    },
+                    "position": 0,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "7F0723244F67134F4C08707429ABA3F45DB6",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Às vezes, será necessário que **duas verdades** estejam presentes. Em outras, **basta uma**."
+                    },
+                    "position": 0,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "75B519BC68B3394E683B8BF34508E79BFB93",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "7706AA46483E874D291B10A41A175F548911",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "D68457D341BCF841745A84D84A531234132E",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 1,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 756,
+                        "y": 352,
+                        "angle": 0,
+                        "zoom": 1,
+                        "horizontalFlip": false,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "previewBackground": {
+                        "name": "",
+                        "folderPath": ""
+                    }
+                },
+                "uid": "6AAA41F022452441DF3BAD33FE92CFD0D52A",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "08F8A05E9B6EE14CFD7B6E02C4F870F8B43D",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Certamente."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "9D2B154F4BDC16477F0A43B00CA24BF8CDF8",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Uma dessas portas pode ser aberta. Nela vocês encontraram a chave para resolver o enigma."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "8D7F909664D07141731946B36D6FE453B0EE",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "20886FAA2510C34B19780914DD139322E943",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "634679FE46A4F3492C0A6CF21E212C1D429B",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "B3D2299184EA644E7C68B2888DA8672F7267",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "74042E49138CE345A679B8B8CB02DD3076CA",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Encontrei a porta que está aberta."
+                    },
+                    "position": 0,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "F88345DA9F42364C694B5794006990C9ADC8",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Vamos ver o que tem aqui dentro."
+                    },
+                    "position": 0,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "E112F7A11495A945198AF8B9AD6F7FF8A449",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "1E6C253D4454B04399792714F24D911CD99C",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "D3471E78637BC44CE14A8A15D14D18AB4E20",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "indent": 0,
+                "uid": "39365EA236591340995BE9D7D4E4E94AD509"
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "D10E550C8A715140DD38DC128237C7262989",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Então Yumi, o que tem aí dentro?"
+                    },
+                    "position": 0,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "9D176F5782913540427A720305664C32FB02",
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "75E6312B89AE944A491B5401EC18A15F7A81",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "083160240E11A143A37B3302A7BE65CB02AF",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "8F8908B2136AE443D54A10A6B957EA86D3F7",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "1969F0AF5F3E5741A889C5A6AA09BB1B5A7C",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Aqui tem 2 painéis."
+                    },
+                    "position": 0,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "E98BDB1151ADF341548B0B3726DDEF885FFE",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Aparentemente cada um deles tem uma coisa escrita."
+                    },
+                    "position": 0,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "4EAB3C06216E414CA489EEF6362D827A55C8",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Período do dia = Manhã\n\nTemperatura = Fria\n"
+                    },
+                    "position": 0,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "DFE96B866D03D148C68905292908CEA05DA9",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "DC865D3F71AFC54597993F87EDC1FD7771A8",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "D6DF47A735E22441AF1B88773CF4FCA139A5",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 1,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 756,
+                        "y": 352,
+                        "angle": 0,
+                        "zoom": 1,
+                        "horizontalFlip": false,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "previewBackground": {
+                        "name": "",
+                        "folderPath": ""
+                    }
+                },
+                "uid": "389CC8CC93FA784B84687723756B90B75D27",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "7C79EC5D296DA44316299C03AA078CDD33D7",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Certamente."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "1D54793D83657545C22B8243AFE342B05500",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Esses sãos os painéis condicionais."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "319CC0855112214E72580ED40B5782ECFE64",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "As portas das salas só irão abrir se todas as condições foram atendias."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "A4279B5670B304420A9BB4A4FF21E27B13DA",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Vocês terão quatro opções, mas dessa vez ao invés de uma condição ser atendida..."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "447F2ABE1BD355460989420768DD1B078359",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Vocês deverão escolher a alternativa que atenda todas as condições dos painéis lógicos."
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "D4F2FF3785C7604143583BE4ED75BFF4B169",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "853AA2552A307547AE1B8A97B807E7FF665A",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "1D7ABDB221326743779B1054453DC052292A",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "905E3FA03D54D94C1F99FE37327047177ACC",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "878257DA62EFF342E939C47336BD02F23655",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Esse parece mais difícil que o último enigma."
+                    },
+                    "position": 0,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "842018C3731C6149CF4A3763843DAD0075A4",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Mas tenho certeza de que a {GT:Input Text Result} consegue resolver."
+                    },
+                    "position": 0,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "5A65BE7D876A284C9F5AFA829B953D12EA14",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "0975FF8F3007D24AA969E5C4F009F3C438D9",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "ACC374054949D049DA5A5703FAADA22FB5A6",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "D03074398714544E9A18BAA770C693C07715",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "0B36A9AD3BEC644BDF2B0EA64A4A1D0D2E1B",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Isso mesmo. {GT:Input Text Result}, vamos deixar esse outro enigma com você."
+                    },
+                    "position": 0,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "C186B5942B41134E9D698E9074856BAE022D",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Tenho certeza que você vai conseguir."
+                    },
+                    "position": 0,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "73FC0E8172B6A5421F8B24111A27D6B71BD3",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "6EA204DA35CB844DFD2A9B6823338A92B58B",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "4CE859D25F262444D08816091342849EEAD0",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "9F413B3D7672A64BAB3B35C1838FBEC8D97B",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "DD9BC3DF88AC5343A4899F662F57AD928FA5",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Você consegue, {GT:Input Text Result}!"
+                    },
+                    "position": 0,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "95BF2E94536D6449BF589251EE8F1C4BF3BE",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "57BA5167510886488A2878728C6EA9850630",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "7193A785674BD24EC379FC17EAA91E855BE5",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Acho que vale a pena explorar essa sala antes de resolver o enigma."
+                    },
+                    "position": 0,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "60E3E6D947A94341037B6CE477C17DE41CFC",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "A98A613A641C584BA25BC936726692B8268D",
+                        "name": "Interagir com companheiros(Capítulo 2)"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "1A974EEB1F702748E208FD73928E17DF24E7",
+                "indent": 0
+            }
+        ],
+        "livePreviewDisabled": false
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

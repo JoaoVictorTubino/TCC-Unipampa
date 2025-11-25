@@ -96,6 +96,15 @@
                 "indent": 0
             },
             {
+                "id": "gs.EraseHotspot",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0
+                },
+                "uid": "A60B2C4744A8134CB27986736279B9B0F297",
+                "indent": 0
+            },
+            {
                 "id": "gs.ShowPicture",
                 "params": {
                     "numberDomain": "com.degica.vnm.default",
@@ -512,6 +521,24 @@
                 "indent": 0
             },
             {
+                "id": "gs.EraseHotspot",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 1
+                },
+                "uid": "58E27B2947EB99462E5871D81CC475990F50",
+                "indent": 0
+            },
+            {
+                "id": "gs.EraseHotspot",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0
+                },
+                "uid": "34870A3E8534E8484D29D171F5BD90FEC0B8",
+                "indent": 0
+            },
+            {
                 "id": "gs.CallCommonEvent",
                 "params": {
                     "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
@@ -622,6 +649,24 @@
                 "expanded": true
             },
             {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "E6635A088BE7D74A9F5BC613B949401F6076",
+                        "name": "Bem Vindo a Academia dos Códigos(Protagonista Feminina)"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "A0C6574A4361844F9E797E92D11F9C40F7CF"
+            },
+            {
                 "id": "gs.Label",
                 "params": {
                     "name": "nao"
@@ -630,11 +675,40 @@
                 "indent": 0
             },
             {
+                "id": "gs.EraseHotspot",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 1
+                },
+                "uid": "88FFA19649C07142984A0F35E1FE78089E5A",
+                "indent": 0
+            },
+            {
+                "id": "gs.EraseHotspot",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0
+                },
+                "uid": "7022C3713635E34E4B890DF8239232ECBAC0",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "55AE79AB1EB970407C097D58673C2B2A1455"
+            },
+            {
                 "id": "vn.ChangeScene",
                 "params": {
                     "scene": {
-                        "uid": "E6635A088BE7D74A9F5BC613B949401F6076",
-                        "name": "Bem Vindo a Academia dos Códigos(Protagonista Feminina)"
+                        "uid": "2AC340774E76314939298FC3BA62FE507F24",
+                        "name": "Seleção de Protagonista"
                     },
                     "savePrevious": 0,
                     "erasePictures": 0,

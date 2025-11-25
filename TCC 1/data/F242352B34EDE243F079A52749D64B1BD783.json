@@ -124,6 +124,17 @@
             {
                 "id": "gs.CallCommonEvent",
                 "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "D9691EBF56ACD542E938B2727AF391DD0CD2",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
                     "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
                     "parameters": {
                         "values": []

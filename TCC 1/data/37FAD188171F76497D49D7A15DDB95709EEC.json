@@ -5,9 +5,9 @@
     "items": {
         "name": "Game Over",
         "type": "vn.scene",
-        "parentId": "9FA0750443D16440577A5B61E50156BBB4FD",
+        "parentId": "0C2554880513B54F2F3AC148DFF1BEB52F01",
         "chapterUid": "8F8492BB491F294C0E6804117615C73121F8",
-        "order": 3,
+        "order": 0,
         "localizableStrings": {},
         "commands": [
             {

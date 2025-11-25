@@ -1,0 +1,2411 @@
+GS.dataCache['1956079938F08341DA4BC4C4283DBC5623B9'] = {
+    "uid": "1956079938F08341DA4BC4C4283DBC5623B9",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Enigma do Portão Lógico(Protagonista feminina)",
+        "type": "vn.scene",
+        "parentId": "82DEE6988FB2F645672950D1B65402BFC86E",
+        "chapterUid": "49DC3EE6267197419859C9E4D23776294B50",
+        "order": 1,
+        "localizableStrings": {},
+        "commands": [
+            {
+                "id": "gs.PlayMusic",
+                "params": {
+                    "layer": 0,
+                    "loop": 1,
+                    "music": {
+                        "folderPath": "Audio/Music",
+                        "name": "Tutorial_-_Good_Mood.ogg",
+                        "volume": 100,
+                        "playbackRate": 100
+                    },
+                    "fadeInDuration": 0,
+                    "playTime": {
+                        "min": 10,
+                        "max": 30
+                    },
+                    "playRange": {
+                        "start": 10,
+                        "end": 20
+                    },
+                    "playType": 0,
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "music.volume": 1,
+                        "music.playbackRate": 1,
+                        "fadeInDuration": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "01DE39E061CA40433658E9E13D914739B304",
+                "expanded": false
+            },
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": {
+                        "name": "Entrada.png",
+                        "folderPath": "Graphics/Backgrounds/Academia dos Códigos",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 0,
+                        "origin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1,
+                        "loopVertical": 1,
+                        "loopHorizontal": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "62DE98EC5825A540C29AC3258D38450271D8",
+                "expanded": false
+            },
+            {
+                "id": "vn.ZoomBackground",
+                "params": {
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "zooming": {
+                        "x": 135,
+                        "y": 135
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "fieldFlags": {
+                        "easing.type": 1
+                    }
+                },
+                "uid": "BB67A125749843438B6B97287DB2ADE6F36F",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 6,
+                    "expressionId": null,
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "2CDA9A5666E3A342D75A7FF72E725E2E568A",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "80B956634760D84BE08AB54418F64021D9B6",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Resolva o enigma para atravessar."
+                    },
+                    "position": 0,
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "6F8FA74B10ADC8447D09BB54DE9BBD37E938",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "correta",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se a sombra apontar ao norte, então o portão abrirá"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 618,
+                        "y": 124,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {
+                            "x": 313,
+                            "y": 62,
+                            "width": 662,
+                            "height": 66,
+                            "zoom": 1,
+                            "angle": 0
+                        },
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 686,
+                            "height": 66
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "209B71D48F08E6491818766534CFC9FB4533",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada1",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se tiver nuvens no céu, então o portão se abrirá."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 622,
+                        "y": 218,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "4EF73EDA441AF846195A7DE8FDF0BACEF9B4",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada2",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se for noite, então o portão se abrirá."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 628,
+                        "y": 324,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "666B3F7560FEF446574B9143921E54648563",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada3",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se a sombra não aparecer, então o portão se abrirá."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 632,
+                        "y": 422,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "A3D8C9BF502E76429239DE028863A9BAFAA5",
+                "indent": 0
+            },
+            {
+                "id": "vn.ShowChoices",
+                "params": {},
+                "uid": "EEC41574857BA743E81A4E44668E8D01F8A0",
+                "indent": 0
+            },
+            {
+                "id": "gs.Idle",
+                "params": {},
+                "uid": "8FC1C3DB50E5144B8B189510EFB411E9F9B7",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "correta"
+                },
+                "uid": "67C6DECA6AE8A04FF52A93B622CBD2B51DD7",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "4261C82C855AB647649B3774C5913BFF8B68",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Hmmm... sua lógica brilha como o sol. A passagem será liberada."
+                    },
+                    "position": 0,
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "41BB101163D7414C7E5812674B6FE611CAE2",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "B1E71B281FED124C338B6E51AAC0043D6471",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "49EB725630426548AC69CA125814B990D3E4",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "2288CCE852ADE84A03182C97EE0AE3EB2DF8",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "BB7CCBE57B89064A8B4932C05007E55EB3FE",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Era o Norte! A sombra indicava isso bem certinho. Mandou bem, \n {GT:Input Text Result}!"
+                    },
+                    "position": 0,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "D95E343810198344C38A2901988AF7829732",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "6E10349C42B59941B9394277F3AFDAA361FB",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "7637905630246042EB38DA917F1B805207B0",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "50B48778579E41452E68FA88195187EDF2BC",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "51A9C7615559C646602B63E7C53A61967D6A",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Eu sabia que você ia conseguir, {GT:Input Text Result}!"
+                    },
+                    "position": 0,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "06B59E7D0D68624EDD78470925E2293C6A2B",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "9883785084F680402E8965A9F635A0EF1DCB",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "34D00FDB49E3A1445029EF842E846AD12D61",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "EA5C23BB759936483089D0F41305E37D13C4",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "72A10EEE55C8D945E368939303E95B724027",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Você conseguiu, {GT:Input Text Result}! Agora a passagem está liberada"
+                    },
+                    "position": 0,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "4BEAFAB229CE064B770A39C3B2F4418CD5A3",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "3393F8AE2A75A8430F6BA2D06C1C31D9518B",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "3BF07CAD59F3424328380FE1D6C53FFEBDF2",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "BAD66C8C077BE8499B88E0429730F70882D0",
+                        "name": "Entrando na academia dos códigos(Rota feminina)"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "562450AE884FF74775282D76827A8AF10ECA",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.JumpToLabel",
+                "params": {
+                    "name": "",
+                    "target": "activeContext"
+                },
+                "uid": "C4FC82460AAB8346642BDFF7FB9CC33DF419",
+                "indent": 0
+            },
+            {
+                "id": "gs.LoopCommand",
+                "params": {},
+                "uid": "42857A28621EA34C446BF9A6BF53C1F46F77",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "errada1"
+                },
+                "uid": "73F2F67F35572647F37B280288F5F4969E7C",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "E4B4554247A3224F4538FC1045E007260AA6",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Essa não é a condição correta. O portão permanece fechado."
+                    },
+                    "position": 0,
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "6795359E5C18B847A66A4628B20A2D15A43A",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "8244D9B53166814F753ABDA2F1F5B09455D8",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "B13ED6457D351242477BA3A7F73F678312CB",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Tentem observar melhor as pistas."
+                    },
+                    "position": 0,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "234308A162FE58474D6B5D615EF6A16E18EB",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Esse painel explica como funciona a lógica do enigma."
+                    },
+                    "position": 0,
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "1B7954A3960CB84BB39B6385A94B06E1607B",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "F398158C8F6EA74D88782492C2A5A4B0317F",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "E2B414AD8A48904CB72BA3167BE7A91CE604",
+                        "name": "Painel de Dicas"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "A91362BA2349624C897B3FF24C8AF838EA7F"
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "correta",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se a sombra apontar ao norte, então o portão abrirá"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 618,
+                        "y": 124,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {
+                            "x": 313,
+                            "y": 62,
+                            "width": 662,
+                            "height": 66,
+                            "zoom": 1,
+                            "angle": 0
+                        },
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 686,
+                            "height": 66
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "EC2EA55081525749BC3970705147A54DD929",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada1",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se tiver nuvens no céu, então o portão se abrirá."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 622,
+                        "y": 218,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "331BBF58882B894FA15B3DD8D9400EA90766",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada2",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se for noite, então o portão se abrirá."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 628,
+                        "y": 324,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "BB81C778387C474CA02821F52B79C3065FB8",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada3",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se a sombra não aparecer, então o portão se abrirá."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 632,
+                        "y": 422,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "E4D5D46392E8F34ED56900D7AC3EE0DAF19B",
+                "indent": 0
+            },
+            {
+                "id": "vn.ShowChoices",
+                "params": {},
+                "uid": "BB72A64F133719406C2A65B72BB0FA27FE21",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Essa não é a condição correta. O portão permanece fechado."
+                    },
+                    "position": 0,
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "F35A817934394248A299E612163421DB7606",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.BreakLoopCommand",
+                "params": {},
+                "uid": "0E0F8A580DEC714EFA3B0800B3FAF491F4FA",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "errada2"
+                },
+                "uid": "506D2E7F4E8DC74BCB88C8A14A9229BC904D",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "993CAFCE4FDE814592197D814F178A5C39C0",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Essa não é a condição correta. O portão permanece fechado."
+                    },
+                    "position": 0,
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "72516F3E69EFD247243B5CD05EA04D6F2522",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "772A228684EB7649BB29F345A3527852E5D5",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 3,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 0
+                    }
+                },
+                "uid": "AF97A72C6A58704E5C3AF884B827C27D229A",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Tentem observar melhor as pistas."
+                    },
+                    "position": 0,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "BBDD21D876631943167AF8B5DD59DA4BCFA2",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Esse painel explica como funciona a lógica do enigma."
+                    },
+                    "position": 0,
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "3842B4761719B74ADC7A5358B778B2B56C7D",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "E2B414AD8A48904CB72BA3167BE7A91CE604",
+                        "name": "Painel de Dicas"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "8C75B94A9EADE84051187A882E78774E9212"
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "66E399D154A5A04A657ADB0174E2D3A3D36E",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "correta",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se a sombra apontar ao norte, então o portão abrirá"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 618,
+                        "y": 124,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {
+                            "x": 313,
+                            "y": 62,
+                            "width": 662,
+                            "height": 66,
+                            "zoom": 1,
+                            "angle": 0
+                        },
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 686,
+                            "height": 66
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "72B0AFF62C1ED74F573A548763F36B0AFC91",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada1",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se tiver nuvens no céu, então o portão se abrirá."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 622,
+                        "y": 218,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "826FA45094CE634FCE4A1BA6E48E02C22841",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada2",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se for noite, então o portão se abrirá."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 628,
+                        "y": 324,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "E21425A05EF014460098A024C785F21E12FC",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada3",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se a sombra não aparecer, então o portão se abrirá."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 632,
+                        "y": 422,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "6BF137A78229D949451898033386295D6E57",
+                "indent": 0
+            },
+            {
+                "id": "vn.ShowChoices",
+                "params": {},
+                "uid": "1D186A3F7257A946818BE9F72A612701A573",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Essa não é a condição correta. O portão permanece fechado."
+                    },
+                    "position": 0,
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "B6CAECB73F6ED74F900B4CD14B9D426B89AC",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.BreakLoopCommand",
+                "params": {},
+                "uid": "9F30A979442CE549DE7AFD93DD30648823DC",
+                "indent": 0
+            },
+            {
+                "id": "gs.LoopCommand",
+                "params": {},
+                "uid": "1FA84E116F9A1648656893154AB0A77C3D86",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "errada3"
+                },
+                "uid": "4735FB0D5A0793441C78E1F2FE9605A40C88",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "08B728571021574D898A31F78B6F4ECCCEC1",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Essa não é a condição correta. O portão permanece fechado."
+                    },
+                    "position": 0,
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "EBEB04614A12C84D8E8870C7058CBBE64D5F",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "D4B1A328501CE44DBB5B17D2F82B5EF469BF",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "DADDB1F16C6AD2492D59B5B45E51DF79D793",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Tentem observar melhor as pistas. "
+                    },
+                    "position": 0,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "26B64A2C1CDCD74F465922697423B590903F",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Esse painel explica como funciona a lógica do enigma."
+                    },
+                    "position": 0,
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "D240D4098DF74045454BEE35A9B3F4F2B58C",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "7FE2CDAB760C44460699D1578B43CC220323",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "E2B414AD8A48904CB72BA3167BE7A91CE604",
+                        "name": "Painel de Dicas"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "ECD6B3588744E443416A18C11609AAEB779D"
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "correta",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se a sombra apontar ao norte, então o portão abrirá"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 618,
+                        "y": 124,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {
+                            "x": 313,
+                            "y": 62,
+                            "width": 662,
+                            "height": 66,
+                            "zoom": 1,
+                            "angle": 0
+                        },
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 686,
+                            "height": 66
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "7BFA0E9C1872874B1798C878000D73B0FD23",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada1",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se tiver nuvens no céu, então o portão se abrirá."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 622,
+                        "y": 218,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "160880992450054A808B78C95A42DCEE02AC",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada2",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se for noite, então o portão se abrirá."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 628,
+                        "y": 324,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "E56A1D59838AD741022A5354BBA92179663B",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada3",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se a sombra não aparecer, então o portão se abrirá."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 632,
+                        "y": 422,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "229CDBF74D68884F862BA47292EC5B017EC7",
+                "indent": 0
+            },
+            {
+                "id": "vn.ShowChoices",
+                "params": {},
+                "uid": "8C938E7B1EFC9044FB6B990577FC3B14941A",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Essa não é a condição correta. O portão permanece fechado."
+                    },
+                    "position": 0,
+                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "F3A1900B63DC5343812810A0B8CA78004477",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.BreakLoopCommand",
+                "params": {},
+                "uid": "1F1A11385A6DB5461B58A11180E6D327FF14",
+                "indent": 0
+            }
+        ],
+        "livePreviewDisabled": false,
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

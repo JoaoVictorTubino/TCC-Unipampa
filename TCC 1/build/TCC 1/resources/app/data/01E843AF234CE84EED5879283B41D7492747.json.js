@@ -1,0 +1,2643 @@
+GS.dataCache['01E843AF234CE84EED5879283B41D7492747'] = {
+    "uid": "01E843AF234CE84EED5879283B41D7492747",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "O Enigma do Orbe Lógico",
+        "type": "vn.scene",
+        "parentId": "CC2F2C2F55FBA84C5B8A5BA8D066AD1764EB",
+        "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+        "order": 0,
+        "localizableStrings": {},
+        "commands": [
+            {
+                "id": "gs.PlayMusic",
+                "params": {
+                    "layer": 0,
+                    "loop": 1,
+                    "music": {
+                        "folderPath": "Audio/Music",
+                        "name": "Tutorial_-_Good_Mood.ogg",
+                        "volume": 100,
+                        "playbackRate": 100
+                    },
+                    "fadeInDuration": 0,
+                    "playTime": {
+                        "min": 10,
+                        "max": 30
+                    },
+                    "playRange": {
+                        "start": 10,
+                        "end": 20
+                    },
+                    "playType": 0,
+                    "waitForCompletion": 0,
+                    "fieldFlags": {
+                        "music.volume": 1,
+                        "music.playbackRate": 1,
+                        "fadeInDuration": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "90716B8E03728343278BCF0913F711A3D458",
+                "expanded": false
+            },
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": {
+                        "name": "Interior da Academia.png",
+                        "folderPath": "Graphics/Backgrounds/Academia dos Códigos",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 0,
+                        "origin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1,
+                        "loopVertical": 1,
+                        "loopHorizontal": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "441A8E3D29A6C6496669F0F9DAF4413C9BB2",
+                "expanded": false
+            },
+            {
+                "id": "vn.ZoomBackground",
+                "params": {
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "zooming": {
+                        "x": 135,
+                        "y": 135
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "fieldFlags": {
+                        "easing.type": 1
+                    }
+                },
+                "uid": "5C632E002E3489420629F908A109339A7816",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "DC7C16AF9B0E35441E9A70E5C0C2B870AA80"
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 1,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 132,
+                        "y": 394,
+                        "angle": 0,
+                        "zoom": 1,
+                        "horizontalFlip": false,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "previewBackground": {
+                        "name": "",
+                        "folderPath": ""
+                    }
+                },
+                "uid": "472BB75E8F4F98450D696B095318EEEFE3E2",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "4FB5D5A6270BE746839AE58741328F887EF6",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Lembre-se das condições nos painéis lógicos\n"
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "E75590746599494D175BF928321C2CAC021D",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada1",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se estiver quente **e** for noite "
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 618,
+                        "y": 124,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {
+                            "x": 313,
+                            "y": 62,
+                            "width": 662,
+                            "height": 66,
+                            "zoom": 1,
+                            "angle": 0
+                        },
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 686,
+                            "height": 66
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "98AF403B68D0B84D5329D8B768861651905E",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada2",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se for manhã **ou** estiver frio"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 622,
+                        "y": 218,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "80C285E9572C364F7798F591015900BF4CAE",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "correta",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se for manhã **e** estiver frio"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 628,
+                        "y": 324,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "D3BB38076D6A144C304B27D8178E33DBFF27",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada3",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se estiver tarde**e** for noite "
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 632,
+                        "y": 422,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "2A7493365284844B946A1B778F32F41E39DC",
+                "indent": 0
+            },
+            {
+                "id": "vn.ShowChoices",
+                "params": {},
+                "uid": "CDE4A04328BD3046F358A2828895A16B7CB6",
+                "indent": 0
+            },
+            {
+                "id": "gs.Idle",
+                "params": {},
+                "uid": "88CFE23D7013A14AF06BA4D52950AB250475",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "correta"
+                },
+                "uid": "E895179E7C1445435F7ABE1254344C21CECD",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "09529AA57AC408471C68E410BA7E97BE6A29"
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "523C654B2A354140777AE6D74ACB3A467EA1",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Avaliação positiva. A composição lógica foi satisfeita."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "BE773A6F9433324F128A41C1EC0FE196F46D",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "B780F3E5449AD34BB55A41484002BEA3BC68",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "EC319CAD80302148841A6461B65A5814D9F2",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "4899E0CE2941A447EC99DFA4676CB8CA60DC",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "B3FFE38611E4554B2928BE52F24A2FB5EAF4",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "A674BD0A758A504DC91B9D58487F2C8F2520",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Estamos ficando bons nisso!"
+                    },
+                    "position": 0,
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "4186AD2608AF4940162BDBE16C2EB47A5F62",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "87276B26294F28414F5B5FA18773929EFC75",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "B8CE94520F27164BBB49F089ACC6BCC67023",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "115C42262402914E683A00C28A1ECC522010",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "0F8B2C061C20044A9D9B600530C06731CAEE",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Eu sabia que você ia conseguir, {GT:Input Text Result}!"
+                    },
+                    "position": 0,
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "3E0711D068F41244F06B7EA0C77BE39618FA",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "4FEAFAD711412442463B66954F6AC32D34CD",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 0,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "659D8A37875DD6441F8876A4026BDECD6E9B",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Você foi muito bem, {GT:Input Text Result}!"
+                    },
+                    "position": 0,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "984CC01A7E06414033387314AECA2D65AE6F",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.CharacterExitScene",
+                "params": {
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "5D68EA7A04FB664C072A5D00D80FA2643159",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "4757FB0B563D874EC82972E3E6886FCAE577",
+                "indent": 0
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 5,
+                    "expressionId": null,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 1,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 756,
+                        "y": 352,
+                        "angle": 0,
+                        "zoom": 1,
+                        "horizontalFlip": false,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "previewBackground": {
+                        "name": "",
+                        "folderPath": ""
+                    }
+                },
+                "uid": "2937D6795ABB94451A29ACE6DA0E9CCEB45A",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "BBD477954F8F924E2148F0F7DE73F5CE5228",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Agora as portas estão liberadas."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "72BE2139006497473D789CF3A780EBAD0148",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Podem se dirigir até a sala que está logo a direita. A Prof Ada estará esperando vocês."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "D43562A19899094A9E8B0D5249873CEB1687",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "name": "ObteveSimboloYosuke",
+                        "index": 8,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "numberValue": 0,
+                    "textValue": "",
+                    "switchValue": 1,
+                    "valueType": 1,
+                    "operation": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "CDAEB5D0986FE744384A2DE9F6F94651DB62",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "88E5146317521149147895A47133CC5BA6C1",
+                        "name": "Caminho Extra Capítulo 2"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 1,
+                "uid": "694633072B12374C5D38E304BE1DD7CFE4AB"
+            },
+            {
+                "id": "gs.ConditionElse",
+                "params": {},
+                "uid": "551EDB3485C0034CCE396603AEB1FB2D0682",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "EAA84848122D894C0249989165A6B7995F7F",
+                        "name": "Final do Capítulo 2"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 1,
+                "uid": "E07053C86497F44B6568FA8597CAF61ED0D4"
+            },
+            {
+                "id": "gs.JumpToLabel",
+                "params": {
+                    "name": "",
+                    "target": "activeContext"
+                },
+                "uid": "0F3498DE6D49524D7C3911E176EA42FB3E37",
+                "indent": 0
+            },
+            {
+                "id": "gs.LoopCommand",
+                "params": {},
+                "uid": "39378BE71408714E8C78F3C1490CAB47B755",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "errada1"
+                },
+                "uid": "76F304C15890E748D3085A578FB05029CACB",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "D01BB022929A57429A8AC0D8D14E7622A5EF"
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "ED1994A96590A6482B79CD91FA2CA2AAE556",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Sua lógica está incorreta. As portas continuam fechadas."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "29AEFA7F1E436042E818D1C523F16E4B66AE",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "4228421818EE354EBC1890F355206069D22C",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "D062DE782765604D2E29A13535FBA5313B07",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Tentem observar melhor as pistas."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "11628C327FAED343D47A912970D27D508C38",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Esse painel explica como funciona a lógica do enigma."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "9CE121F64143754D75184171E5219FBAF41B",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "804D04B1227A7846FB08483272A874885A69"
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "6E37E36F8FFB054109088EB2FBC2E4F1EB39",
+                        "name": "Painel de Dicas CH2"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "F7C6909028A6324A02791AB5F61A481B73BC"
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "E0E8CFE125806741BD39CF260C3234288495",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "D5BFFE10693F20489B1993130C0761EA99AC",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Lembre-se das condições nos painéis lógicos\n"
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "255797379572F648F37B82D95B38131406C2",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada1",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se estiver quente **e** for noite "
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 618,
+                        "y": 124,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {
+                            "x": 313,
+                            "y": 62,
+                            "width": 662,
+                            "height": 66,
+                            "zoom": 1,
+                            "angle": 0
+                        },
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 686,
+                            "height": 66
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "18876DA9499FB649DC7ACC21DC43DF96C2F0",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada2",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se for manhã **ou** estiver frio"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 622,
+                        "y": 218,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "C81D9DC8810DE743EF9B64F0409C95DF6FB9",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "correta",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se for manhã **e** estiver frio"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 628,
+                        "y": 324,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "2CA735FA8E7F0846D619E4068303F43D7D2F",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada3",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se estiver tarde**e** for noite "
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 632,
+                        "y": 422,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "0336F2AF3DAE644DA46B1E4444339083435F",
+                "indent": 0
+            },
+            {
+                "id": "vn.ShowChoices",
+                "params": {},
+                "uid": "045F52086825E64B4538A9F7BAC8D7D7EF66",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Essa não é a condição correta. O portão permanece fechado."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "117F52E181F1344F2B8881C3B88EA112CEF5",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.BreakLoopCommand",
+                "params": {},
+                "uid": "64D301381FDBE24176384507B12C3E641245",
+                "indent": 0
+            },
+            {
+                "id": "gs.LoopCommand",
+                "params": {},
+                "uid": "57FD40BB84FC0348C36AC893DD8E96CF1186",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "errada2"
+                },
+                "uid": "250E55B8521F644482780E1375BA10B63930",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "79BC75AB96D4814DEF484155E2E64A30532C"
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "14F180D16118A84C5C384B77C44F9912275F",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Sua lógica esta incorreta. As portas continuam fechadas."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "126564952EF7714C82392692ECDEB2793A85",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "7CE6D56C476410473B3B5FA85D4D48EE1252",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "78CAB60E2FAB62492D5B867360BFD95B5F7E",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Tentem observar melhor as pistas."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "3494DCEE8DD6D549C89BF9E8FA19AB1BDF04",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Esse painel explica como funciona a lógica do enigma."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "7BE0D21B43BB6142D93BCA52753C5A0E92C8",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "11E5A715365096456D48DC1804BEF0224FAB",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "6E37E36F8FFB054109088EB2FBC2E4F1EB39",
+                        "name": "Painel de Dicas CH2"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "8B37BE102897F44850882D54B6810F4B6056"
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "2E88E1AF5B53524E1A7A6730FA062E02C10B",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Lembre-se das condições nos painéis lógicos\n"
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "6AF8B2395667A24C26590095AED73D6F396F",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada1",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se estiver quente **e** for noite "
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 618,
+                        "y": 124,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {
+                            "x": 313,
+                            "y": 62,
+                            "width": 662,
+                            "height": 66,
+                            "zoom": 1,
+                            "angle": 0
+                        },
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 686,
+                            "height": 66
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "A76B7E0C6B61E24B468AD7B625FCB58E75E0",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada2",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se for manhã **ou** estiver frio"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 622,
+                        "y": 218,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "02FF68551760A74D7C68FA7217CE466BEE11",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "correta",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se for manhã **e** estiver frio"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 628,
+                        "y": 324,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "C9B5DA496B5EA34CF39B9827AAC64F0AE812",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada3",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se estiver tarde**e** for noite "
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 632,
+                        "y": 422,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "F3596B298884764AA238DA549C4D1E12B3E0",
+                "indent": 0
+            },
+            {
+                "id": "vn.ShowChoices",
+                "params": {},
+                "uid": "1057F7981A91A8495E4B25C38B9F1D39064F",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Essa não é a condição correta. O portão permanece fechado."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "CC039A9C426CE34E6138B70661F891BCB0D1",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.BreakLoopCommand",
+                "params": {},
+                "uid": "FAE5FDC15E21E74FDF688696ADDA48EDF0A1",
+                "indent": 0
+            },
+            {
+                "id": "gs.LoopCommand",
+                "params": {},
+                "uid": "931A03C75110C54A9B69FFA558534EA1E46F",
+                "indent": 0
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "errada3"
+                },
+                "uid": "D35EA1230572D64F32897F13FBDA78255B54",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "A5DC4C0C689C594E0669E134D1E5225B2A72"
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "159D5D4F225AD747B839F8377518219E12B0",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Sua lógica esta incorreta. As portas continuam fechadas."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "7DFA81E53E7023408388D976F9A08C501C65",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "F6D2C80797BF0547114B0673D4CE9407A115",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "068F992D8F3F0248A29B01549D57BD8B402B",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Tentem observar melhor as pistas."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "E2A004AC5DF9524EAC3B0BE3D558046C48F6",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Esse painel explica como funciona a lógica do enigma."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "5E86948C77FE3741A3493AE67146A50AC7B7",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "13EE418616A114429E596269A3337ABC2790",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "6E37E36F8FFB054109088EB2FBC2E4F1EB39",
+                        "name": "Painel de Dicas CH2"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "1C5CAC664B378148372803620151C5D97784"
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "F15411AF6DB7A34D941B99C80947B5BE4D89",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Lembre-se das condições nos painéis lógicos\n"
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "4B6DF7BA8AF1584C3F5A8EB4ED3186DBD5CD",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada1",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se estiver quente **e** for noite "
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 618,
+                        "y": 124,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {
+                            "x": 313,
+                            "y": 62,
+                            "width": 662,
+                            "height": 66,
+                            "zoom": 1,
+                            "angle": 0
+                        },
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 686,
+                            "height": 66
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "97F0D288824EB4452C190AD2DA2C8B3B38C5",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada2",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se for manhã **ou** estiver frio"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 622,
+                        "y": 218,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "1BA564DF88F3774F171A7F36535BF53332B6",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "correta",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se for manhã **e** estiver frio"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 628,
+                        "y": 324,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "6FACEF78486435415B7BC603AC5D13A84F0F",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "errada3",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Se estiver tarde**e** for noite "
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 1,
+                    "box": {
+                        "x": 632,
+                        "y": 422,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 668,
+                            "height": 70
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "C968EB4B7218D64DBA4BD5E9F1AFEBF5A5E0",
+                "indent": 0
+            },
+            {
+                "id": "vn.ShowChoices",
+                "params": {},
+                "uid": "6A0DD3116B81754B1868EA27EC4E6E34D161",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Essa não é a condição correta. O portão permanece fechado."
+                    },
+                    "position": 0,
+                    "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "38D692C1877DB340611A3BF566718BA78DD5",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.BreakLoopCommand",
+                "params": {},
+                "uid": "797B960F46D08244C938BBE4FAA39D44F824",
+                "indent": 0
+            }
+        ],
+        "livePreviewDisabled": false,
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "stringVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "numberVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

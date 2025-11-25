@@ -96,6 +96,15 @@
                 "indent": 0
             },
             {
+                "id": "gs.EraseHotspot",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 1
+                },
+                "uid": "8A4AA0760BC07245CE8B4FB856420E75BF0B",
+                "indent": 0
+            },
+            {
                 "id": "gs.ShowPicture",
                 "params": {
                     "numberDomain": "com.degica.vnm.default",
@@ -640,6 +649,17 @@
                 },
                 "uid": "75191CB29A4A2446902B2D06021BFD94A2F5",
                 "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "38251FE31CC1A44D6E1A3126E9BCA2D3AE03"
             },
             {
                 "id": "vn.ChangeScene",

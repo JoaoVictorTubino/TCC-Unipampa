@@ -264,8 +264,8 @@
                 "id": "vn.ChangeScene",
                 "params": {
                     "scene": {
-                        "uid": "96EB6CA99CCFF94DE04917C216F085E8E747",
-                        "name": "Title Screen"
+                        "uid": "9FA0750443D16440577A5B61E50156BBB4FD",
+                        "name": "Sala Corrompida"
                     },
                     "savePrevious": 0,
                     "erasePictures": 0,

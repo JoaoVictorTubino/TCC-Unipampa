@@ -126,6 +126,17 @@
                 "expanded": false
             },
             {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "7738341621E2F5426258B65364D198A5917F",
+                "indent": 0
+            },
+            {
                 "id": "gs.ShowPicture",
                 "params": {
                     "numberDomain": "com.degica.vnm.default",
@@ -250,7 +261,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Como podem ver, esse painel ilustra a lógica condicional, onde temos ações que irão ocorrer baseado na condição proposta. O enigma é basicamente isso, se atentem na dica do portão lógico e vocês irão conseguir solucionar o enigma."
+                        "defaultText": "Como vocês podem ver, este painel mostra a lógica condicional: as ações acontecem dependendo da condição apresentada. O enigma funciona exatamente assim. Prestem atenção na dica do portão lógico e vocês vão conseguir resolver sem problemas."
                     },
                     "position": 0,
                     "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",

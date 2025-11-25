@@ -138,7 +138,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "O grupo chega à sala mais antiga da academia. "
+                        "defaultText": "O grupo chega à sala mais antiga da academia."
                     },
                     "position": 0,
                     "characterId": 0,
@@ -226,7 +226,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Nossa esse lugar ta acabado."
+                        "defaultText": "Nossa esse lugar está acabado."
                     },
                     "position": 0,
                     "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",

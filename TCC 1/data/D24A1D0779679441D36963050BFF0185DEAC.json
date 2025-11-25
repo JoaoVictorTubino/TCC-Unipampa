@@ -251,7 +251,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "As variáveis estão bem claras. Período do dia e temperatura. Vamos buscar a solução para o enigma.\""
+                        "defaultText": "As variáveis estão bem claras. Período do dia e temperatura. Vamos buscar a solução para o enigma."
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -447,6 +447,17 @@
                 "indent": 0
             },
             {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "4EF9F924277DB8428B5AFC72C818BBC09ECE"
+            },
+            {
                 "id": "vn.ChangeScene",
                 "params": {
                     "scene": {
@@ -515,6 +526,17 @@
                 "uid": "502F8FDE48A5F146959902E157239291E17F",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "1B0E7CAA2034C649662B74283997CA6BF614"
             },
             {
                 "id": "vn.ChangeScene",

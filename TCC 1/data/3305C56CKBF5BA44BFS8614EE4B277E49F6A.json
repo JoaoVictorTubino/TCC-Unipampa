@@ -120,6 +120,28 @@
                 "indent": 0
             },
             {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "8DCA2AA38248B342BA7A1E84BE699E0CE29C"
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "EC971C2472D1F8434C19A585152561B4D359"
+            },
+            {
                 "id": "gs.ShowMessage",
                 "params": {
                     "waitForCompletion": 1,
@@ -137,7 +159,7 @@
                     },
                     "message": {
                         "lcId": "655FF70616B7E74DCF992D89F239835F710F",
-                        "defaultText": "Num lugar onde lógica e magia coexistem, quatro jovens cruzam os limites do mundo comum, adentrando a lendária Academia dos Códigos."
+                        "defaultText": "Em um lugar onde lógica e magia coexistem, quatro jovens cruzam os limites do mundo comum, adentrando a lendária Academia dos Códigos."
                     },
                     "position": 0,
                     "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
@@ -151,6 +173,18 @@
                 "indent": 0,
                 "uid": "C08B870E617AC84E106AAF24AC070212EF02",
                 "expanded": true
+            },
+            {
+                "id": "gs.ClearMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 30,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "5107D4F7275E87484768BC68BDB5BB478A2F",
+                "indent": 0
             },
             {
                 "id": "gs.MessageSettings",
@@ -216,12 +250,24 @@
                         "shadow": 1,
                         "shadowColor": 1,
                         "shadowOffsetX": 1,
-                        "shadowOffsetY": 1
+                        "shadowOffsetY": 1,
+                        "lineAlignment": 1
                     }
                 },
                 "indent": 0,
                 "uid": "163330F982CFF7461518FFA29C5D7D62BE11",
                 "expanded": false
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "D24554567DC7B542BB6822D4ED2CD3E689FE"
             },
             {
                 "id": "vn.CharacterJoinScene",
@@ -408,7 +454,7 @@
                     },
                     "message": {
                         "lcId": "C7A1710B30113847C71B9CD3D11AA8BBB324",
-                        "defaultText": "Aqui, cada desafio testa sua mente... não sua força."
+                        "defaultText": "Aqui, sua mente será sua maior aliada — não seus músculos."
                     },
                     "position": 0,
                     "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
@@ -502,6 +548,18 @@
                 },
                 "indent": 0,
                 "uid": "DB9D4154681F60412E8B6C81A1412CD45C79"
+            },
+            {
+                "id": "gs.ClearMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 30,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "2DF14B2D4FA1F24E208B05B0FBD5FF52828A",
+                "indent": 0
             },
             {
                 "id": "gs.CallCommonEvent",
@@ -864,7 +922,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Presta atenção, Makoto."
+                        "defaultText": "Presta atenção, Makoto. "
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -990,7 +1048,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Essa é a Yumi , ela racional e observadora. Sempre atenta. Com ela no grupo, nunca ficamos no escuro."
+                        "defaultText": "Essa é a Yumi. Ela é racional e observadora. Sempre atenta. Com ela no grupo, nunca ficamos no escuro."
                     },
                     "position": 0,
                     "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
@@ -1035,7 +1093,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Podemos dizer que ela é a voz da razão no nosso grupo, ou seja, o oposto do Makoto"
+                        "defaultText": "Podemos dizer que ela é a voz da razão no nosso grupo, ou seja, o oposto do Makoto."
                     },
                     "position": 0,
                     "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
@@ -1061,6 +1119,39 @@
                 },
                 "indent": 0,
                 "uid": "5EBCF21D9B2D5244880B50A61EEF45E196C5"
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Ela também foi convocada para essa academia com a gente."
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "EDF71ADC37596544231AC0032DE99CD20884",
+                "expanded": true
             },
             {
                 "id": "vn.ChangeBackground",
@@ -1217,39 +1308,6 @@
                 },
                 "indent": 0,
                 "uid": "51560AAD542C534B0F7AF8723E156457F1A8"
-            },
-            {
-                "id": "gs.ShowMessage",
-                "params": {
-                    "waitForCompletion": 1,
-                    "duration": 15,
-                    "expressionId": null,
-                    "custom": {
-                        "object": {
-                            "x": 0,
-                            "y": 0,
-                            "size": {
-                                "width": 300,
-                                "height": 100
-                            }
-                        }
-                    },
-                    "message": {
-                        "lcId": null,
-                        "defaultText": "Ela também foi convocada para essa academia com a gente."
-                    },
-                    "position": 0,
-                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
-                    "partial": 0,
-                    "fieldFlags": {
-                        "duration": 1
-                    },
-                    "expressions": [],
-                    "animations": []
-                },
-                "indent": 0,
-                "uid": "EDF71ADC37596544231AC0032DE99CD20884",
-                "expanded": true
             },
             {
                 "id": "gs.ClearMessage",
@@ -1429,6 +1487,18 @@
                 "uid": "2BC6BF0D1140124BB578D709E4BEC68B3FE8",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "gs.ClearMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 30,
+                    "fieldFlags": {
+                        "duration": 0
+                    }
+                },
+                "indent": 0,
+                "uid": "403C3E551783C84AB96836E5A5EDBFC8290B"
             },
             {
                 "id": "vn.CharacterJoinScene",
@@ -1628,31 +1698,6 @@
                 "indent": 0
             },
             {
-                "id": "vn.CharacterExitScene",
-                "params": {
-                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
-                    "duration": 0,
-                    "waitForCompletion": 0,
-                    "easing": {
-                        "type": 1,
-                        "inOut": 0
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "fieldFlags": {
-                        "duration": 1
-                    }
-                },
-                "uid": "DACDE1DC17F3F749C8989E97C7D08CEC265E",
-                "indent": 0
-            },
-            {
                 "id": "vn.ChangeBackground",
                 "params": {
                     "viewport": {
@@ -1720,13 +1765,24 @@
                 "indent": 0
             },
             {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "1FED3DEA46ABA0448548E308D408CD40B4EB",
+                "indent": 0
+            },
+            {
                 "id": "vn.CharacterJoinScene",
                 "params": {
                     "viewport": {
                         "type": "scene"
                     },
                     "predefinedPositionId": 5,
-                    "expressionId": null,
+                    "expressionId": "7CD385DB3C11074C3828A3845FE6BF7C3681",
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
                     "zOrder": 0,
                     "origin": 0,
@@ -1764,15 +1820,28 @@
                 "indent": 0
             },
             {
-                "id": "gs.CallCommonEvent",
+                "id": "vn.MoveCharacter",
                 "params": {
-                    "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
-                    "parameters": {
-                        "values": []
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "predefinedPositionId": 5,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "positionType": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "fieldFlags": {
+                        "easing.type": 1
                     }
                 },
-                "uid": "1FED3DEA46ABA0448548E308D408CD40B4EB",
-                "indent": 0
+                "uid": "63DBEE847DB0D547491B3BE261946C7261EB",
+                "indent": 0,
+                "expanded": true
             },
             {
                 "id": "gs.ShowMessage",
@@ -1792,7 +1861,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Olha aquele relógio... "
+                        "defaultText": "Olha aquele relógio..."
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -2638,7 +2707,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Vc também ouviu, não é {GT:Input Text Result}?"
+                        "defaultText": "Vc também ouviu, não é, {GT:Input Text Result}?"
                     },
                     "position": 0,
                     "characterId": "5FDD830E06D93643585926687B5F0BA85302",
@@ -3038,6 +3107,17 @@
                 "expanded": true
             },
             {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "B141AE2D9E22484FC03B17341B15EA632020",
+                "indent": 0
+            },
+            {
                 "id": "vn.CharacterExitScene",
                 "params": {
                     "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
@@ -3135,7 +3215,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Tá aí algo que eu não esperava ver hj."
+                        "defaultText": "Tá aí algo que eu não esperava ver hoje."
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -3507,7 +3587,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Ah, foi mal eu esqueci. Fiquei chocado com o fato de conversar com um portão."
+                        "defaultText": "Ah, foi mal! Eu esqueci. Fiquei chocado com o fato de conversar com um portão."
                     },
                     "position": 0,
                     "characterId": "5FDD830E06D93643585926687B5F0BA85302",
@@ -3642,7 +3722,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Típico de você Makoto."
+                        "defaultText": "Típico de você, Makoto."
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -4067,7 +4147,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Apenas uma das alternativa os levará adiante."
+                        "defaultText": "Apenas uma das alternativas os levará adiante."
                     },
                     "position": 0,
                     "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
@@ -4116,50 +4196,6 @@
                     }
                 },
                 "uid": "9A2837E41B97844E7B49BCC2A8B287810D0A",
-                "indent": 0
-            },
-            {
-                "id": "vn.CharacterJoinScene",
-                "params": {
-                    "viewport": {
-                        "type": "scene"
-                    },
-                    "predefinedPositionId": 5,
-                    "expressionId": null,
-                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
-                    "zOrder": 0,
-                    "origin": 0,
-                    "blendMode": 0,
-                    "positionType": 0,
-                    "motionBlur": {
-                        "enabled": 0,
-                        "delay": 2,
-                        "opacity": 100,
-                        "dissolveSpeed": 3
-                    },
-                    "position": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "easing": {
-                        "type": 0,
-                        "inOut": 0
-                    },
-                    "duration": 0,
-                    "waitForCompletion": 1,
-                    "fieldFlags": {
-                        "duration": 1
-                    }
-                },
-                "uid": "040E1E8250C1564F2E285845F6AE581CA0AC",
                 "indent": 0
             },
             {
@@ -4516,7 +4552,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Vc entendeu, não é  {GT:Input Text Result}?"
+                        "defaultText": "Você entendeu, não é {GT:Input Text Result}?"
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -4673,7 +4709,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Vai lá {GT:Input Text Result}!"
+                        "defaultText": "Vai lá, {GT:Input Text Result}!"
                     },
                     "position": 0,
                     "characterId": "5FDD830E06D93643585926687B5F0BA85302",
@@ -4687,6 +4723,17 @@
                 "uid": "C7035E6E8DFDB740707B8C387BA256356179",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "D8076E98180F734C354861B1A66EA06D398B",
+                "indent": 0
             },
             {
                 "id": "vn.CharacterExitScene",
@@ -4833,6 +4880,17 @@
                 "uid": "DFEADBC41E2FF3496B2A4312913D420B9CF7",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "178B64CD8AC3D5451D493BF4A719D2B8B36D",
+                "indent": 0
             },
             {
                 "id": "vn.ChangeScene",

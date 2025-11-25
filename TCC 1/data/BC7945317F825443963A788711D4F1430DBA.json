@@ -1,13 +1,14 @@
 {
     "uid": "BC7945317F825443963A788711D4F1430DBA",
     "isLoaded": true,
-    "lastModificationTime": null,
+    "lastModificationTime": 0,
     "items": {
-        "type": "vn.scene",
         "name": "Fim do Capítulo 3",
+        "type": "vn.scene",
         "parentId": "9FA0750443D16440577A5B61E50156BBB4FD",
-        "localizableStrings": {},
         "chapterUid": "8F8492BB491F294C0E6804117615C73121F8",
+        "order": 5,
+        "localizableStrings": {},
         "commands": [
             {
                 "id": "gs.PlayMusic",
@@ -117,6 +118,17 @@
                     }
                 },
                 "uid": "11D27EDA541B574F608B0EE59982806C69A2",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "1222F1C4736C32446E3B07A18FB214C499D6",
                 "indent": 0
             },
             {
@@ -340,7 +352,7 @@
             {
                 "id": "vn.CharacterExitScene",
                 "params": {
-                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
                     "duration": 0,
                     "waitForCompletion": 0,
                     "easing": {
@@ -444,16 +456,207 @@
                 "uid": "4DB8FA2E2F67B745CD2B3005D8FA2AAC0322",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "O que será que nos aguarda mais à frente?"
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "AA1C933D249BC34A69390591BF9CECBED283",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Esse Bug..."
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "BA54B1909B1B67430629C891E818DDD80070",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Com certeza iremos encontrar ele novamente."
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": [],
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "6659A3A51D5618480F6933D2CB0384230ACE",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "name": "ObteveSimboloYosuke",
+                        "index": 8,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "numberValue": 0,
+                    "textValue": "",
+                    "switchValue": 1,
+                    "valueType": 1,
+                    "operation": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "39FEDE754819134B1B2A8E706AFACDB51407",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "F876B4A94C1CD84F7529F9C5F5B3F565F13C",
+                        "name": "Final Alternativo"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 1,
+                "uid": "2520CAEF56C356425E6A8E537905094B6BDF"
+            },
+            {
+                "id": "gs.ConditionElse",
+                "params": {},
+                "uid": "4C009E2B5B5A034DEC280649E1C70A8FEBAE",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "036BC17C3036674C248A1814BBC85CF11D42",
+                        "name": "Continua"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 1,
+                "uid": "DFA8B7898A3CA340602B2601DE90DBFE2D9D"
             }
         ],
         "livePreviewDisabled": false,
-        "order": 5
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "numberVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "stringVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
     },
     "summary": [
         "name",
         "type",
         "parentId",
-        "o",
         "chapterUid",
         "order"
     ],

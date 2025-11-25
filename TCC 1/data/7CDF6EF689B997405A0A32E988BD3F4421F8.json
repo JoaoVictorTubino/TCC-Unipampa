@@ -213,7 +213,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "A porta só se abrirá caso for noite e estiver chovendo ou for manhã E a temperatura estiver quente.\nQualquer outra combinação manterá a porta fechada."
+                        "defaultText": "As condições do enigma já foram ditas. Não irei repeti-las."
                     },
                     "position": 0,
                     "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
@@ -482,6 +482,17 @@
             {
                 "id": "gs.CallCommonEvent",
                 "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "A960D4CC176B474647285C75C94955FA8E24",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
                     "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
                     "parameters": {
                         "values": []
@@ -574,7 +585,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "De qualquer forma, a porta se abre... mas não pensem que estão mais perto da vitória."
+                        "defaultText": "De qualquer forma, a porta se abre..., mas não pensem que estão mais perto da vitória."
                     },
                     "position": 0,
                     "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
@@ -607,7 +618,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Isso foi apenas o primeiro passo para perderem o resto da sanidade.\n"
+                        "defaultText": "Isso foi apenas o primeiro passo para perderem o resto da sanidade."
                     },
                     "position": 0,
                     "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
@@ -623,6 +634,24 @@
                 "expanded": true
             },
             {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "BC7945317F825443963A788711D4F1430DBA",
+                        "name": "Fim do Capítulo 3"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "4ABAB57D13FDC147D27BB04214D20BFAFF05"
+            },
+            {
                 "id": "gs.LoopCommand",
                 "params": {},
                 "uid": "FF68EE888BA9114001883DD357088F1985CE",
@@ -634,6 +663,17 @@
                     "name": "errada1"
                 },
                 "uid": "575D9DA71A78924A1B1BFD23CAA3D9518C54",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "692E0BB85F79254F50581D185C2891B54AB0",
                 "indent": 0
             },
             {
@@ -665,7 +705,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Hahahaha... Eu avisei, não avisei?\n"
+                        "defaultText": "Hahahaha... Eu avisei, não avisei?"
                     },
                     "position": 0,
                     "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
@@ -809,6 +849,17 @@
                     "name": "errada2"
                 },
                 "uid": "DCDD2C1C56A8F24F036ADFD84889FEDA9DF5",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "7518EF4B1E1BD34E4A3BD107F91F8CED6D93",
                 "indent": 0
             },
             {
@@ -984,6 +1035,17 @@
                     "name": "errada3"
                 },
                 "uid": "C4097E3537E6864BDD6806F8F54862413924",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "1AAF35E92FF4934EC0893798B2806253E9F1",
                 "indent": 0
             },
             {

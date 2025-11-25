@@ -251,7 +251,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Você está indo muito bem,  {GT:Input Text Result}! Tenho certeza que você vai conseguir solucionar esse enigma."
+                        "defaultText": "Você está indo muito bem, {GT:Input Text Result}! Tenho certeza que você vai conseguir solucionar esse enigma."
                     },
                     "position": 0,
                     "characterId": "5FDD830E06D93643585926687B5F0BA85302",
@@ -447,6 +447,17 @@
                 "indent": 0
             },
             {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "ECE48B470F911840DD3A13F9E36AF4725FCD"
+            },
+            {
                 "id": "vn.ChangeScene",
                 "params": {
                     "scene": {
@@ -515,6 +526,17 @@
                 "uid": "ED990DF646A384417C0932E647A3AA019B0A",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "15C732B25F668547375A499557570D229466"
             },
             {
                 "id": "vn.ChangeScene",

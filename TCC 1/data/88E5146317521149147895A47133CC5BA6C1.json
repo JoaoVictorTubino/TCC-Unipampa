@@ -126,6 +126,17 @@
                 "expanded": false
             },
             {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "5B904C693D40364CBE6ABB17D44237FB0567"
+            },
+            {
                 "id": "vn.CharacterJoinScene",
                 "params": {
                     "viewport": {
@@ -256,6 +267,24 @@
                 },
                 "indent": 0,
                 "uid": "882FE99E3B3C684C39785FE60CA514B57416"
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "2A89B3CB7C18344B1368BF35CB5D1EE27A41",
+                        "name": "Conclusão alternativa"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "3214E993394CB7447B2B2568ACB186E7DD09"
             }
         ],
         "livePreviewDisabled": false

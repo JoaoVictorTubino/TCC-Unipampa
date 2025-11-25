@@ -63,7 +63,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "E esse foi nosso primeiro dia na Academia dos Códigos"
+                        "defaultText": "E esse foi nosso primeiro dia na Academia dos Códigos."
                     },
                     "position": 0,
                     "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
@@ -129,7 +129,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "E foi melhor ainda pelo fato de eu estar aqui com meus dois melhores amigos, Makoto e Yumi e Yosuke"
+                        "defaultText": "E foi melhor ainda pelo fato de eu estar aqui com meus melhores amigos, Makoto e Yumi e Yosuke."
                     },
                     "position": 0,
                     "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
@@ -162,7 +162,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Quais outras entidades e enigmas iremos encontra aquir?"
+                        "defaultText": "Quais outras entidades e enigmas iremos encontra aqui?"
                     },
                     "position": 0,
                     "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
@@ -195,7 +195,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Mal posso esperar para descobri."
+                        "defaultText": "Mal posso esperar para descobrir."
                     },
                     "position": 0,
                     "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
@@ -303,6 +303,24 @@
                 "indent": 0,
                 "uid": "63C3A1B7182945403579F0D9012DD3BEA571",
                 "expanded": true
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "9FA0750443D16440577A5B61E50156BBB4FD",
+                        "name": "Sala Corrompida"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "98D4F42A67DE5748B148AEB0225EAFE020B8"
             }
         ],
         "livePreviewDisabled": false

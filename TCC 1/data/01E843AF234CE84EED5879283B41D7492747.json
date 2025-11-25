@@ -126,6 +126,17 @@
                 "expanded": false
             },
             {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "DC7C16AF9B0E35441E9A70E5C0C2B870AA80"
+            },
+            {
                 "id": "vn.CharacterJoinScene",
                 "params": {
                     "viewport": {
@@ -212,7 +223,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "As portas só irão abrir se essas duas condições forem atendidas:\nPeríodo do dia = Manhã\n\nTemperatura = Fria\n"
+                        "defaultText": "Lembre-se das condições nos painéis lógicos\n"
                     },
                     "position": 0,
                     "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
@@ -460,6 +471,17 @@
             {
                 "id": "gs.CallCommonEvent",
                 "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "09529AA57AC408471C68E410BA7E97BE6A29"
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
                     "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
                     "parameters": {
                         "values": []
@@ -486,7 +508,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Avaliação positiva. A composição lógica foi satisfeita.\n"
+                        "defaultText": "Avaliação positiva. A composição lógica foi satisfeita."
                     },
                     "position": 0,
                     "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
@@ -635,7 +657,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Estamos ficando bons nisso!\n"
+                        "defaultText": "Estamos ficando bons nisso!"
                     },
                     "position": 0,
                     "characterId": "5FDD830E06D93643585926687B5F0BA85302",
@@ -999,7 +1021,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Agora as portas estão liberadas"
+                        "defaultText": "Agora as portas estão liberadas."
                     },
                     "position": 0,
                     "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
@@ -1048,6 +1070,52 @@
                 "expanded": true
             },
             {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "name": "ObteveSimboloYosuke",
+                        "index": 8,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "numberValue": 0,
+                    "textValue": "",
+                    "switchValue": 1,
+                    "valueType": 1,
+                    "operation": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "CDAEB5D0986FE744384A2DE9F6F94651DB62",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "88E5146317521149147895A47133CC5BA6C1",
+                        "name": "Caminho Extra Capítulo 2"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 1,
+                "uid": "694633072B12374C5D38E304BE1DD7CFE4AB"
+            },
+            {
+                "id": "gs.ConditionElse",
+                "params": {},
+                "uid": "551EDB3485C0034CCE396603AEB1FB2D0682",
+                "indent": 0
+            },
+            {
                 "id": "vn.ChangeScene",
                 "params": {
                     "scene": {
@@ -1062,8 +1130,8 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "A22E55DC1EF9D242A069A1C2B71165098E03",
-                "indent": 0
+                "indent": 1,
+                "uid": "E07053C86497F44B6568FA8597CAF61ED0D4"
             },
             {
                 "id": "gs.JumpToLabel",
@@ -1087,6 +1155,17 @@
                 },
                 "uid": "76F304C15890E748D3085A578FB05029CACB",
                 "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "D01BB022929A57429A8AC0D8D14E7622A5EF"
             },
             {
                 "id": "gs.CallCommonEvent",
@@ -1117,7 +1196,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Sua lógica esta incorreta. As portas continuam fechadas."
+                        "defaultText": "Sua lógica está incorreta. As portas continuam fechadas."
                     },
                     "position": 0,
                     "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
@@ -1224,6 +1303,17 @@
                 "expanded": true
             },
             {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "804D04B1227A7846FB08483272A874885A69"
+            },
+            {
                 "id": "vn.ChangeScene",
                 "params": {
                     "scene": {
@@ -1281,7 +1371,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "As portas só irão abrir se essas duas condições forem atendidas:\nPeríodo do dia = Manhã\n\nTemperatura = Fria\n"
+                        "defaultText": "Lembre-se das condições nos painéis lógicos\n"
                     },
                     "position": 0,
                     "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
@@ -1565,6 +1655,17 @@
             {
                 "id": "gs.CallCommonEvent",
                 "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "79BC75AB96D4814DEF484155E2E64A30532C"
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
                     "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
                     "parameters": {
                         "values": []
@@ -1755,7 +1856,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "As portas só irão abrir se essas duas condições forem atendidas:\nPeríodo do dia = Manhã\n\nTemperatura = Fria\n"
+                        "defaultText": "Lembre-se das condições nos painéis lógicos\n"
                     },
                     "position": 0,
                     "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
@@ -2039,6 +2140,17 @@
             {
                 "id": "gs.CallCommonEvent",
                 "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "A5DC4C0C689C594E0669E134D1E5225B2A72"
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
                     "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
                     "parameters": {
                         "values": []
@@ -2229,7 +2341,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "As portas só irão abrir se essas duas condições forem atendidas:\nPeríodo do dia = Manhã\n\nTemperatura = Fria\n"
+                        "defaultText": "Lembre-se das condições nos painéis lógicos\n"
                     },
                     "position": 0,
                     "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
@@ -2506,6 +2618,13 @@
             }
         ],
         "stringVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "numberVariables": [
             {
                 "name": "",
                 "index": 0,

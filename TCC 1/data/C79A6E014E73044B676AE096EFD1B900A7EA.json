@@ -121,6 +121,17 @@
                 "indent": 0
             },
             {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "C5D2A30F63E5144FB43980729F77D43895A9",
+                "indent": 0
+            },
+            {
                 "id": "vn.CharacterJoinScene",
                 "params": {
                     "viewport": {
@@ -631,7 +642,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Suma daqui, Bug!"
+                        "defaultText": "Suma daqui Bug!"
                     },
                     "position": 0,
                     "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
@@ -1193,7 +1204,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Regras… previsíveis demais… vocês confiam nelas como se fossem eternas.\n"
+                        "defaultText": "Regras… previsíveis demais… vocês confiam nelas como se fossem eternas."
                     },
                     "position": 0,
                     "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
@@ -1226,7 +1237,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Eu não tenho regras. Eu as quebro... e as reconstruo à minha maneira.\n"
+                        "defaultText": "Eu não tenho regras. Eu as quebro... e as reconstruo à minha maneira."
                     },
                     "position": 0,
                     "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
@@ -1986,7 +1997,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Escolham com cuidado... ou ficarão presos aqui para sempre.\n"
+                        "defaultText": "A condição é a seguinte... "
                     },
                     "position": 0,
                     "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
@@ -1997,7 +2008,73 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "14DF381641B45744555A67D59DD0E4350F77",
+                "uid": "CF6E5D1355D51248FB683186FE893CFB8FEC",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "A porta só abrirá caso for noite e estiver chovendo ou for manhã e caso a temperatura estiver quente. Qualquer outra combinação manterá a porta fechada."
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "9CE654575967A74BEC29375006323033FD46",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Lembrando que não irei repetir a condição do enigma."
+                    },
+                    "position": 0,
+                    "characterId": "E5AB0797622DE3404B4A5971F42E9D256FAB",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "BB9ADFD8584C8445CC4BA437ACE9AADFF4F0",
                 "indent": 0,
                 "expanded": true
             },
@@ -2234,7 +2311,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Eu tô preocupado com essa \"surpresa\" que ele falou."
+                        "defaultText": "Eu estou preocupado com essa \"surpresa\" que ele falou."
                     },
                     "position": 0,
                     "characterId": "5FDD830E06D93643585926687B5F0BA85302",
@@ -2361,7 +2438,7 @@
                         "defaultText": "A gente depende de você, {GT:Input Text Result}!"
                     },
                     "position": 0,
-                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
@@ -2387,7 +2464,7 @@
             {
                 "id": "vn.CharacterExitScene",
                 "params": {
-                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
                     "duration": 0,
                     "waitForCompletion": 0,
                     "easing": {
@@ -2408,6 +2485,24 @@
                 },
                 "uid": "74638FFF2D84B141EB1AC6552CA2E4F2D63B",
                 "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "7CDF6EF689B997405A0A32E988BD3F4421F8",
+                        "name": "Enigma do Bug"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "DCBCD2B928A7F2497928703827433FEC8325"
             }
         ],
         "livePreviewDisabled": false,

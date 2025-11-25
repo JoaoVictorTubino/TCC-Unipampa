@@ -1,13 +1,14 @@
 {
     "uid": "6E37E36F8FFB054109088EB2FBC2E4F1EB39",
     "isLoaded": true,
-    "lastModificationTime": null,
+    "lastModificationTime": 0,
     "items": {
-        "type": "vn.scene",
         "name": "Painel de Dicas CH2",
+        "type": "vn.scene",
         "parentId": "01E843AF234CE84EED5879283B41D7492747",
-        "localizableStrings": {},
         "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+        "order": 0,
+        "localizableStrings": {},
         "commands": [
             {
                 "id": "gs.PlayMusic",
@@ -125,6 +126,17 @@
                 "expanded": false
             },
             {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "0558E1E4486E2644FB0AFD16D0A8155FC5D9"
+            },
+            {
                 "id": "vn.CharacterJoinScene",
                 "params": {
                     "viewport": {
@@ -211,7 +223,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Como podem ver, esse paineilustra a lógica por trás desse enigma. "
+                        "defaultText": "Como podem ver, esse painel ilustra a lógica por trás desse enigma. "
                     },
                     "position": 0,
                     "characterId": "3208A1CB6580324D3D58D8A1CBF088A80E89",
@@ -408,8 +420,8 @@
                     },
                     "position": 1,
                     "box": {
-                        "x": 428,
-                        "y": 280,
+                        "x": 576,
+                        "y": 396,
                         "angle": 0,
                         "zoom": 1,
                         "data": {},
@@ -420,7 +432,7 @@
                             "alpha": 160
                         },
                         "size": {
-                            "width": 328,
+                            "width": 356,
                             "height": 334
                         }
                     },
@@ -580,8 +592,8 @@
                     },
                     "position": 1,
                     "box": {
-                        "x": 1044,
-                        "y": 246,
+                        "x": 952,
+                        "y": 450,
                         "angle": 0,
                         "zoom": 1,
                         "data": {},
@@ -593,7 +605,7 @@
                         },
                         "size": {
                             "width": 474,
-                            "height": 404
+                            "height": 246
                         }
                     },
                     "previewBackground": {
@@ -605,7 +617,6 @@
             }
         ],
         "livePreviewDisabled": false,
-        "order": 0,
         "booleanVariables": [
             {
                 "name": "",
@@ -625,7 +636,6 @@
         "name",
         "type",
         "parentId",
-        "o",
         "chapterUid",
         "order"
     ],

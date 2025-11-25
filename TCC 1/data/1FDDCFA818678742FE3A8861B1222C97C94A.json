@@ -42,7 +42,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "6DCCC4AC85E1D545FE3A1AA5724260DE618C",
+                "uid": "F60ADE3537D9114954896EA8FB0AB4ABAD84",
                 "expanded": true
             },
             {
@@ -100,7 +100,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "C4D6BAA5068FE848C86945C78B67A412D2FD",
+                "uid": "5848DAA347812742F8795AD5D3916CD91DDF",
                 "expanded": false
             },
             {
@@ -118,17 +118,8 @@
                         "inOut": 1
                     }
                 },
-                "uid": "789F7C176BBD9049629976712D9E4AB9CA59",
+                "uid": "297C9F3C83A545405378F0B080E8B8155C67",
                 "indent": 0
-            },
-            {
-                "id": "gs.EraseHotspot",
-                "params": {
-                    "numberDomain": "com.degica.vnm.default",
-                    "number": 3
-                },
-                "indent": 0,
-                "uid": "5FB679322024574A8A297BB73A337CF3B407"
             },
             {
                 "id": "gs.EraseHotspot",
@@ -137,7 +128,16 @@
                     "number": 2
                 },
                 "indent": 0,
-                "uid": "0674CFBA754C3846D9486265CD4049F224BD"
+                "uid": "100168E867F0584B0D4BE5D0665A4A683572"
+            },
+            {
+                "id": "gs.EraseHotspot",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 3
+                },
+                "indent": 0,
+                "uid": "8A06E22C95E568463E691928EF3ABD8CE05A"
             },
             {
                 "id": "gs.EraseHotspot",
@@ -146,32 +146,7 @@
                     "number": 4
                 },
                 "indent": 0,
-                "uid": "8497F2C85D16164FEB2A6B231E70A424D7C9"
-            },
-            {
-                "id": "vn.CharacterExitScene",
-                "params": {
-                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
-                    "duration": 0,
-                    "waitForCompletion": 0,
-                    "easing": {
-                        "type": 1,
-                        "inOut": 0
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "fieldFlags": {
-                        "duration": 1
-                    }
-                },
-                "uid": "FDA92B9B6B4B144C0E4AD71640034B5B73A8",
-                "indent": 0
+                "uid": "89DC5C992910824C732BDDB8DC5435AC653D"
             },
             {
                 "id": "vn.CharacterExitScene",
@@ -195,31 +170,18 @@
                         "duration": 1
                     }
                 },
-                "uid": "E7FA1E8E2FE4124BCC2903E1572A5399864F",
+                "uid": "B7CF2B1378DA5844851924F8337FB10481A2",
                 "indent": 0
             },
             {
-                "id": "vn.CharacterJoinScene",
+                "id": "vn.CharacterExitScene",
                 "params": {
-                    "viewport": {
-                        "type": "scene"
-                    },
-                    "predefinedPositionId": 5,
-                    "expressionId": null,
-                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
-                    "zOrder": 0,
-                    "origin": 0,
-                    "blendMode": 0,
-                    "positionType": 0,
-                    "motionBlur": {
-                        "enabled": 0,
-                        "delay": 2,
-                        "opacity": 100,
-                        "dissolveSpeed": 3
-                    },
-                    "position": {
-                        "x": 0,
-                        "y": 0
+                    "characterId": "5FDD830E06D93643585926687B5F0BA85302",
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 1,
+                        "inOut": 0
                     },
                     "animation": {
                         "type": 1,
@@ -229,17 +191,31 @@
                             "vague": 30
                         }
                     },
-                    "easing": {
-                        "type": 0,
-                        "inOut": 0
-                    },
-                    "duration": 0,
-                    "waitForCompletion": 1,
                     "fieldFlags": {
                         "duration": 1
                     }
                 },
-                "uid": "216C329187FBB1414F486BD27B5DA37A9843",
+                "uid": "56506A0762EAD84D366921F17598FD8FD650",
+                "indent": 0
+            },
+            {
+                "id": "vn.MoveCharacter",
+                "params": {
+                    "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
+                    "predefinedPositionId": 5,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "positionType": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    }
+                },
+                "uid": "C36DFEEE6304684CE83995744E8A88054DA6",
                 "indent": 0
             },
             {
@@ -251,7 +227,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "59366C752239264EE47A362944E0CA3A8A61"
+                "uid": "D29F27BE9B5C554AC3399AE3B8119885D51E"
             },
             {
                 "id": "gs.ShowMessage",
@@ -271,7 +247,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Olha ali no chão... a sombra está mesmo apontando pro norte. Tenta usar isso como base."
+                        "defaultText": "Olha ali no chão... a sombra está mesmo apontando pro Norte. Tenta usar isso como base."
                     },
                     "position": 0,
                     "characterId": "5B07158A208A9344513ACC8982ED8ED22CFB",
@@ -282,7 +258,7 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "7C4BB50F4314234CA01ACB2285D9F3F54F80",
+                "uid": "00BCAC02141BC54A3188DD763595CEFD2043",
                 "indent": 0,
                 "expanded": true
             },
@@ -295,7 +271,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "28176C5A1EC85347201B9885C90623390FB7"
+                "uid": "CB982C63271EF14CFF79B814EE11FBBF7713"
             },
             {
                 "id": "gs.CallCommonEvent",
@@ -306,7 +282,7 @@
                     }
                 },
                 "indent": 0,
-                "uid": "224D4F799D0CD54BE949B112DB1D80CF9D34"
+                "uid": "37DD523F0595024CED7A04180222D7D3E224"
             },
             {
                 "id": "gs.ShowMessage",
@@ -337,9 +313,20 @@
                     "expressions": [],
                     "animations": []
                 },
-                "uid": "3E4C9A4228532745C86B4228E8F0B25EF661",
+                "uid": "1B052B21147DE84A9439F5B3625A60E0E2FE",
                 "indent": 0,
                 "expanded": true
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "EC4D184794EF214A422BF7E9943ADD6B0196",
+                "indent": 0
             },
             {
                 "id": "vn.ChangeScene",
@@ -356,7 +343,7 @@
                         "name": "$live_preview_snapshot"
                     }
                 },
-                "uid": "43ECCA5287A56145316ADD74A495D87A06C8",
+                "uid": "B37CBEE614458342A76A549214932CC40622",
                 "indent": 0
             }
         ],

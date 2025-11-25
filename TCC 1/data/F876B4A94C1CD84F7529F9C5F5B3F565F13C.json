@@ -1,13 +1,14 @@
 {
     "uid": "F876B4A94C1CD84F7529F9C5F5B3F565F13C",
     "isLoaded": true,
-    "lastModificationTime": null,
+    "lastModificationTime": 0,
     "items": {
-        "type": "vn.scene",
         "name": "Final Alternativo",
+        "type": "vn.scene",
         "parentId": "BC7945317F825443963A788711D4F1430DBA",
-        "localizableStrings": {},
         "chapterUid": "8F8492BB491F294C0E6804117615C73121F8",
+        "order": 0,
+        "localizableStrings": {},
         "commands": [
             {
                 "id": "gs.PlayMusic",
@@ -261,7 +262,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Eu sinto que devbo tocar nesse símbolo..."
+                        "defaultText": "Eu sinto que devo tocar nesse símbolo..."
                     },
                     "position": 0,
                     "characterId": "872EE5D043CC56476F0B0CC2E8A786F4D68B",
@@ -577,6 +578,17 @@
                 "indent": 0
             },
             {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "BAEBBBA32FD19048A34ABFE13035F12DBB6E",
+                "indent": 0
+            },
+            {
                 "id": "gs.ShowMessage",
                 "params": {
                     "waitForCompletion": 1,
@@ -594,7 +606,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "O gravação acaba aqui."
+                        "defaultText": "A gravação acaba aqui."
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -610,15 +622,37 @@
                 "expanded": true
             },
             {
-                "id": "gs.CallCommonEvent",
+                "id": "gs.ShowMessage",
                 "params": {
-                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
-                    "parameters": {
-                        "values": []
-                    }
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Engraçado... aquele garoto que criou o Bug me parece familiar."
+                    },
+                    "position": 0,
+                    "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
                 },
-                "uid": "BAEBBBA32FD19048A34ABFE13035F12DBB6E",
-                "indent": 0
+                "uid": "4A5B304F3C14E7423519C1034F14F5439ADB",
+                "indent": 0,
+                "expanded": true
             },
             {
                 "id": "vn.CharacterJoinScene",
@@ -693,7 +727,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Esse Bug... ele já foi parte da academia?!"
+                        "defaultText": "Esse Bug... ele já foi parte da academia?!\n"
                     },
                     "position": 0,
                     "characterId": "5FDD830E06D93643585926687B5F0BA85302",
@@ -707,50 +741,6 @@
                 "uid": "19B225C00B951642CB49BE552CE66D67719B",
                 "indent": 0,
                 "expanded": true
-            },
-            {
-                "id": "gs.ShowMessage",
-                "params": {
-                    "waitForCompletion": 1,
-                    "duration": 15,
-                    "expressionId": null,
-                    "custom": {
-                        "object": {
-                            "x": 0,
-                            "y": 0,
-                            "size": {
-                                "width": 300,
-                                "height": 100
-                            }
-                        }
-                    },
-                    "message": {
-                        "lcId": null,
-                        "defaultText": "A lógica é poderosa. Mas, sem limites, ela também pode se rebelar."
-                    },
-                    "position": 0,
-                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
-                    "partial": 0,
-                    "fieldFlags": {
-                        "duration": 1
-                    },
-                    "expressions": [],
-                    "animations": []
-                },
-                "uid": "72D177150C8F4847878BFAA2D0CD80A6930A",
-                "indent": 0,
-                "expanded": true
-            },
-            {
-                "id": "gs.CallCommonEvent",
-                "params": {
-                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
-                    "parameters": {
-                        "values": []
-                    }
-                },
-                "uid": "73B328B35F77014006796FA14EFED4406792",
-                "indent": 0
             },
             {
                 "id": "vn.CharacterExitScene",
@@ -774,7 +764,18 @@
                         "duration": 1
                     }
                 },
-                "uid": "CA9C29F049271644313B60F91D5A3A1D6EF6",
+                "uid": "C56B263020533848D52B39650AFC303CD131",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "8B735BF56516F4471299036649AF71C9C105",
                 "indent": 0
             },
             {
@@ -818,7 +819,7 @@
                         "duration": 1
                     }
                 },
-                "uid": "36C60BE61D7C3945A13A94351E935CBBB49C",
+                "uid": "52ED80031BC33644D89976685390E6536CBB",
                 "indent": 0
             },
             {
@@ -829,7 +830,7 @@
                         "values": []
                     }
                 },
-                "uid": "4BAE3A2A4217E64CA65906E601C459659FCE",
+                "uid": "608E109D7D0B274CDA5B10C9567FD42DD14F",
                 "indent": 0
             },
             {
@@ -850,7 +851,40 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "{GT:Input Text Result}, você foi trazido aqui por um motivo maior. Está na hora de saber a verdade..."
+                        "defaultText": "A lógica é poderosa. Mas, sem limites, ela também pode se rebelar."
+                    },
+                    "position": 0,
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "72D177150C8F4847878BFAA2D0CD80A6930A",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "{GT:Input Text Result}, vocês foram trazidos aqui por um motivo maior. Está na hora de saber a verdade..."
                     },
                     "position": 0,
                     "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
@@ -884,14 +918,12 @@
                 "uid": "36A84DD67E49C24508293726C9B7E71231CC"
             }
         ],
-        "livePreviewDisabled": false,
-        "order": 0
+        "livePreviewDisabled": false
     },
     "summary": [
         "name",
         "type",
         "parentId",
-        "o",
         "chapterUid",
         "order"
     ],

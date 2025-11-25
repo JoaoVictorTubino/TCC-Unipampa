@@ -134,6 +134,17 @@
                 "expanded": false
             },
             {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "9DB22ACF3522814DE75AF7B9509FBFB47427",
+                "indent": 0
+            },
+            {
                 "id": "vn.CharacterJoinScene",
                 "params": {
                     "viewport": {
@@ -206,7 +217,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Caso a sombra apontar ao norte... posso considerar abrir."
+                        "defaultText": "Resolva o enigma para atravessar."
                     },
                     "position": 0,
                     "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
@@ -454,6 +465,17 @@
             {
                 "id": "gs.CallCommonEvent",
                 "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "A5EB1F456A6790460178EBA56D6391999EAA",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
                     "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
                     "parameters": {
                         "values": []
@@ -604,7 +626,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Era o norte! A sombra indicava isso bem certinho. Mandou bem\n {GT:Input Text Result}!"
+                        "defaultText": "Era o Norte! A sombra indicava isso bem certinho. Mandou bem, \n {GT:Input Text Result}!"
                     },
                     "position": 0,
                     "characterId": "BD9659AA5A873340C28BD8F4BAD6B97E2748",
@@ -904,6 +926,17 @@
                 "indent": 0
             },
             {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "5FE6FFC73576984D7B4B9B232980F5C5D801",
+                "indent": 0
+            },
+            {
                 "id": "vn.ChangeScene",
                 "params": {
                     "scene": {
@@ -942,6 +975,17 @@
                     "name": "errada1"
                 },
                 "uid": "1170FD6B0EAEA94DEE3AC4C07DF3E7495AEE",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "AB33A549192F9446D2389EA711FF74FC1F17",
                 "indent": 0
             },
             {
@@ -1111,7 +1155,7 @@
                         "defaultText": "Esse painel explica como funciona a lógica do enigma."
                     },
                     "position": 0,
-                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
@@ -1432,6 +1476,17 @@
             {
                 "id": "gs.CallCommonEvent",
                 "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "4ABE1E113EA64644476B03B1DACEB791D552",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
                     "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
                     "parameters": {
                         "values": []
@@ -1596,7 +1651,7 @@
                         "defaultText": "Esse painel explica como funciona a lógica do enigma."
                     },
                     "position": 0,
-                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1
@@ -1923,6 +1978,17 @@
             {
                 "id": "gs.CallCommonEvent",
                 "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "F7300FD510EF2640AD49E5A0B41733919623",
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
                     "commonEventId": "3FC2C70568A4984D389A6A69669295952B9D",
                     "parameters": {
                         "values": []
@@ -2051,7 +2117,7 @@
                     },
                     "message": {
                         "lcId": null,
-                        "defaultText": "Tentem observar melhor as pistas."
+                        "defaultText": "Tentem observar melhor as pistas. "
                     },
                     "position": 0,
                     "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
@@ -2087,7 +2153,7 @@
                         "defaultText": "Esse painel explica como funciona a lógica do enigma."
                     },
                     "position": 0,
-                    "characterId": "0FCCDF1134A54048527985B182CFE0A6A5ED",
+                    "characterId": "84A9BB4F9F1CB64CA42A8593885FC649E918",
                     "partial": 0,
                     "fieldFlags": {
                         "duration": 1

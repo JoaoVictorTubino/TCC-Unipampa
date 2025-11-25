@@ -1,13 +1,14 @@
 {
     "uid": "52C8BA1D2C74704C416AF7C25B6B31A2BE32",
     "isLoaded": true,
-    "lastModificationTime": null,
+    "lastModificationTime": 0,
     "items": {
-        "type": "vn.scene",
         "name": "OR",
+        "type": "vn.scene",
         "parentId": "6E37E36F8FFB054109088EB2FBC2E4F1EB39",
-        "localizableStrings": {},
         "chapterUid": "02AFFC0C6E40B642150AFF06D26EBCE45325",
+        "order": 1,
+        "localizableStrings": {},
         "commands": [
             {
                 "id": "gs.PlayMusic",
@@ -123,6 +124,17 @@
                 "uid": "17DA0EFA5514924A605A9640A38E15791064",
                 "indent": 0,
                 "expanded": false
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "CB7C29327E0FA14B6B2A1623B2299B9F088F"
             },
             {
                 "id": "gs.EraseHotspot",
@@ -641,7 +653,6 @@
             }
         ],
         "livePreviewDisabled": false,
-        "order": 1,
         "booleanVariables": [
             {
                 "name": "",
@@ -654,7 +665,6 @@
         "name",
         "type",
         "parentId",
-        "o",
         "chapterUid",
         "order"
     ],

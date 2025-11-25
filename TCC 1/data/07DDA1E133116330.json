@@ -653,9 +653,11 @@
                 "changed": true
             },
             {
-                "name": "",
+                "name": "ObteveSimboloYosuke",
                 "index": 8,
-                "scope": 1
+                "scope": 1,
+                "domain": "com.degica.vnm.default",
+                "changed": true
             },
             {
                 "name": "",

@@ -165,6 +165,17 @@
                 "expanded": true
             },
             {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "EA06470D8140964F0749A8D76577A39B05E1",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "uid": "8E7959196FC1E645CE9BD2E855897F3534F8",
+                "indent": 0
+            },
+            {
                 "id": "vn.ChangeScene",
                 "params": {
                     "scene": {
